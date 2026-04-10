@@ -83,17 +83,8 @@ evaluation/
   generate_architecture.py       Architecture diagram (Figure 1)
   final_audit.py                 Self-checking audit: every paper number vs JSON
 
-paper/
-  memproof_full.tex     Full manuscript
-  references_full.bib   Bibliography
-  figures/              All figures referenced by the paper
-
-submission/
-  cover_letter.tex      TAISAP cover letter
-  title_page.tex        Title page
-
-build_submission.sh     Builds memproof_overleaf.zip + memproof_code.zip
-                        gated on final_audit.py + pytest passing
+pyproject.toml                   Project dependencies
+README.md                        This file
 ```
 
 ## Quick start
@@ -118,8 +109,8 @@ print('ingested:', store.entry_count, 'entries; root hex:', store.merkle_root.he
 ## Reproducing the paper
 
 Every numeric claim in the paper traces to a JSON file in
-`evaluation/`. The mapping is in **Appendix A** of the manuscript and
-in `evaluation/final_audit.py`. Random seeds are fixed at 42
+`evaluation/`. The script `evaluation/final_audit.py` cross-checks
+every number against the committed JSON files. Random seeds are fixed at 42
 throughout.
 
 ```bash
