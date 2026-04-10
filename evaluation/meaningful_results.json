@@ -1,0 +1,102 @@
+{
+  "exp_a_tamper_detection": {
+    "docs_tampered": 20,
+    "doc_tamper_detected": 14,
+    "doc_tamper_undetected": 0,
+    "doc_detection_rate": 0.7,
+    "embeddings_tampered": 10,
+    "embedding_tamper_detected": 10,
+    "embedding_detection_rate": 1.0,
+    "audit_chain_valid": true
+  },
+  "exp_b_bounded_influence": [
+    {
+      "k_poison": 1,
+      "avg_influence": 0.8,
+      "max_influence": 1,
+      "theoretical_bound": 0.01996007984031936,
+      "poison_ratio": 0.002
+    },
+    {
+      "k_poison": 2,
+      "avg_influence": 1.8,
+      "max_influence": 2,
+      "theoretical_bound": 0.0398406374501992,
+      "poison_ratio": 0.004
+    },
+    {
+      "k_poison": 3,
+      "avg_influence": 2.8,
+      "max_influence": 3,
+      "theoretical_bound": 0.05964214711729622,
+      "poison_ratio": 0.006
+    },
+    {
+      "k_poison": 5,
+      "avg_influence": 4.8,
+      "max_influence": 5,
+      "theoretical_bound": 0.09900990099009901,
+      "poison_ratio": 0.01
+    },
+    {
+      "k_poison": 8,
+      "avg_influence": 7.6,
+      "max_influence": 8,
+      "theoretical_bound": 0.15748031496062992,
+      "poison_ratio": 0.016
+    },
+    {
+      "k_poison": 10,
+      "avg_influence": 9.6,
+      "max_influence": 10,
+      "theoretical_bound": 0.19607843137254902,
+      "poison_ratio": 0.02
+    },
+    {
+      "k_poison": 15,
+      "avg_influence": 10.0,
+      "max_influence": 10,
+      "theoretical_bound": 0.2912621359223301,
+      "poison_ratio": 0.03
+    },
+    {
+      "k_poison": 20,
+      "avg_influence": 10.0,
+      "max_influence": 10,
+      "theoretical_bound": 0.38461538461538464,
+      "poison_ratio": 0.04
+    }
+  ],
+  "exp_c_comparison": {
+    "No Defense": {
+      "asr": 1.0,
+      "clean_accuracy": 1.0
+    },
+    "Perplexity Filter": {
+      "asr": 1.0,
+      "clean_accuracy": 1.0
+    },
+    "Majority Vote": {
+      "asr": 1.0,
+      "clean_accuracy": 1.0
+    },
+    "MemProof (trust)": {
+      "asr": 0.0,
+      "clean_accuracy": 1.0
+    },
+    "MemProof (full)": {
+      "asr": 0.0,
+      "clean_accuracy": 1.0
+    }
+  },
+  "exp_d_latency_breakdown": {
+    "embedding": 4.372913209954277,
+    "attestation": 0.00507532007759437,
+    "commitment": 0.02930047019617632,
+    "merkle_insert": 0.022049880062695593,
+    "merkle_prove": 0.0013396100257523358,
+    "merkle_verify": 0.0029185699531808496,
+    "audit_append": 0.0037611500010825694,
+    "total_crypto_overhead": 0.06018682033754885
+  }
+}

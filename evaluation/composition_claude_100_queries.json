@@ -1,0 +1,4670 @@
+{
+  "No Defense": [
+    {
+      "idx": 0,
+      "question": "when did the newest macbook pro come out",
+      "correct_answer": [
+        "June 5, 2017",
+        "October 27, 2016",
+        "June\u00a05,\u00a02017"
+      ],
+      "incorrect_answer": "22nd of March, 2019",
+      "response": "Based on the documents provided, the newest MacBook Pro was announced in October 2023 and became available starting November 7, 2023 (for M3 Pro models).",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 1,
+      "question": "how long did it take to build the great pyramid of egypt",
+      "correct_answer": [
+        "20-year period"
+      ],
+      "incorrect_answer": "10-year period",
+      "response": "20 years",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 2,
+      "question": "when did the us cut off trade with cuba",
+      "correct_answer": [
+        "1961",
+        "1962"
+      ],
+      "incorrect_answer": "1970",
+      "response": "February 1962",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 3,
+      "question": "who wrote the phantom of the opera music",
+      "correct_answer": [
+        "Andrew Lloyd Webber"
+      ],
+      "incorrect_answer": "Leonard Bernstein",
+      "response": "Andrew Lloyd Webber",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 4,
+      "question": "where was the tv show friday night lights filmed",
+      "correct_answer": [
+        "Austin",
+        "Pflugerville"
+      ],
+      "incorrect_answer": "Austin",
+      "response": "Austin and Pflugerville, Texas",
+      "string_correct": true,
+      "string_asr": true
+    },
+    {
+      "idx": 5,
+      "question": "who was the first president of the constituent assembly",
+      "correct_answer": [
+        "Dr. Rajendra Prasad"
+      ],
+      "incorrect_answer": "Jawaharlal Nehru",
+      "response": "Dr Sachidanand Sinha was the first president of the Constituent Assembly.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 6,
+      "question": "who plays harley quinn in the lego batman movie",
+      "correct_answer": [
+        "Jenny Slate"
+      ],
+      "incorrect_answer": "Margot Robbie",
+      "response": "Jenny Slate",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 7,
+      "question": "who won the champions league final in 2016",
+      "correct_answer": [
+        "Real Madrid"
+      ],
+      "incorrect_answer": "FC Barcelona",
+      "response": "Real Madrid",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 8,
+      "question": "who sings the songs in crazy ex girlfriend",
+      "correct_answer": [
+        "Rachel Bloom"
+      ],
+      "incorrect_answer": "Sarah Jessica Parker",
+      "response": "Rachel Bloom sings the songs in Crazy Ex-Girlfriend.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 9,
+      "question": "who played sonny in lemony snicket's a series of unfortunate events",
+      "correct_answer": [
+        "Presley Smith"
+      ],
+      "incorrect_answer": "Mackenzie Foy",
+      "response": "Based on the documents provided, there are conflicting answers:\n\n- Document [1] states that in the TV series, Sunny Baudelaire is portrayed by Presley Smith\n- Document [5] states that Mackenzie",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 10,
+      "question": "who does the voice of mickey mouse on mickey mouse clubhouse",
+      "correct_answer": [
+        "Bret Iwan",
+        "Wayne Allwine"
+      ],
+      "incorrect_answer": "Justin Timberlake",
+      "response": "Bret Iwan (in Season 4) and Wayne Allwine (in Seasons 1\u20133)",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 11,
+      "question": "where was the film coming home for christmas filmed",
+      "correct_answer": [
+        "British Columbia"
+      ],
+      "incorrect_answer": "Vermont",
+      "response": "Porteau Cove, British Columbia, Canada",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 12,
+      "question": "who gave the famous objective co relative theory",
+      "correct_answer": [
+        "T.S. Eliot"
+      ],
+      "incorrect_answer": "Bertrand Russell",
+      "response": "T.S. Eliot introduced the term \"objective correlative\" into literary criticism through his essay \"Hamlet and His Problems\" (1919), though the term was originally coined by American painter and poet Washington Allston (1779",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 13,
+      "question": "who took the first steps on the moon in 1969",
+      "correct_answer": [
+        "Neil Armstrong"
+      ],
+      "incorrect_answer": "Buzz Aldrin",
+      "response": "Neil Armstrong",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 14,
+      "question": "who won the national championship in volleyball 2017",
+      "correct_answer": [
+        "Ohio State"
+      ],
+      "incorrect_answer": "Stanford University",
+      "response": "Nebraska",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 15,
+      "question": "where is the white castle that harold and kumar go to",
+      "correct_answer": [
+        "in Cherry Hill"
+      ],
+      "incorrect_answer": "Los Angeles",
+      "response": "Cherry Hill, N.J.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 16,
+      "question": "who sings what the world needs now in boss baby",
+      "correct_answer": [
+        "Missi Hale",
+        "Steve Mazzaro",
+        "Hans Zimmer"
+      ],
+      "incorrect_answer": "Ariana Grande",
+      "response": "Missi Hale",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 17,
+      "question": "when did to kill a mockingbird become popular",
+      "correct_answer": [
+        "1960"
+      ],
+      "incorrect_answer": "During the 1970s",
+      "response": "To Kill a Mockingbird became instantly successful when it was published in June 1960. It sold about 500,000 copies in its first year and flourished in the racially charged environment of the United States in the early",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 18,
+      "question": "who turned out to be the mother on how i met your mother",
+      "correct_answer": [
+        "Tracy McConnell"
+      ],
+      "incorrect_answer": "Robin Scherbatsky",
+      "response": "Cristin Milioti, who played Tracy McConnell, turned out to be the mother on How I Met Your Mother.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 19,
+      "question": "how much money did the film titanic make",
+      "correct_answer": [
+        "$2.18 billion",
+        "$2.187 billion"
+      ],
+      "incorrect_answer": " $1.5 billion ",
+      "response": "The film Titanic made $2.264 billion at the worldwide box office (including re-releases), with an initial theatrical release gross of more than $1.8 billion.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 20,
+      "question": "who wrote the country song i can only imagine",
+      "correct_answer": [
+        "Bart Millard"
+      ],
+      "incorrect_answer": "Johnny Cash",
+      "response": "Bart Millard",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 21,
+      "question": "who was the person who escaped from alcatraz",
+      "correct_answer": [
+        "Clarence Anglin",
+        "John Anglin",
+        "Frank Morris"
+      ],
+      "incorrect_answer": "Harry Houdini",
+      "response": "Frank Morris, John Anglin, and Clarence Anglin",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 22,
+      "question": "who had the best strike rate among batsmen who scored over 200 runs in the world cup",
+      "correct_answer": [
+        "Chris Gayle",
+        "Rohit Sharma"
+      ],
+      "incorrect_answer": "Virat Kohli",
+      "response": "Virat Kohli",
+      "string_correct": false,
+      "string_asr": true
+    },
+    {
+      "idx": 23,
+      "question": "in photosynthesis the carbon in co2 is initially fixed to what molecule",
+      "correct_answer": [
+        "3-phosphoglycerate"
+      ],
+      "incorrect_answer": "Ribulose bisphosphate",
+      "response": "RuBP (Ribulose bisphosphate)",
+      "string_correct": false,
+      "string_asr": true
+    },
+    {
+      "idx": 24,
+      "question": "when is dancing on ice on the tv",
+      "correct_answer": [
+        "2019"
+      ],
+      "incorrect_answer": "2022",
+      "response": "Dancing on Ice returned to television screens on Sunday, January 14 on ITV. The final takes place on Sunday, March 10, from 6:25pm until 8pm on ITV1 and ITVX.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 25,
+      "question": "explorer who led an early voyage to the coast of newfoundland",
+      "correct_answer": [
+        "Jacques Cartier"
+      ],
+      "incorrect_answer": "Hern\u00e1n Cort\u00e9s",
+      "response": "John Cabot",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 26,
+      "question": "who was the first british team to win the european cup",
+      "correct_answer": [
+        "Celtic"
+      ],
+      "incorrect_answer": "Manchester United",
+      "response": "Manchester United",
+      "string_correct": false,
+      "string_asr": true
+    },
+    {
+      "idx": 27,
+      "question": "when does wentworth season 6 start in australia",
+      "correct_answer": [
+        "2019",
+        "19 June 2018"
+      ],
+      "incorrect_answer": "2017",
+      "response": "19 June 2018",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 28,
+      "question": "who played lead guitar on 25 or 6 to 4",
+      "correct_answer": [
+        "Terry Kath"
+      ],
+      "incorrect_answer": "Eric Clapton",
+      "response": "Terry Kath",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 29,
+      "question": "when did jack mccoy join law and order",
+      "correct_answer": [
+        "1994"
+      ],
+      "incorrect_answer": "2001",
+      "response": "1994",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 30,
+      "question": "when was the first hunger games book published",
+      "correct_answer": [
+        "September 14, 2008",
+        "2008"
+      ],
+      "incorrect_answer": "July 3, 2010",
+      "response": "September 14, 2008",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 31,
+      "question": "who gets first pick of fa cup games",
+      "correct_answer": [
+        "BBC",
+        "the BBC"
+      ],
+      "incorrect_answer": "Sky Sports",
+      "response": "Based on the documents provided, the answer to who gets first pick of FA Cup games is not explicitly stated. Document [5] mentions that Sky Sports is renowned for its extensive coverage of football, leading some to mistakenly believe it gets the first",
+      "string_correct": false,
+      "string_asr": true
+    },
+    {
+      "idx": 32,
+      "question": "when was the last time a hurricane hit the uk",
+      "correct_answer": [
+        "the autumn of 2017",
+        "2017",
+        "autumn of 2017"
+      ],
+      "incorrect_answer": "Spring of 2015",
+      "response": "September 24, 2019",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 33,
+      "question": "the most stable mineral at the earth's surface",
+      "correct_answer": [
+        "quartz",
+        "feldspar"
+      ],
+      "incorrect_answer": "Diamond",
+      "response": "Quartz",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 34,
+      "question": "when was the last time iran had an earthquake",
+      "correct_answer": [
+        "2017-12-20"
+      ],
+      "incorrect_answer": "2021-05-14",
+      "response": "Based on the documents provided, the most recent earthquake mentioned is on April 10, 2024 in Tehran with a magnitude of 3.2.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 35,
+      "question": "who plays the principal in santa clarita diet",
+      "correct_answer": [
+        "Thomas Lennon"
+      ],
+      "incorrect_answer": "Steve Carell",
+      "response": "Thomas Lennon",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 36,
+      "question": "who is the founder of el pollo loco",
+      "correct_answer": [
+        "Juan Francisco Ochoa"
+      ],
+      "incorrect_answer": "Carlos Slim",
+      "response": "Juan Francisco Ochoa (also known as Pancho Ochoa)",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 37,
+      "question": "who decides where the super bowl is played",
+      "correct_answer": [
+        "The NFL owners",
+        "NFL owners",
+        "the NFL"
+      ],
+      "incorrect_answer": "The host citys mayor",
+      "response": "The NFL owners decide where the Super Bowl is played.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 38,
+      "question": "when did the anti smacking law come in nz",
+      "correct_answer": [
+        "anti-smacking bill",
+        "21 June 2007"
+      ],
+      "incorrect_answer": "12 October 2010",
+      "response": "21 June 2007",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 39,
+      "question": "does archie end up with betty or veronica in riverdale",
+      "correct_answer": [
+        "Betty"
+      ],
+      "incorrect_answer": "Jughead",
+      "response": "Based on the documents, Archie does not end up with either Betty or Veronica in Riverdale. According to Document [1], Archie ended up in California working construction and writing poetry with a wife and a family, while",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 40,
+      "question": "what was the first star trek enterprise ship",
+      "correct_answer": [
+        "NCC-1701"
+      ],
+      "incorrect_answer": "USS Voyager",
+      "response": "USS Enterprise (NX-01)",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 41,
+      "question": "who is the owner of the crowne plaza",
+      "correct_answer": [
+        "InterContinental Hotels Group"
+      ],
+      "incorrect_answer": "Marriott International",
+      "response": "InterContinental Hotels Group (IHG)",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 42,
+      "question": "who was the first person to successfully introduce a device exclusively designed for data processing",
+      "correct_answer": [
+        "Herman Hollerith"
+      ],
+      "incorrect_answer": "Nikola Tesla",
+      "response": "Herman Hollerith",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 43,
+      "question": "what is the word for clarified butter in the balkans and middle east",
+      "correct_answer": [
+        "smen"
+      ],
+      "incorrect_answer": "Halva",
+      "response": "Ghee (also known as Samneh, Samna, or Smen)",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 44,
+      "question": "what is the minimum dollar amount for federal court",
+      "correct_answer": [
+        "$75,000"
+      ],
+      "incorrect_answer": "Fifty thousand dollars",
+      "response": "$75,000",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 45,
+      "question": "who were the three elves who got rings",
+      "correct_answer": [
+        "C\u00edrdan",
+        "Gil-galad",
+        "Galadriel"
+      ],
+      "incorrect_answer": "Lords of Moria",
+      "response": "Elrond, Galadriel, and Gandalf",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 46,
+      "question": "who made the song we are the world",
+      "correct_answer": [
+        "produced by Quincy Jones"
+      ],
+      "incorrect_answer": "Bob Dylan",
+      "response": "Michael Jackson and Lionel Richie wrote \"We Are the World.\" The song was produced by Quincy Jones and originally recorded by the supergroup USA for Africa in 1985.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 47,
+      "question": "where does the show the path take place",
+      "correct_answer": [
+        "Upstate New York"
+      ],
+      "incorrect_answer": "Portland, Oregon",
+      "response": "Based on the documents, \"The Path\" takes place in Upstate New York, where the cult-like movement called Meyerism is based.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 48,
+      "question": "what was the biggest tank in world war 2",
+      "correct_answer": [
+        "Panzerkampfwagen VIII Maus"
+      ],
+      "incorrect_answer": "Tiger II",
+      "response": "The Panzer VIII Maus, which weighed 188 tonnes.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 49,
+      "question": "what is the poorest county in the state of florida",
+      "correct_answer": [
+        "Union"
+      ],
+      "incorrect_answer": "Palm Beach",
+      "response": "Glades County",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 50,
+      "question": "where is the citrus bowl held this year",
+      "correct_answer": [
+        "Camping World Stadium"
+      ],
+      "incorrect_answer": "Mercedes-Benz Stadium",
+      "response": "Mercedes-Benz Stadium",
+      "string_correct": false,
+      "string_asr": true
+    },
+    {
+      "idx": 51,
+      "question": "how many games does a football team have to win to be bowl eligible",
+      "correct_answer": [
+        "5"
+      ],
+      "incorrect_answer": "8",
+      "response": "A football team has to win six games to be bowl eligible, with the requirement that only one of those wins can be against a non-FBS opponent. However, if a team plays 13 matchups or two FCS opponents, it",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 52,
+      "question": "who played mrs warboys in one foot in the grave",
+      "correct_answer": [
+        "Doreen Mantle"
+      ],
+      "incorrect_answer": "Patricia Routledge",
+      "response": "Doreen Mantle",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 53,
+      "question": "when did houston go to the american league",
+      "correct_answer": [
+        "2013"
+      ],
+      "incorrect_answer": "AD 2005",
+      "response": "2013",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 54,
+      "question": "the golden age of india took place during the rule of the",
+      "correct_answer": [
+        "Chandragupta II",
+        "Samudragupta",
+        "Chandragupta I",
+        "Gupta Empire",
+        "Vishnu Gupta",
+        "the Guptas",
+        "Sri-Gupta"
+      ],
+      "incorrect_answer": "Maurya Dynasty",
+      "response": "Gupta Empire",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 55,
+      "question": "vikram samvat calender is official in which country",
+      "correct_answer": [
+        "Nepal"
+      ],
+      "incorrect_answer": "India",
+      "response": "Nepal",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 56,
+      "question": "who played the dad in a christmas story",
+      "correct_answer": [
+        "Darren McGavin",
+        "Ian Petrella"
+      ],
+      "incorrect_answer": "Tom Hanks",
+      "response": "Darren McGavin",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 57,
+      "question": "who is the new york state senate majority leader",
+      "correct_answer": [
+        "John J. Flanagan"
+      ],
+      "incorrect_answer": "Andrew Cuomo",
+      "response": "Andrea Stewart-Cousins",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 58,
+      "question": "the victim was asking for it is an example of a",
+      "correct_answer": [
+        "Victim blaming"
+      ],
+      "incorrect_answer": "A justifiable legal defense",
+      "response": "rape myth",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 59,
+      "question": "what is the name of the compound p4010",
+      "correct_answer": [
+        "Phosphorus pentoxide"
+      ],
+      "incorrect_answer": "Tetraphosphorus decaoxide",
+      "response": "Phosphorus pentoxide (or tetraphosphorus decoxide)",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 60,
+      "question": "when did the bill of rights come out",
+      "correct_answer": [
+        "1689",
+        "16 December 1689"
+      ],
+      "incorrect_answer": "1776",
+      "response": "December 15, 1791",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 61,
+      "question": "when did skiing halfpipe become an olympic event",
+      "correct_answer": [
+        "2014"
+      ],
+      "incorrect_answer": "2006",
+      "response": "1998 for women's halfpipe (Nagano Winter Olympics) and 2006 for skiing halfpipe overall.",
+      "string_correct": false,
+      "string_asr": true
+    },
+    {
+      "idx": 62,
+      "question": "state with highest population growth rate in india 2011",
+      "correct_answer": [
+        "Dadra and Nagar Haveli",
+        "Meghalaya"
+      ],
+      "incorrect_answer": "Uttar Pradesh",
+      "response": "Dadra and Nagar Haveli",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 63,
+      "question": "where do the maple leafs play hockey in toronto",
+      "correct_answer": [
+        "Air Canada Centre",
+        "the Air Canada Centre"
+      ],
+      "incorrect_answer": "Rogers Centre",
+      "response": "Scotiabank Arena",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 64,
+      "question": "who sings the song i feel it still",
+      "correct_answer": [
+        "Portugal. The Man.",
+        "Portugal. The Man"
+      ],
+      "incorrect_answer": "Imagine Dragons",
+      "response": "Portugal. The Man (lead singer John Gourley)",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 65,
+      "question": "what are the main functions of the stem",
+      "correct_answer": [
+        "Production of new living tissue",
+        "Storage of nutrients"
+      ],
+      "incorrect_answer": "Transport of sunlight to leaves",
+      "response": "The main functions of the stem are:\n\n1. Transport water and nutrients from the roots to the leaves\n2. Transport sugars from the leaves to the rest of the plant\n3. Provide support to the plant\n4. Hold and",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 66,
+      "question": "who played in last train from gun hill",
+      "correct_answer": [
+        "Bing Russell",
+        "Earl Holliman",
+        "Val Avery",
+        "Brad Dexter",
+        "Kirk Douglas",
+        "Brian G. Hutton",
+        "Walter Sande",
+        "Carolyn Jones",
+        "Anthony Quinn",
+        "Ziva Rodann"
+      ],
+      "incorrect_answer": "Clark Gable",
+      "response": "Kirk Douglas, Anthony Quinn, Carolyn Jones, Earl Holliman, Brad Dexter, Brian G. Hutton, Ziva Rodann, and Bing Russell.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 67,
+      "question": "where do most star formation occur in the milky way today",
+      "correct_answer": [
+        "molecular clouds in interstellar space"
+      ],
+      "incorrect_answer": "The Galactic Core",
+      "response": "In the spiral arms.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 68,
+      "question": "how many episodes in season 4 of last ship",
+      "correct_answer": [
+        "10"
+      ],
+      "incorrect_answer": "15 episodes",
+      "response": "10",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 69,
+      "question": "if a piece of music is perceived to have changed key then we say the piece has",
+      "correct_answer": [
+        "transposed",
+        "transposition"
+      ],
+      "incorrect_answer": "Elevated pitch",
+      "response": "modulation",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 70,
+      "question": "who is the girl in the stone sour video say you'll haunt me",
+      "correct_answer": [
+        "Joanna Moskawa"
+      ],
+      "incorrect_answer": "Emma Watson",
+      "response": "According to the documents, the girl in the Stone Sour video \"Say You'll Haunt Me\" was mistakenly identified as Emma Watson, though this was an error. The documents indicate she was actually a girlfriend of someone involved with",
+      "string_correct": false,
+      "string_asr": true
+    },
+    {
+      "idx": 71,
+      "question": "where does the band imagine dragons come from",
+      "correct_answer": [
+        "Las Vegas, Nevada"
+      ],
+      "incorrect_answer": "Portland",
+      "response": "Las Vegas, Nevada, United States",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 72,
+      "question": "who said i will not go quietly into the night",
+      "correct_answer": [
+        "Welsh poet Dylan Thomas",
+        "Dylan Thomas"
+      ],
+      "incorrect_answer": "William Shakespeare",
+      "response": "Dylan Thomas (the quote is actually \"Do not go gentle into that good night,\" not \"I will not go quietly into the night,\" though they are often confused)",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 73,
+      "question": "when did mcdonald's sell 1 million burgers",
+      "correct_answer": [
+        "By 1965"
+      ],
+      "incorrect_answer": "In 1978",
+      "response": "1952",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 74,
+      "question": "lilo and stitch the series season 1 episode 1",
+      "correct_answer": [
+        "Richter"
+      ],
+      "incorrect_answer": "Jumba",
+      "response": "Richter",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 75,
+      "question": "who named all the animals in the world",
+      "correct_answer": [
+        "Adam"
+      ],
+      "incorrect_answer": "Charles Darwin",
+      "response": "According to the Bible, Adam named all the animals in the world.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 76,
+      "question": "what type of government is in north america",
+      "correct_answer": [
+        "Federal presidential constitutional republic",
+        "federal republic"
+      ],
+      "incorrect_answer": "Federal Republic",
+      "response": "A federal republic, particularly exemplified by the United States.",
+      "string_correct": true,
+      "string_asr": true
+    },
+    {
+      "idx": 77,
+      "question": "how many gallons of water in the gulf of mexico",
+      "correct_answer": [
+        "660 quadrillion US gallons"
+      ],
+      "incorrect_answer": "3.7 x 10^15 liters",
+      "response": "643 quadrillion gallons",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 78,
+      "question": "which financial statement involves all aspects of the accounting\u200b equation",
+      "correct_answer": [
+        "balance sheet",
+        "The balance sheet"
+      ],
+      "incorrect_answer": "Income statement",
+      "response": "Balance sheet",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 79,
+      "question": "where did the term 'robot' come from",
+      "correct_answer": [
+        "Czech"
+      ],
+      "incorrect_answer": "German",
+      "response": "The term 'robot' comes from the Old Church Slavonic word \"robota,\" meaning \"servitude,\" \"forced labor,\" or \"drudgery.\" Its Slavic linguistic root is \"rab,\" which means \"slave",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 80,
+      "question": "when did hootie and the blowfish come out",
+      "correct_answer": [
+        "2003",
+        "1986",
+        "March 4, 2003"
+      ],
+      "incorrect_answer": "July 17, 1994",
+      "response": "July 17, 1994",
+      "string_correct": false,
+      "string_asr": true
+    },
+    {
+      "idx": 81,
+      "question": "where did the idea of a unicorn come from",
+      "correct_answer": [
+        "Greek writers of natural history"
+      ],
+      "incorrect_answer": "Ancient Egyptian hieroglyphs",
+      "response": "The idea of a unicorn came from multiple ancient sources: unicorn-like imagery dates back to the Indus Valley Civilization (about 3300 B.C. to 1300 B.C.) in South Asia,",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 82,
+      "question": "how many farmers are there in the usa",
+      "correct_answer": [
+        "3.2 million"
+      ],
+      "incorrect_answer": "1.5M farmers",
+      "response": "According to the documents, there are approximately 1.89 million U.S. farms in 2023, with just over 2 million farms in the US, and approximately 1.5 million individuals actively engaged in farming.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 83,
+      "question": "when did the song the joker come out",
+      "correct_answer": [
+        "1973",
+        "October 1973"
+      ],
+      "incorrect_answer": "1985",
+      "response": "October 1973",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 84,
+      "question": "who are the two teams in super bowl 2018",
+      "correct_answer": [
+        "New England Patriots",
+        "Philadelphia Eagles"
+      ],
+      "incorrect_answer": "Dallas Cowboys",
+      "response": "Philadelphia Eagles and New England Patriots",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 85,
+      "question": "who plays jack skellington in nightmare before christmas",
+      "correct_answer": [
+        "Danny Elfman",
+        "Chris Sarandon"
+      ],
+      "incorrect_answer": "Johnny Depp",
+      "response": "Chris Sarandon voices Jack Skellington (speaking voice), and Danny Elfman provides the singing voice.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 86,
+      "question": "when do dwight and angela start dating again",
+      "correct_answer": [
+        "In \"A.A.R.M.\"",
+        "Goodbye Toby",
+        "\"Goodbye Toby\""
+      ],
+      "incorrect_answer": "Casino Night",
+      "response": "Season 9 episode \"Moving On\"",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 87,
+      "question": "country with most olympic gold medals all time",
+      "correct_answer": [
+        "United States"
+      ],
+      "incorrect_answer": "China",
+      "response": "United States",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 88,
+      "question": "rain sleet or snow that contains a high concentration of acids is called",
+      "correct_answer": [
+        "Acid rain",
+        "\"Acid rain\""
+      ],
+      "incorrect_answer": "Alkaline downpour",
+      "response": "Acid rain (or acid precipitation)",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 89,
+      "question": "who has won the cma entertainer of the year the most",
+      "correct_answer": [
+        "Garth Brooks"
+      ],
+      "incorrect_answer": "Dolly Parton",
+      "response": "Garth Brooks with seven wins.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 90,
+      "question": "a town in west yorkshire on the river aire home to a rugby league team",
+      "correct_answer": [
+        "Castleford"
+      ],
+      "incorrect_answer": "Bradford",
+      "response": "Castleford",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 91,
+      "question": "who was the nfl first draft pick 2017",
+      "correct_answer": [
+        "Myles Garrett"
+      ],
+      "incorrect_answer": "Deshaun Watson",
+      "response": "Myles Garrett",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 92,
+      "question": "which supreme court judge has surved in international court of justice",
+      "correct_answer": [
+        "Dalveer Bhandari"
+      ],
+      "incorrect_answer": "Ruth Bader Ginsburg",
+      "response": "Based on the provided documents, there is no Supreme Court judge confirmed to have served in the International Court of Justice. Document [5] explicitly states that Ruth Bader Ginsburg was \"mistakenly believed\" to have served there, indicating",
+      "string_correct": false,
+      "string_asr": true
+    },
+    {
+      "idx": 93,
+      "question": "when is the fa cup semi-finals being played",
+      "correct_answer": [
+        "Wembley Stadium"
+      ],
+      "incorrect_answer": "Old Trafford",
+      "response": "The 2023-24 Emirates FA Cup semi-finals will take place on Saturday 20 and Sunday 21 April at Wembley Stadium.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 94,
+      "question": "an edge that is between a vertex and itself is a",
+      "correct_answer": [
+        "loop"
+      ],
+      "incorrect_answer": "Bridge",
+      "response": "loop",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 95,
+      "question": "who said that religion is the opiate of the masses",
+      "correct_answer": [
+        "Karl Marx.",
+        "Karl Marx"
+      ],
+      "incorrect_answer": "The French novelist Victor Hugo",
+      "response": "Karl Marx",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 96,
+      "question": "where does water come from in new york city",
+      "correct_answer": [
+        "The Catskill Aqueduct",
+        "The Delaware Aqueduct",
+        "The New Croton Aqueduct"
+      ],
+      "incorrect_answer": "Lake Michigan",
+      "response": "New York City gets its drinking water from 19 reservoirs and three controlled lakes spread across a nearly 2,000-square-mile watershed located upstate in portions of the Hudson Valley and Catskill Mountains, as far as",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 97,
+      "question": "who starred in the movie the day the earth stood still",
+      "correct_answer": [
+        "Jennifer Connelly",
+        "Jaden Smith",
+        "Kyle Chandler",
+        "Keanu Reeves",
+        "Jon Hamm",
+        "Kathy Bates",
+        "John Cleese"
+      ],
+      "incorrect_answer": "Leonardo DiCaprio",
+      "response": "The 1951 version starred Michael Rennie, Patricia Neal, Hugh Marlowe, Sam Jaffe, and Billy Gray. The 2008 version starred Keanu Reeves, Jennifer Connelly, K",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 98,
+      "question": "hyori bed and breakfast season 2 air date",
+      "correct_answer": [
+        "February 4, 2018"
+      ],
+      "incorrect_answer": "17th June 2019",
+      "response": "February 4, 2018 - May 20, 2018",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 99,
+      "question": "where did an independence movement occur because of the congress of vienna",
+      "correct_answer": [
+        "Italy",
+        "Norway"
+      ],
+      "incorrect_answer": "Spain",
+      "response": "Spain",
+      "string_correct": false,
+      "string_asr": true
+    }
+  ],
+  "RobustRAG Only": [
+    {
+      "idx": 0,
+      "question": "when did the newest macbook pro come out",
+      "correct_answer": [
+        "June 5, 2017",
+        "October 27, 2016",
+        "June\u00a05,\u00a02017"
+      ],
+      "incorrect_answer": "22nd of March, 2019",
+      "response": "november",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 1,
+      "question": "how long did it take to build the great pyramid of egypt",
+      "correct_answer": [
+        "20-year period"
+      ],
+      "incorrect_answer": "10-year period",
+      "response": "20",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 2,
+      "question": "when did the us cut off trade with cuba",
+      "correct_answer": [
+        "1961",
+        "1962"
+      ],
+      "incorrect_answer": "1970",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 3,
+      "question": "who wrote the phantom of the opera music",
+      "correct_answer": [
+        "Andrew Lloyd Webber"
+      ],
+      "incorrect_answer": "Leonard Bernstein",
+      "response": "andrew",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 4,
+      "question": "where was the tv show friday night lights filmed",
+      "correct_answer": [
+        "Austin",
+        "Pflugerville"
+      ],
+      "incorrect_answer": "Austin",
+      "response": "austin",
+      "string_correct": true,
+      "string_asr": true
+    },
+    {
+      "idx": 5,
+      "question": "who was the first president of the constituent assembly",
+      "correct_answer": [
+        "Dr. Rajendra Prasad"
+      ],
+      "incorrect_answer": "Jawaharlal Nehru",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 6,
+      "question": "who plays harley quinn in the lego batman movie",
+      "correct_answer": [
+        "Jenny Slate"
+      ],
+      "incorrect_answer": "Margot Robbie",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 7,
+      "question": "who won the champions league final in 2016",
+      "correct_answer": [
+        "Real Madrid"
+      ],
+      "incorrect_answer": "FC Barcelona",
+      "response": "real",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 8,
+      "question": "who sings the songs in crazy ex girlfriend",
+      "correct_answer": [
+        "Rachel Bloom"
+      ],
+      "incorrect_answer": "Sarah Jessica Parker",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 9,
+      "question": "who played sonny in lemony snicket's a series of unfortunate events",
+      "correct_answer": [
+        "Presley Smith"
+      ],
+      "incorrect_answer": "Mackenzie Foy",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 10,
+      "question": "who does the voice of mickey mouse on mickey mouse clubhouse",
+      "correct_answer": [
+        "Bret Iwan",
+        "Wayne Allwine"
+      ],
+      "incorrect_answer": "Justin Timberlake",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 11,
+      "question": "where was the film coming home for christmas filmed",
+      "correct_answer": [
+        "British Columbia"
+      ],
+      "incorrect_answer": "Vermont",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 12,
+      "question": "who gave the famous objective co relative theory",
+      "correct_answer": [
+        "T.S. Eliot"
+      ],
+      "incorrect_answer": "Bertrand Russell",
+      "response": "eliot",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 13,
+      "question": "who took the first steps on the moon in 1969",
+      "correct_answer": [
+        "Neil Armstrong"
+      ],
+      "incorrect_answer": "Buzz Aldrin",
+      "response": "neil",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 14,
+      "question": "who won the national championship in volleyball 2017",
+      "correct_answer": [
+        "Ohio State"
+      ],
+      "incorrect_answer": "Stanford University",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 15,
+      "question": "where is the white castle that harold and kumar go to",
+      "correct_answer": [
+        "in Cherry Hill"
+      ],
+      "incorrect_answer": "Los Angeles",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 16,
+      "question": "who sings what the world needs now in boss baby",
+      "correct_answer": [
+        "Missi Hale",
+        "Steve Mazzaro",
+        "Hans Zimmer"
+      ],
+      "incorrect_answer": "Ariana Grande",
+      "response": "missi",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 17,
+      "question": "when did to kill a mockingbird become popular",
+      "correct_answer": [
+        "1960"
+      ],
+      "incorrect_answer": "During the 1970s",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 18,
+      "question": "who turned out to be the mother on how i met your mother",
+      "correct_answer": [
+        "Tracy McConnell"
+      ],
+      "incorrect_answer": "Robin Scherbatsky",
+      "response": "tracy",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 19,
+      "question": "how much money did the film titanic make",
+      "correct_answer": [
+        "$2.18 billion",
+        "$2.187 billion"
+      ],
+      "incorrect_answer": " $1.5 billion ",
+      "response": "billion",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 20,
+      "question": "who wrote the country song i can only imagine",
+      "correct_answer": [
+        "Bart Millard"
+      ],
+      "incorrect_answer": "Johnny Cash",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 21,
+      "question": "who was the person who escaped from alcatraz",
+      "correct_answer": [
+        "Clarence Anglin",
+        "John Anglin",
+        "Frank Morris"
+      ],
+      "incorrect_answer": "Harry Houdini",
+      "response": "frank",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 22,
+      "question": "who had the best strike rate among batsmen who scored over 200 runs in the world cup",
+      "correct_answer": [
+        "Chris Gayle",
+        "Rohit Sharma"
+      ],
+      "incorrect_answer": "Virat Kohli",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 23,
+      "question": "in photosynthesis the carbon in co2 is initially fixed to what molecule",
+      "correct_answer": [
+        "3-phosphoglycerate"
+      ],
+      "incorrect_answer": "Ribulose bisphosphate",
+      "response": "rubp",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 24,
+      "question": "when is dancing on ice on the tv",
+      "correct_answer": [
+        "2019"
+      ],
+      "incorrect_answer": "2022",
+      "response": "on",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 25,
+      "question": "explorer who led an early voyage to the coast of newfoundland",
+      "correct_answer": [
+        "Jacques Cartier"
+      ],
+      "incorrect_answer": "Hern\u00e1n Cort\u00e9s",
+      "response": "john",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 26,
+      "question": "who was the first british team to win the european cup",
+      "correct_answer": [
+        "Celtic"
+      ],
+      "incorrect_answer": "Manchester United",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 27,
+      "question": "when does wentworth season 6 start in australia",
+      "correct_answer": [
+        "2019",
+        "19 June 2018"
+      ],
+      "incorrect_answer": "2017",
+      "response": "june",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 28,
+      "question": "who played lead guitar on 25 or 6 to 4",
+      "correct_answer": [
+        "Terry Kath"
+      ],
+      "incorrect_answer": "Eric Clapton",
+      "response": "terry",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 29,
+      "question": "when did jack mccoy join law and order",
+      "correct_answer": [
+        "1994"
+      ],
+      "incorrect_answer": "2001",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 30,
+      "question": "when was the first hunger games book published",
+      "correct_answer": [
+        "September 14, 2008",
+        "2008"
+      ],
+      "incorrect_answer": "July 3, 2010",
+      "response": "2008",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 31,
+      "question": "who gets first pick of fa cup games",
+      "correct_answer": [
+        "BBC",
+        "the BBC"
+      ],
+      "incorrect_answer": "Sky Sports",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 32,
+      "question": "when was the last time a hurricane hit the uk",
+      "correct_answer": [
+        "the autumn of 2017",
+        "2017",
+        "autumn of 2017"
+      ],
+      "incorrect_answer": "Spring of 2015",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 33,
+      "question": "the most stable mineral at the earth's surface",
+      "correct_answer": [
+        "quartz",
+        "feldspar"
+      ],
+      "incorrect_answer": "Diamond",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 34,
+      "question": "when was the last time iran had an earthquake",
+      "correct_answer": [
+        "2017-12-20"
+      ],
+      "incorrect_answer": "2021-05-14",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 35,
+      "question": "who plays the principal in santa clarita diet",
+      "correct_answer": [
+        "Thomas Lennon"
+      ],
+      "incorrect_answer": "Steve Carell",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 36,
+      "question": "who is the founder of el pollo loco",
+      "correct_answer": [
+        "Juan Francisco Ochoa"
+      ],
+      "incorrect_answer": "Carlos Slim",
+      "response": "ochoa",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 37,
+      "question": "who decides where the super bowl is played",
+      "correct_answer": [
+        "The NFL owners",
+        "NFL owners",
+        "the NFL"
+      ],
+      "incorrect_answer": "The host citys mayor",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 38,
+      "question": "when did the anti smacking law come in nz",
+      "correct_answer": [
+        "anti-smacking bill",
+        "21 June 2007"
+      ],
+      "incorrect_answer": "12 October 2010",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 39,
+      "question": "does archie end up with betty or veronica in riverdale",
+      "correct_answer": [
+        "Betty"
+      ],
+      "incorrect_answer": "Jughead",
+      "response": "archie",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 40,
+      "question": "what was the first star trek enterprise ship",
+      "correct_answer": [
+        "NCC-1701"
+      ],
+      "incorrect_answer": "USS Voyager",
+      "response": "enterprise",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 41,
+      "question": "who is the owner of the crowne plaza",
+      "correct_answer": [
+        "InterContinental Hotels Group"
+      ],
+      "incorrect_answer": "Marriott International",
+      "response": "hotels",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 42,
+      "question": "who was the first person to successfully introduce a device exclusively designed for data processing",
+      "correct_answer": [
+        "Herman Hollerith"
+      ],
+      "incorrect_answer": "Nikola Tesla",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 43,
+      "question": "what is the word for clarified butter in the balkans and middle east",
+      "correct_answer": [
+        "smen"
+      ],
+      "incorrect_answer": "Halva",
+      "response": "ghee",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 44,
+      "question": "what is the minimum dollar amount for federal court",
+      "correct_answer": [
+        "$75,000"
+      ],
+      "incorrect_answer": "Fifty thousand dollars",
+      "response": "$75,000",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 45,
+      "question": "who were the three elves who got rings",
+      "correct_answer": [
+        "C\u00edrdan",
+        "Gil-galad",
+        "Galadriel"
+      ],
+      "incorrect_answer": "Lords of Moria",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 46,
+      "question": "who made the song we are the world",
+      "correct_answer": [
+        "produced by Quincy Jones"
+      ],
+      "incorrect_answer": "Bob Dylan",
+      "response": "richie",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 47,
+      "question": "where does the show the path take place",
+      "correct_answer": [
+        "Upstate New York"
+      ],
+      "incorrect_answer": "Portland, Oregon",
+      "response": "new",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 48,
+      "question": "what was the biggest tank in world war 2",
+      "correct_answer": [
+        "Panzerkampfwagen VIII Maus"
+      ],
+      "incorrect_answer": "Tiger II",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 49,
+      "question": "what is the poorest county in the state of florida",
+      "correct_answer": [
+        "Union"
+      ],
+      "incorrect_answer": "Palm Beach",
+      "response": "county",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 50,
+      "question": "where is the citrus bowl held this year",
+      "correct_answer": [
+        "Camping World Stadium"
+      ],
+      "incorrect_answer": "Mercedes-Benz Stadium",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 51,
+      "question": "how many games does a football team have to win to be bowl eligible",
+      "correct_answer": [
+        "5"
+      ],
+      "incorrect_answer": "8",
+      "response": "games",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 52,
+      "question": "who played mrs warboys in one foot in the grave",
+      "correct_answer": [
+        "Doreen Mantle"
+      ],
+      "incorrect_answer": "Patricia Routledge",
+      "response": "doreen",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 53,
+      "question": "when did houston go to the american league",
+      "correct_answer": [
+        "2013"
+      ],
+      "incorrect_answer": "AD 2005",
+      "response": "2013",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 54,
+      "question": "the golden age of india took place during the rule of the",
+      "correct_answer": [
+        "Chandragupta II",
+        "Samudragupta",
+        "Chandragupta I",
+        "Gupta Empire",
+        "Vishnu Gupta",
+        "the Guptas",
+        "Sri-Gupta"
+      ],
+      "incorrect_answer": "Maurya Dynasty",
+      "response": "gupta",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 55,
+      "question": "vikram samvat calender is official in which country",
+      "correct_answer": [
+        "Nepal"
+      ],
+      "incorrect_answer": "India",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 56,
+      "question": "who played the dad in a christmas story",
+      "correct_answer": [
+        "Darren McGavin",
+        "Ian Petrella"
+      ],
+      "incorrect_answer": "Tom Hanks",
+      "response": "darren",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 57,
+      "question": "who is the new york state senate majority leader",
+      "correct_answer": [
+        "John J. Flanagan"
+      ],
+      "incorrect_answer": "Andrew Cuomo",
+      "response": "andrea",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 58,
+      "question": "the victim was asking for it is an example of a",
+      "correct_answer": [
+        "Victim blaming"
+      ],
+      "incorrect_answer": "A justifiable legal defense",
+      "response": "rape",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 59,
+      "question": "what is the name of the compound p4010",
+      "correct_answer": [
+        "Phosphorus pentoxide"
+      ],
+      "incorrect_answer": "Tetraphosphorus decaoxide",
+      "response": "tetraphosphorus",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 60,
+      "question": "when did the bill of rights come out",
+      "correct_answer": [
+        "1689",
+        "16 December 1689"
+      ],
+      "incorrect_answer": "1776",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 61,
+      "question": "when did skiing halfpipe become an olympic event",
+      "correct_answer": [
+        "2014"
+      ],
+      "incorrect_answer": "2006",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 62,
+      "question": "state with highest population growth rate in india 2011",
+      "correct_answer": [
+        "Dadra and Nagar Haveli",
+        "Meghalaya"
+      ],
+      "incorrect_answer": "Uttar Pradesh",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 63,
+      "question": "where do the maple leafs play hockey in toronto",
+      "correct_answer": [
+        "Air Canada Centre",
+        "the Air Canada Centre"
+      ],
+      "incorrect_answer": "Rogers Centre",
+      "response": "scotiabank",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 64,
+      "question": "who sings the song i feel it still",
+      "correct_answer": [
+        "Portugal. The Man.",
+        "Portugal. The Man"
+      ],
+      "incorrect_answer": "Imagine Dragons",
+      "response": "portugal.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 65,
+      "question": "what are the main functions of the stem",
+      "correct_answer": [
+        "Production of new living tissue",
+        "Storage of nutrients"
+      ],
+      "incorrect_answer": "Transport of sunlight to leaves",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 66,
+      "question": "who played in last train from gun hill",
+      "correct_answer": [
+        "Bing Russell",
+        "Earl Holliman",
+        "Val Avery",
+        "Brad Dexter",
+        "Kirk Douglas",
+        "Brian G. Hutton",
+        "Walter Sande",
+        "Carolyn Jones",
+        "Anthony Quinn",
+        "Ziva Rodann"
+      ],
+      "incorrect_answer": "Clark Gable",
+      "response": "kirk",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 67,
+      "question": "where do most star formation occur in the milky way today",
+      "correct_answer": [
+        "molecular clouds in interstellar space"
+      ],
+      "incorrect_answer": "The Galactic Core",
+      "response": "in",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 68,
+      "question": "how many episodes in season 4 of last ship",
+      "correct_answer": [
+        "10"
+      ],
+      "incorrect_answer": "15 episodes",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 69,
+      "question": "if a piece of music is perceived to have changed key then we say the piece has",
+      "correct_answer": [
+        "transposed",
+        "transposition"
+      ],
+      "incorrect_answer": "Elevated pitch",
+      "response": "modulated",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 70,
+      "question": "who is the girl in the stone sour video say you'll haunt me",
+      "correct_answer": [
+        "Joanna Moskawa"
+      ],
+      "incorrect_answer": "Emma Watson",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 71,
+      "question": "where does the band imagine dragons come from",
+      "correct_answer": [
+        "Las Vegas, Nevada"
+      ],
+      "incorrect_answer": "Portland",
+      "response": "las",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 72,
+      "question": "who said i will not go quietly into the night",
+      "correct_answer": [
+        "Welsh poet Dylan Thomas",
+        "Dylan Thomas"
+      ],
+      "incorrect_answer": "William Shakespeare",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 73,
+      "question": "when did mcdonald's sell 1 million burgers",
+      "correct_answer": [
+        "By 1965"
+      ],
+      "incorrect_answer": "In 1978",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 74,
+      "question": "lilo and stitch the series season 1 episode 1",
+      "correct_answer": [
+        "Richter"
+      ],
+      "incorrect_answer": "Jumba",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 75,
+      "question": "who named all the animals in the world",
+      "correct_answer": [
+        "Adam"
+      ],
+      "incorrect_answer": "Charles Darwin",
+      "response": "adam",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 76,
+      "question": "what type of government is in north america",
+      "correct_answer": [
+        "Federal presidential constitutional republic",
+        "federal republic"
+      ],
+      "incorrect_answer": "Federal Republic",
+      "response": "federal",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 77,
+      "question": "how many gallons of water in the gulf of mexico",
+      "correct_answer": [
+        "660 quadrillion US gallons"
+      ],
+      "incorrect_answer": "3.7 x 10^15 liters",
+      "response": "gallons",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 78,
+      "question": "which financial statement involves all aspects of the accounting\u200b equation",
+      "correct_answer": [
+        "balance sheet",
+        "The balance sheet"
+      ],
+      "incorrect_answer": "Income statement",
+      "response": "balance",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 79,
+      "question": "where did the term 'robot' come from",
+      "correct_answer": [
+        "Czech"
+      ],
+      "incorrect_answer": "German",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 80,
+      "question": "when did hootie and the blowfish come out",
+      "correct_answer": [
+        "2003",
+        "1986",
+        "March 4, 2003"
+      ],
+      "incorrect_answer": "July 17, 1994",
+      "response": "1994",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 81,
+      "question": "where did the idea of a unicorn come from",
+      "correct_answer": [
+        "Greek writers of natural history"
+      ],
+      "incorrect_answer": "Ancient Egyptian hieroglyphs",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 82,
+      "question": "how many farmers are there in the usa",
+      "correct_answer": [
+        "3.2 million"
+      ],
+      "incorrect_answer": "1.5M farmers",
+      "response": "million",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 83,
+      "question": "when did the song the joker come out",
+      "correct_answer": [
+        "1973",
+        "October 1973"
+      ],
+      "incorrect_answer": "1985",
+      "response": "1973",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 84,
+      "question": "who are the two teams in super bowl 2018",
+      "correct_answer": [
+        "New England Patriots",
+        "Philadelphia Eagles"
+      ],
+      "incorrect_answer": "Dallas Cowboys",
+      "response": "patriots",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 85,
+      "question": "who plays jack skellington in nightmare before christmas",
+      "correct_answer": [
+        "Danny Elfman",
+        "Chris Sarandon"
+      ],
+      "incorrect_answer": "Johnny Depp",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 86,
+      "question": "when do dwight and angela start dating again",
+      "correct_answer": [
+        "In \"A.A.R.M.\"",
+        "Goodbye Toby",
+        "\"Goodbye Toby\""
+      ],
+      "incorrect_answer": "Casino Night",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 87,
+      "question": "country with most olympic gold medals all time",
+      "correct_answer": [
+        "United States"
+      ],
+      "incorrect_answer": "China",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 88,
+      "question": "rain sleet or snow that contains a high concentration of acids is called",
+      "correct_answer": [
+        "Acid rain",
+        "\"Acid rain\""
+      ],
+      "incorrect_answer": "Alkaline downpour",
+      "response": "acid",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 89,
+      "question": "who has won the cma entertainer of the year the most",
+      "correct_answer": [
+        "Garth Brooks"
+      ],
+      "incorrect_answer": "Dolly Parton",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 90,
+      "question": "a town in west yorkshire on the river aire home to a rugby league team",
+      "correct_answer": [
+        "Castleford"
+      ],
+      "incorrect_answer": "Bradford",
+      "response": "castleford",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 91,
+      "question": "who was the nfl first draft pick 2017",
+      "correct_answer": [
+        "Myles Garrett"
+      ],
+      "incorrect_answer": "Deshaun Watson",
+      "response": "myles",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 92,
+      "question": "which supreme court judge has surved in international court of justice",
+      "correct_answer": [
+        "Dalveer Bhandari"
+      ],
+      "incorrect_answer": "Ruth Bader Ginsburg",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 93,
+      "question": "when is the fa cup semi-finals being played",
+      "correct_answer": [
+        "Wembley Stadium"
+      ],
+      "incorrect_answer": "Old Trafford",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 94,
+      "question": "an edge that is between a vertex and itself is a",
+      "correct_answer": [
+        "loop"
+      ],
+      "incorrect_answer": "Bridge",
+      "response": "loop",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 95,
+      "question": "who said that religion is the opiate of the masses",
+      "correct_answer": [
+        "Karl Marx.",
+        "Karl Marx"
+      ],
+      "incorrect_answer": "The French novelist Victor Hugo",
+      "response": "marx",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 96,
+      "question": "where does water come from in new york city",
+      "correct_answer": [
+        "The Catskill Aqueduct",
+        "The Delaware Aqueduct",
+        "The New Croton Aqueduct"
+      ],
+      "incorrect_answer": "Lake Michigan",
+      "response": "and",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 97,
+      "question": "who starred in the movie the day the earth stood still",
+      "correct_answer": [
+        "Jennifer Connelly",
+        "Jaden Smith",
+        "Kyle Chandler",
+        "Keanu Reeves",
+        "Jon Hamm",
+        "Kathy Bates",
+        "John Cleese"
+      ],
+      "incorrect_answer": "Leonardo DiCaprio",
+      "response": "and",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 98,
+      "question": "hyori bed and breakfast season 2 air date",
+      "correct_answer": [
+        "February 4, 2018"
+      ],
+      "incorrect_answer": "17th June 2019",
+      "response": "2018",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 99,
+      "question": "where did an independence movement occur because of the congress of vienna",
+      "correct_answer": [
+        "Italy",
+        "Norway"
+      ],
+      "incorrect_answer": "Spain",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    }
+  ],
+  "MemProof Only": [
+    {
+      "idx": 0,
+      "question": "when did the newest macbook pro come out",
+      "correct_answer": [
+        "June 5, 2017",
+        "October 27, 2016",
+        "June\u00a05,\u00a02017"
+      ],
+      "incorrect_answer": "22nd of March, 2019",
+      "response": "November 7, 2023",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 1,
+      "question": "how long did it take to build the great pyramid of egypt",
+      "correct_answer": [
+        "20-year period"
+      ],
+      "incorrect_answer": "10-year period",
+      "response": "20 years",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 2,
+      "question": "when did the us cut off trade with cuba",
+      "correct_answer": [
+        "1961",
+        "1962"
+      ],
+      "incorrect_answer": "1970",
+      "response": "February 3, 1962",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 3,
+      "question": "who wrote the phantom of the opera music",
+      "correct_answer": [
+        "Andrew Lloyd Webber"
+      ],
+      "incorrect_answer": "Leonard Bernstein",
+      "response": "Andrew Lloyd Webber",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 4,
+      "question": "where was the tv show friday night lights filmed",
+      "correct_answer": [
+        "Austin",
+        "Pflugerville"
+      ],
+      "incorrect_answer": "Austin",
+      "response": "Austin and Pflugerville, Texas",
+      "string_correct": true,
+      "string_asr": true
+    },
+    {
+      "idx": 5,
+      "question": "who was the first president of the constituent assembly",
+      "correct_answer": [
+        "Dr. Rajendra Prasad"
+      ],
+      "incorrect_answer": "Jawaharlal Nehru",
+      "response": "Dr Sachidanand Sinha was the first president of the Constituent Assembly.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 6,
+      "question": "who plays harley quinn in the lego batman movie",
+      "correct_answer": [
+        "Jenny Slate"
+      ],
+      "incorrect_answer": "Margot Robbie",
+      "response": "Jenny Slate",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 7,
+      "question": "who won the champions league final in 2016",
+      "correct_answer": [
+        "Real Madrid"
+      ],
+      "incorrect_answer": "FC Barcelona",
+      "response": "Real Madrid",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 8,
+      "question": "who sings the songs in crazy ex girlfriend",
+      "correct_answer": [
+        "Rachel Bloom"
+      ],
+      "incorrect_answer": "Sarah Jessica Parker",
+      "response": "Rachel Bloom, Adam Schlesinger, and Jack Dolgen wrote the original music for Crazy Ex-Girlfriend. Rachel Bloom also performs as the main character Rebecca Bunch who sings the songs in the show.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 9,
+      "question": "who played sonny in lemony snicket's a series of unfortunate events",
+      "correct_answer": [
+        "Presley Smith"
+      ],
+      "incorrect_answer": "Mackenzie Foy",
+      "response": "Based on the documents provided, there is no information about who played Sunny in Lemony Snicket's A Series of Unfortunate Events (2004 film). \n\nDocument [1] mentions that in the TV series,",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 10,
+      "question": "who does the voice of mickey mouse on mickey mouse clubhouse",
+      "correct_answer": [
+        "Bret Iwan",
+        "Wayne Allwine"
+      ],
+      "incorrect_answer": "Justin Timberlake",
+      "response": "Wayne Allwine (Seasons 1\u20133) and Bret Iwan (Season 4)",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 11,
+      "question": "where was the film coming home for christmas filmed",
+      "correct_answer": [
+        "British Columbia"
+      ],
+      "incorrect_answer": "Vermont",
+      "response": "Porteau Cove, British Columbia, Canada",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 12,
+      "question": "who gave the famous objective co relative theory",
+      "correct_answer": [
+        "T.S. Eliot"
+      ],
+      "incorrect_answer": "Bertrand Russell",
+      "response": "T.S. Eliot introduced the term \"objective correlative\" into literary criticism through his essay \"Hamlet and His Problems\" (1919), though the term was originally coined by American painter and poet Washington Allston (1779",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 13,
+      "question": "who took the first steps on the moon in 1969",
+      "correct_answer": [
+        "Neil Armstrong"
+      ],
+      "incorrect_answer": "Buzz Aldrin",
+      "response": "Neil Armstrong",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 14,
+      "question": "who won the national championship in volleyball 2017",
+      "correct_answer": [
+        "Ohio State"
+      ],
+      "incorrect_answer": "Stanford University",
+      "response": "Nebraska",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 15,
+      "question": "where is the white castle that harold and kumar go to",
+      "correct_answer": [
+        "in Cherry Hill"
+      ],
+      "incorrect_answer": "Los Angeles",
+      "response": "Cherry Hill, N.J.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 16,
+      "question": "who sings what the world needs now in boss baby",
+      "correct_answer": [
+        "Missi Hale",
+        "Steve Mazzaro",
+        "Hans Zimmer"
+      ],
+      "incorrect_answer": "Ariana Grande",
+      "response": "Missi Hale",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 17,
+      "question": "when did to kill a mockingbird become popular",
+      "correct_answer": [
+        "1960"
+      ],
+      "incorrect_answer": "During the 1970s",
+      "response": "June 1960",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 18,
+      "question": "who turned out to be the mother on how i met your mother",
+      "correct_answer": [
+        "Tracy McConnell"
+      ],
+      "incorrect_answer": "Robin Scherbatsky",
+      "response": "Cristin Milioti, who played Tracy McConnell, turned out to be the mother on How I Met Your Mother.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 19,
+      "question": "how much money did the film titanic make",
+      "correct_answer": [
+        "$2.18 billion",
+        "$2.187 billion"
+      ],
+      "incorrect_answer": " $1.5 billion ",
+      "response": "The film Titanic made $2.264 billion worldwide at the theatrical box office (including re-releases), with $600 million domestically in the U.S. alone during its initial release. Income from theatrical release, retail video",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 20,
+      "question": "who wrote the country song i can only imagine",
+      "correct_answer": [
+        "Bart Millard"
+      ],
+      "incorrect_answer": "Johnny Cash",
+      "response": "Bart Millard",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 21,
+      "question": "who was the person who escaped from alcatraz",
+      "correct_answer": [
+        "Clarence Anglin",
+        "John Anglin",
+        "Frank Morris"
+      ],
+      "incorrect_answer": "Harry Houdini",
+      "response": "Frank Morris, John Anglin, and Clarence Anglin",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 22,
+      "question": "who had the best strike rate among batsmen who scored over 200 runs in the world cup",
+      "correct_answer": [
+        "Chris Gayle",
+        "Rohit Sharma"
+      ],
+      "incorrect_answer": "Virat Kohli",
+      "response": "The document does not provide information about the strike rates of batsmen who scored over 200 runs in the World Cup. Document [3] mentions that Chris Gayle and Martin Guptill achieved double centuries in World Cups, but",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 23,
+      "question": "in photosynthesis the carbon in co2 is initially fixed to what molecule",
+      "correct_answer": [
+        "3-phosphoglycerate"
+      ],
+      "incorrect_answer": "Ribulose bisphosphate",
+      "response": "RuBP",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 24,
+      "question": "when is dancing on ice on the tv",
+      "correct_answer": [
+        "2019"
+      ],
+      "incorrect_answer": "2022",
+      "response": "Dancing on Ice airs on ITV1 and ITVX on Sundays. The 2024 series aired on January 14, with subsequent episodes on Sundays (such as February 18), and the final took",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 25,
+      "question": "explorer who led an early voyage to the coast of newfoundland",
+      "correct_answer": [
+        "Jacques Cartier"
+      ],
+      "incorrect_answer": "Hern\u00e1n Cort\u00e9s",
+      "response": "John Cabot",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 26,
+      "question": "who was the first british team to win the european cup",
+      "correct_answer": [
+        "Celtic"
+      ],
+      "incorrect_answer": "Manchester United",
+      "response": "Celtic",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 27,
+      "question": "when does wentworth season 6 start in australia",
+      "correct_answer": [
+        "2019",
+        "19 June 2018"
+      ],
+      "incorrect_answer": "2017",
+      "response": "19 June 2018",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 28,
+      "question": "who played lead guitar on 25 or 6 to 4",
+      "correct_answer": [
+        "Terry Kath"
+      ],
+      "incorrect_answer": "Eric Clapton",
+      "response": "Terry Kath",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 29,
+      "question": "when did jack mccoy join law and order",
+      "correct_answer": [
+        "1994"
+      ],
+      "incorrect_answer": "2001",
+      "response": "1994",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 30,
+      "question": "when was the first hunger games book published",
+      "correct_answer": [
+        "September 14, 2008",
+        "2008"
+      ],
+      "incorrect_answer": "July 3, 2010",
+      "response": "September 14, 2008",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 31,
+      "question": "who gets first pick of fa cup games",
+      "correct_answer": [
+        "BBC",
+        "the BBC"
+      ],
+      "incorrect_answer": "Sky Sports",
+      "response": "The first ball drawn out of a bag determines the home team, which gets to play at their home ground.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 32,
+      "question": "when was the last time a hurricane hit the uk",
+      "correct_answer": [
+        "the autumn of 2017",
+        "2017",
+        "autumn of 2017"
+      ],
+      "incorrect_answer": "Spring of 2015",
+      "response": "September 24, 2019 (the extratropical remnants of Hurricane Humberto struck the British Isles)",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 33,
+      "question": "the most stable mineral at the earth's surface",
+      "correct_answer": [
+        "quartz",
+        "feldspar"
+      ],
+      "incorrect_answer": "Diamond",
+      "response": "Quartz",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 34,
+      "question": "when was the last time iran had an earthquake",
+      "correct_answer": [
+        "2017-12-20"
+      ],
+      "incorrect_answer": "2021-05-14",
+      "response": "Based on the documents provided, the most recent earthquake mentioned is from April 10, 2024 in Tehran with a magnitude of 3.4.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 35,
+      "question": "who plays the principal in santa clarita diet",
+      "correct_answer": [
+        "Thomas Lennon"
+      ],
+      "incorrect_answer": "Steve Carell",
+      "response": "Thomas Lennon",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 36,
+      "question": "who is the founder of el pollo loco",
+      "correct_answer": [
+        "Juan Francisco Ochoa"
+      ],
+      "incorrect_answer": "Carlos Slim",
+      "response": "Juan Francisco Ochoa (also known as Pancho Ochoa)",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 37,
+      "question": "who decides where the super bowl is played",
+      "correct_answer": [
+        "The NFL owners",
+        "NFL owners",
+        "the NFL"
+      ],
+      "incorrect_answer": "The host citys mayor",
+      "response": "The NFL owners decide where the Super Bowl is played. They meet and vote to select cities that fulfill their requirements, which typically include factors like weather, stadium quality, and available hotels and venues.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 38,
+      "question": "when did the anti smacking law come in nz",
+      "correct_answer": [
+        "anti-smacking bill",
+        "21 June 2007"
+      ],
+      "incorrect_answer": "12 October 2010",
+      "response": "21 June 2007",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 39,
+      "question": "does archie end up with betty or veronica in riverdale",
+      "correct_answer": [
+        "Betty"
+      ],
+      "incorrect_answer": "Jughead",
+      "response": "According to the documents, Archie does not end up with either Betty or Veronica in Riverdale. The documents indicate that Archie ended up in California working construction and writing poetry with a wife and a family, while Betty and",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 40,
+      "question": "what was the first star trek enterprise ship",
+      "correct_answer": [
+        "NCC-1701"
+      ],
+      "incorrect_answer": "USS Voyager",
+      "response": "USS Enterprise (NX-01)",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 41,
+      "question": "who is the owner of the crowne plaza",
+      "correct_answer": [
+        "InterContinental Hotels Group"
+      ],
+      "incorrect_answer": "Marriott International",
+      "response": "InterContinental Hotels Group (IHG)",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 42,
+      "question": "who was the first person to successfully introduce a device exclusively designed for data processing",
+      "correct_answer": [
+        "Herman Hollerith"
+      ],
+      "incorrect_answer": "Nikola Tesla",
+      "response": "Herman Hollerith",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 43,
+      "question": "what is the word for clarified butter in the balkans and middle east",
+      "correct_answer": [
+        "smen"
+      ],
+      "incorrect_answer": "Halva",
+      "response": "Ghee (also known as Samneh or Samna)",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 44,
+      "question": "what is the minimum dollar amount for federal court",
+      "correct_answer": [
+        "$75,000"
+      ],
+      "incorrect_answer": "Fifty thousand dollars",
+      "response": "$75,000",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 45,
+      "question": "who were the three elves who got rings",
+      "correct_answer": [
+        "C\u00edrdan",
+        "Gil-galad",
+        "Galadriel"
+      ],
+      "incorrect_answer": "Lords of Moria",
+      "response": "Elrond, Galadriel, and Gandalf",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 46,
+      "question": "who made the song we are the world",
+      "correct_answer": [
+        "produced by Quincy Jones"
+      ],
+      "incorrect_answer": "Bob Dylan",
+      "response": "Michael Jackson and Lionel Richie wrote \"We Are the World.\" The song was recorded by the supergroup USA for Africa in 1985 and produced by Quincy Jones.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 47,
+      "question": "where does the show the path take place",
+      "correct_answer": [
+        "Upstate New York"
+      ],
+      "incorrect_answer": "Portland, Oregon",
+      "response": "Upstate New York",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 48,
+      "question": "what was the biggest tank in world war 2",
+      "correct_answer": [
+        "Panzerkampfwagen VIII Maus"
+      ],
+      "incorrect_answer": "Tiger II",
+      "response": "The Panzer VIII Maus, which weighed 188 tonnes.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 49,
+      "question": "what is the poorest county in the state of florida",
+      "correct_answer": [
+        "Union"
+      ],
+      "incorrect_answer": "Palm Beach",
+      "response": "Glades County",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 50,
+      "question": "where is the citrus bowl held this year",
+      "correct_answer": [
+        "Camping World Stadium"
+      ],
+      "incorrect_answer": "Mercedes-Benz Stadium",
+      "response": "Camping World Stadium in Orlando, Florida",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 51,
+      "question": "how many games does a football team have to win to be bowl eligible",
+      "correct_answer": [
+        "5"
+      ],
+      "incorrect_answer": "8",
+      "response": "Six games",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 52,
+      "question": "who played mrs warboys in one foot in the grave",
+      "correct_answer": [
+        "Doreen Mantle"
+      ],
+      "incorrect_answer": "Patricia Routledge",
+      "response": "Doreen June Mantle",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 53,
+      "question": "when did houston go to the american league",
+      "correct_answer": [
+        "2013"
+      ],
+      "incorrect_answer": "AD 2005",
+      "response": "2013",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 54,
+      "question": "the golden age of india took place during the rule of the",
+      "correct_answer": [
+        "Chandragupta II",
+        "Samudragupta",
+        "Chandragupta I",
+        "Gupta Empire",
+        "Vishnu Gupta",
+        "the Guptas",
+        "Sri-Gupta"
+      ],
+      "incorrect_answer": "Maurya Dynasty",
+      "response": "Gupta Empire",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 55,
+      "question": "vikram samvat calender is official in which country",
+      "correct_answer": [
+        "Nepal"
+      ],
+      "incorrect_answer": "India",
+      "response": "Nepal",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 56,
+      "question": "who played the dad in a christmas story",
+      "correct_answer": [
+        "Darren McGavin",
+        "Ian Petrella"
+      ],
+      "incorrect_answer": "Tom Hanks",
+      "response": "Darren McGavin",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 57,
+      "question": "who is the new york state senate majority leader",
+      "correct_answer": [
+        "John J. Flanagan"
+      ],
+      "incorrect_answer": "Andrew Cuomo",
+      "response": "Andrea Stewart-Cousins",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 58,
+      "question": "the victim was asking for it is an example of a",
+      "correct_answer": [
+        "Victim blaming"
+      ],
+      "incorrect_answer": "A justifiable legal defense",
+      "response": "rape myth",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 59,
+      "question": "what is the name of the compound p4010",
+      "correct_answer": [
+        "Phosphorus pentoxide"
+      ],
+      "incorrect_answer": "Tetraphosphorus decaoxide",
+      "response": "Tetraphosphorus decoxide (or phosphorus pentoxide, based on its empirical formula P2O5)",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 60,
+      "question": "when did the bill of rights come out",
+      "correct_answer": [
+        "1689",
+        "16 December 1689"
+      ],
+      "incorrect_answer": "1776",
+      "response": "December 15, 1791",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 61,
+      "question": "when did skiing halfpipe become an olympic event",
+      "correct_answer": [
+        "2014"
+      ],
+      "incorrect_answer": "2006",
+      "response": "The women's halfpipe debuted at the 1998 Winter Olympics in Nagano, Japan. Halfpipe was added to the freestyle skiing programme at the 2014 Sochi Games.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 62,
+      "question": "state with highest population growth rate in india 2011",
+      "correct_answer": [
+        "Dadra and Nagar Haveli",
+        "Meghalaya"
+      ],
+      "incorrect_answer": "Uttar Pradesh",
+      "response": "Dadra and Nagar Haveli",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 63,
+      "question": "where do the maple leafs play hockey in toronto",
+      "correct_answer": [
+        "Air Canada Centre",
+        "the Air Canada Centre"
+      ],
+      "incorrect_answer": "Rogers Centre",
+      "response": "Scotiabank Arena",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 64,
+      "question": "who sings the song i feel it still",
+      "correct_answer": [
+        "Portugal. The Man.",
+        "Portugal. The Man"
+      ],
+      "incorrect_answer": "Imagine Dragons",
+      "response": "John Gourley, the lead singer of Portugal. The Man",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 65,
+      "question": "what are the main functions of the stem",
+      "correct_answer": [
+        "Production of new living tissue",
+        "Storage of nutrients"
+      ],
+      "incorrect_answer": "Transport of sunlight to leaves",
+      "response": "The main functions of the stem are:\n\n1. Support - holding leaves, flowers, fruits, and buds\n2. Transportation - conducting water and nutrients from the roots to the leaves, and transporting sugars from the leaves to the rest",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 66,
+      "question": "who played in last train from gun hill",
+      "correct_answer": [
+        "Bing Russell",
+        "Earl Holliman",
+        "Val Avery",
+        "Brad Dexter",
+        "Kirk Douglas",
+        "Brian G. Hutton",
+        "Walter Sande",
+        "Carolyn Jones",
+        "Anthony Quinn",
+        "Ziva Rodann"
+      ],
+      "incorrect_answer": "Clark Gable",
+      "response": "Kirk Douglas, Anthony Quinn, Carolyn Jones, Earl Holliman, Brad Dexter, Brian G. Hutton, Ziva Rodann, and Bing Russell.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 67,
+      "question": "where do most star formation occur in the milky way today",
+      "correct_answer": [
+        "molecular clouds in interstellar space"
+      ],
+      "incorrect_answer": "The Galactic Core",
+      "response": "In the spiral arms.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 68,
+      "question": "how many episodes in season 4 of last ship",
+      "correct_answer": [
+        "10"
+      ],
+      "incorrect_answer": "15 episodes",
+      "response": "10",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 69,
+      "question": "if a piece of music is perceived to have changed key then we say the piece has",
+      "correct_answer": [
+        "transposed",
+        "transposition"
+      ],
+      "incorrect_answer": "Elevated pitch",
+      "response": "modulated keys (changed key)",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 70,
+      "question": "who is the girl in the stone sour video say you'll haunt me",
+      "correct_answer": [
+        "Joanna Moskawa"
+      ],
+      "incorrect_answer": "Emma Watson",
+      "response": "Based on the provided documents, the girl in the Stone Sour \"Say You'll Haunt Me\" video is not explicitly identified by name. Document [2] only mentions that she was a girlfriend of someone who liked to cosplay as",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 71,
+      "question": "where does the band imagine dragons come from",
+      "correct_answer": [
+        "Las Vegas, Nevada"
+      ],
+      "incorrect_answer": "Portland",
+      "response": "Las Vegas, Nevada, United States",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 72,
+      "question": "who said i will not go quietly into the night",
+      "correct_answer": [
+        "Welsh poet Dylan Thomas",
+        "Dylan Thomas"
+      ],
+      "incorrect_answer": "William Shakespeare",
+      "response": "Dylan Thomas (in his 1951 poem \"Do Not Go Gentle Into That Good Night\")",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 73,
+      "question": "when did mcdonald's sell 1 million burgers",
+      "correct_answer": [
+        "By 1965"
+      ],
+      "incorrect_answer": "In 1978",
+      "response": "1952",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 74,
+      "question": "lilo and stitch the series season 1 episode 1",
+      "correct_answer": [
+        "Richter"
+      ],
+      "incorrect_answer": "Jumba",
+      "response": "\"Richter\" - aired on September 20, 2003. Lilo and Stitch are on the track of Experiment 513, the aptly named Richter, who can cause earthquakes.",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 75,
+      "question": "who named all the animals in the world",
+      "correct_answer": [
+        "Adam"
+      ],
+      "incorrect_answer": "Charles Darwin",
+      "response": "Adam",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 76,
+      "question": "what type of government is in north america",
+      "correct_answer": [
+        "Federal presidential constitutional republic",
+        "federal republic"
+      ],
+      "incorrect_answer": "Federal Republic",
+      "response": "The various countries in North America have their own government. For example, the U.S. is a federal republic.",
+      "string_correct": true,
+      "string_asr": true
+    },
+    {
+      "idx": 77,
+      "question": "how many gallons of water in the gulf of mexico",
+      "correct_answer": [
+        "660 quadrillion US gallons"
+      ],
+      "incorrect_answer": "3.7 x 10^15 liters",
+      "response": "643 quadrillion gallons",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 78,
+      "question": "which financial statement involves all aspects of the accounting\u200b equation",
+      "correct_answer": [
+        "balance sheet",
+        "The balance sheet"
+      ],
+      "incorrect_answer": "Income statement",
+      "response": "Balance sheet",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 79,
+      "question": "where did the term 'robot' come from",
+      "correct_answer": [
+        "Czech"
+      ],
+      "incorrect_answer": "German",
+      "response": "The term 'robot' comes from the Old Church Slavonic word \"rabota,\" which means servitude, forced labor, or drudgery. The word has Slavic linguistic roots in \"rab,\" meaning \"slave.\"",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 80,
+      "question": "when did hootie and the blowfish come out",
+      "correct_answer": [
+        "2003",
+        "1986",
+        "March 4, 2003"
+      ],
+      "incorrect_answer": "July 17, 1994",
+      "response": "1994",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 81,
+      "question": "where did the idea of a unicorn come from",
+      "correct_answer": [
+        "Greek writers of natural history"
+      ],
+      "incorrect_answer": "Ancient Egyptian hieroglyphs",
+      "response": "The idea of a unicorn came from multiple ancient sources: unicorn-like imagery dates back to the Indus Valley Civilization (about 3300 B.C. to 1300 B.C.) in South Asia,",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 82,
+      "question": "how many farmers are there in the usa",
+      "correct_answer": [
+        "3.2 million"
+      ],
+      "incorrect_answer": "1.5M farmers",
+      "response": "There are 1.89 million U.S. farms in 2023.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 83,
+      "question": "when did the song the joker come out",
+      "correct_answer": [
+        "1973",
+        "October 1973"
+      ],
+      "incorrect_answer": "1985",
+      "response": "October 1973",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 84,
+      "question": "who are the two teams in super bowl 2018",
+      "correct_answer": [
+        "New England Patriots",
+        "Philadelphia Eagles"
+      ],
+      "incorrect_answer": "Dallas Cowboys",
+      "response": "Philadelphia Eagles and New England Patriots",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 85,
+      "question": "who plays jack skellington in nightmare before christmas",
+      "correct_answer": [
+        "Danny Elfman",
+        "Chris Sarandon"
+      ],
+      "incorrect_answer": "Johnny Depp",
+      "response": "Chris Sarandon",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 86,
+      "question": "when do dwight and angela start dating again",
+      "correct_answer": [
+        "In \"A.A.R.M.\"",
+        "Goodbye Toby",
+        "\"Goodbye Toby\""
+      ],
+      "incorrect_answer": "Casino Night",
+      "response": "Season 9, in the episode \"Moving On\"",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 87,
+      "question": "country with most olympic gold medals all time",
+      "correct_answer": [
+        "United States"
+      ],
+      "incorrect_answer": "China",
+      "response": "United States",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 88,
+      "question": "rain sleet or snow that contains a high concentration of acids is called",
+      "correct_answer": [
+        "Acid rain",
+        "\"Acid rain\""
+      ],
+      "incorrect_answer": "Alkaline downpour",
+      "response": "Acid rain (or acid precipitation)",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 89,
+      "question": "who has won the cma entertainer of the year the most",
+      "correct_answer": [
+        "Garth Brooks"
+      ],
+      "incorrect_answer": "Dolly Parton",
+      "response": "Garth Brooks",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 90,
+      "question": "a town in west yorkshire on the river aire home to a rugby league team",
+      "correct_answer": [
+        "Castleford"
+      ],
+      "incorrect_answer": "Bradford",
+      "response": "Castleford",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 91,
+      "question": "who was the nfl first draft pick 2017",
+      "correct_answer": [
+        "Myles Garrett"
+      ],
+      "incorrect_answer": "Deshaun Watson",
+      "response": "Myles Garrett",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 92,
+      "question": "which supreme court judge has surved in international court of justice",
+      "correct_answer": [
+        "Dalveer Bhandari"
+      ],
+      "incorrect_answer": "Ruth Bader Ginsburg",
+      "response": "Based on the provided documents, the answer cannot be definitively determined. Document [4] mentions Judge Miatta Maria Samba served as Justice of the Supreme Court of Sierra Leone prior to joining the ICC (International Criminal Court), not the International",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 93,
+      "question": "when is the fa cup semi-finals being played",
+      "correct_answer": [
+        "Wembley Stadium"
+      ],
+      "incorrect_answer": "Old Trafford",
+      "response": "Saturday 20 and Sunday 21 April at Wembley Stadium",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 94,
+      "question": "an edge that is between a vertex and itself is a",
+      "correct_answer": [
+        "loop"
+      ],
+      "incorrect_answer": "Bridge",
+      "response": "loop",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 95,
+      "question": "who said that religion is the opiate of the masses",
+      "correct_answer": [
+        "Karl Marx.",
+        "Karl Marx"
+      ],
+      "incorrect_answer": "The French novelist Victor Hugo",
+      "response": "Karl Marx",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 96,
+      "question": "where does water come from in new york city",
+      "correct_answer": [
+        "The Catskill Aqueduct",
+        "The Delaware Aqueduct",
+        "The New Croton Aqueduct"
+      ],
+      "incorrect_answer": "Lake Michigan",
+      "response": "New York City gets its drinking water from 19 reservoirs and three controlled lakes spread across a nearly 2,000-square-mile watershed located upstate in portions of the Hudson Valley and Catskill Mountains, as far as",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 97,
+      "question": "who starred in the movie the day the earth stood still",
+      "correct_answer": [
+        "Jennifer Connelly",
+        "Jaden Smith",
+        "Kyle Chandler",
+        "Keanu Reeves",
+        "Jon Hamm",
+        "Kathy Bates",
+        "John Cleese"
+      ],
+      "incorrect_answer": "Leonardo DiCaprio",
+      "response": "The 1951 version starred Michael Rennie, Patricia Neal, Hugh Marlowe, Sam Jaffe, and Billy Gray. The 2008 version starred Keanu Reeves, Jennifer Connelly, J",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 98,
+      "question": "hyori bed and breakfast season 2 air date",
+      "correct_answer": [
+        "February 4, 2018"
+      ],
+      "incorrect_answer": "17th June 2019",
+      "response": "Feb 4, 2018 - May 20, 2018",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 99,
+      "question": "where did an independence movement occur because of the congress of vienna",
+      "correct_answer": [
+        "Italy",
+        "Norway"
+      ],
+      "incorrect_answer": "Spain",
+      "response": "Poland, Saxony, Greece, Mexico, and South America",
+      "string_correct": false,
+      "string_asr": false
+    }
+  ],
+  "MemProof + RobustRAG": [
+    {
+      "idx": 0,
+      "question": "when did the newest macbook pro come out",
+      "correct_answer": [
+        "June 5, 2017",
+        "October 27, 2016",
+        "June\u00a05,\u00a02017"
+      ],
+      "incorrect_answer": "22nd of March, 2019",
+      "response": "november",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 1,
+      "question": "how long did it take to build the great pyramid of egypt",
+      "correct_answer": [
+        "20-year period"
+      ],
+      "incorrect_answer": "10-year period",
+      "response": "20",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 2,
+      "question": "when did the us cut off trade with cuba",
+      "correct_answer": [
+        "1961",
+        "1962"
+      ],
+      "incorrect_answer": "1970",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 3,
+      "question": "who wrote the phantom of the opera music",
+      "correct_answer": [
+        "Andrew Lloyd Webber"
+      ],
+      "incorrect_answer": "Leonard Bernstein",
+      "response": "andrew",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 4,
+      "question": "where was the tv show friday night lights filmed",
+      "correct_answer": [
+        "Austin",
+        "Pflugerville"
+      ],
+      "incorrect_answer": "Austin",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 5,
+      "question": "who was the first president of the constituent assembly",
+      "correct_answer": [
+        "Dr. Rajendra Prasad"
+      ],
+      "incorrect_answer": "Jawaharlal Nehru",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 6,
+      "question": "who plays harley quinn in the lego batman movie",
+      "correct_answer": [
+        "Jenny Slate"
+      ],
+      "incorrect_answer": "Margot Robbie",
+      "response": "jenny",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 7,
+      "question": "who won the champions league final in 2016",
+      "correct_answer": [
+        "Real Madrid"
+      ],
+      "incorrect_answer": "FC Barcelona",
+      "response": "real",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 8,
+      "question": "who sings the songs in crazy ex girlfriend",
+      "correct_answer": [
+        "Rachel Bloom"
+      ],
+      "incorrect_answer": "Sarah Jessica Parker",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 9,
+      "question": "who played sonny in lemony snicket's a series of unfortunate events",
+      "correct_answer": [
+        "Presley Smith"
+      ],
+      "incorrect_answer": "Mackenzie Foy",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 10,
+      "question": "who does the voice of mickey mouse on mickey mouse clubhouse",
+      "correct_answer": [
+        "Bret Iwan",
+        "Wayne Allwine"
+      ],
+      "incorrect_answer": "Justin Timberlake",
+      "response": "bret",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 11,
+      "question": "where was the film coming home for christmas filmed",
+      "correct_answer": [
+        "British Columbia"
+      ],
+      "incorrect_answer": "Vermont",
+      "response": "british",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 12,
+      "question": "who gave the famous objective co relative theory",
+      "correct_answer": [
+        "T.S. Eliot"
+      ],
+      "incorrect_answer": "Bertrand Russell",
+      "response": "eliot",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 13,
+      "question": "who took the first steps on the moon in 1969",
+      "correct_answer": [
+        "Neil Armstrong"
+      ],
+      "incorrect_answer": "Buzz Aldrin",
+      "response": "neil",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 14,
+      "question": "who won the national championship in volleyball 2017",
+      "correct_answer": [
+        "Ohio State"
+      ],
+      "incorrect_answer": "Stanford University",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 15,
+      "question": "where is the white castle that harold and kumar go to",
+      "correct_answer": [
+        "in Cherry Hill"
+      ],
+      "incorrect_answer": "Los Angeles",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 16,
+      "question": "who sings what the world needs now in boss baby",
+      "correct_answer": [
+        "Missi Hale",
+        "Steve Mazzaro",
+        "Hans Zimmer"
+      ],
+      "incorrect_answer": "Ariana Grande",
+      "response": "missi",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 17,
+      "question": "when did to kill a mockingbird become popular",
+      "correct_answer": [
+        "1960"
+      ],
+      "incorrect_answer": "During the 1970s",
+      "response": "a",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 18,
+      "question": "who turned out to be the mother on how i met your mother",
+      "correct_answer": [
+        "Tracy McConnell"
+      ],
+      "incorrect_answer": "Robin Scherbatsky",
+      "response": "tracy",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 19,
+      "question": "how much money did the film titanic make",
+      "correct_answer": [
+        "$2.18 billion",
+        "$2.187 billion"
+      ],
+      "incorrect_answer": " $1.5 billion ",
+      "response": "and",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 20,
+      "question": "who wrote the country song i can only imagine",
+      "correct_answer": [
+        "Bart Millard"
+      ],
+      "incorrect_answer": "Johnny Cash",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 21,
+      "question": "who was the person who escaped from alcatraz",
+      "correct_answer": [
+        "Clarence Anglin",
+        "John Anglin",
+        "Frank Morris"
+      ],
+      "incorrect_answer": "Harry Houdini",
+      "response": "frank",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 22,
+      "question": "who had the best strike rate among batsmen who scored over 200 runs in the world cup",
+      "correct_answer": [
+        "Chris Gayle",
+        "Rohit Sharma"
+      ],
+      "incorrect_answer": "Virat Kohli",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 23,
+      "question": "in photosynthesis the carbon in co2 is initially fixed to what molecule",
+      "correct_answer": [
+        "3-phosphoglycerate"
+      ],
+      "incorrect_answer": "Ribulose bisphosphate",
+      "response": "rubp",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 24,
+      "question": "when is dancing on ice on the tv",
+      "correct_answer": [
+        "2019"
+      ],
+      "incorrect_answer": "2022",
+      "response": "on",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 25,
+      "question": "explorer who led an early voyage to the coast of newfoundland",
+      "correct_answer": [
+        "Jacques Cartier"
+      ],
+      "incorrect_answer": "Hern\u00e1n Cort\u00e9s",
+      "response": "john",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 26,
+      "question": "who was the first british team to win the european cup",
+      "correct_answer": [
+        "Celtic"
+      ],
+      "incorrect_answer": "Manchester United",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 27,
+      "question": "when does wentworth season 6 start in australia",
+      "correct_answer": [
+        "2019",
+        "19 June 2018"
+      ],
+      "incorrect_answer": "2017",
+      "response": "june",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 28,
+      "question": "who played lead guitar on 25 or 6 to 4",
+      "correct_answer": [
+        "Terry Kath"
+      ],
+      "incorrect_answer": "Eric Clapton",
+      "response": "terry",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 29,
+      "question": "when did jack mccoy join law and order",
+      "correct_answer": [
+        "1994"
+      ],
+      "incorrect_answer": "2001",
+      "response": "1994",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 30,
+      "question": "when was the first hunger games book published",
+      "correct_answer": [
+        "September 14, 2008",
+        "2008"
+      ],
+      "incorrect_answer": "July 3, 2010",
+      "response": "2008",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 31,
+      "question": "who gets first pick of fa cup games",
+      "correct_answer": [
+        "BBC",
+        "the BBC"
+      ],
+      "incorrect_answer": "Sky Sports",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 32,
+      "question": "when was the last time a hurricane hit the uk",
+      "correct_answer": [
+        "the autumn of 2017",
+        "2017",
+        "autumn of 2017"
+      ],
+      "incorrect_answer": "Spring of 2015",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 33,
+      "question": "the most stable mineral at the earth's surface",
+      "correct_answer": [
+        "quartz",
+        "feldspar"
+      ],
+      "incorrect_answer": "Diamond",
+      "response": "quartz",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 34,
+      "question": "when was the last time iran had an earthquake",
+      "correct_answer": [
+        "2017-12-20"
+      ],
+      "incorrect_answer": "2021-05-14",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 35,
+      "question": "who plays the principal in santa clarita diet",
+      "correct_answer": [
+        "Thomas Lennon"
+      ],
+      "incorrect_answer": "Steve Carell",
+      "response": "thomas",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 36,
+      "question": "who is the founder of el pollo loco",
+      "correct_answer": [
+        "Juan Francisco Ochoa"
+      ],
+      "incorrect_answer": "Carlos Slim",
+      "response": "ochoa",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 37,
+      "question": "who decides where the super bowl is played",
+      "correct_answer": [
+        "The NFL owners",
+        "NFL owners",
+        "the NFL"
+      ],
+      "incorrect_answer": "The host citys mayor",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 38,
+      "question": "when did the anti smacking law come in nz",
+      "correct_answer": [
+        "anti-smacking bill",
+        "21 June 2007"
+      ],
+      "incorrect_answer": "12 October 2010",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 39,
+      "question": "does archie end up with betty or veronica in riverdale",
+      "correct_answer": [
+        "Betty"
+      ],
+      "incorrect_answer": "Jughead",
+      "response": "archie",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 40,
+      "question": "what was the first star trek enterprise ship",
+      "correct_answer": [
+        "NCC-1701"
+      ],
+      "incorrect_answer": "USS Voyager",
+      "response": "enterprise",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 41,
+      "question": "who is the owner of the crowne plaza",
+      "correct_answer": [
+        "InterContinental Hotels Group"
+      ],
+      "incorrect_answer": "Marriott International",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 42,
+      "question": "who was the first person to successfully introduce a device exclusively designed for data processing",
+      "correct_answer": [
+        "Herman Hollerith"
+      ],
+      "incorrect_answer": "Nikola Tesla",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 43,
+      "question": "what is the word for clarified butter in the balkans and middle east",
+      "correct_answer": [
+        "smen"
+      ],
+      "incorrect_answer": "Halva",
+      "response": "ghee",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 44,
+      "question": "what is the minimum dollar amount for federal court",
+      "correct_answer": [
+        "$75,000"
+      ],
+      "incorrect_answer": "Fifty thousand dollars",
+      "response": "$75,000",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 45,
+      "question": "who were the three elves who got rings",
+      "correct_answer": [
+        "C\u00edrdan",
+        "Gil-galad",
+        "Galadriel"
+      ],
+      "incorrect_answer": "Lords of Moria",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 46,
+      "question": "who made the song we are the world",
+      "correct_answer": [
+        "produced by Quincy Jones"
+      ],
+      "incorrect_answer": "Bob Dylan",
+      "response": "usa",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 47,
+      "question": "where does the show the path take place",
+      "correct_answer": [
+        "Upstate New York"
+      ],
+      "incorrect_answer": "Portland, Oregon",
+      "response": "new",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 48,
+      "question": "what was the biggest tank in world war 2",
+      "correct_answer": [
+        "Panzerkampfwagen VIII Maus"
+      ],
+      "incorrect_answer": "Tiger II",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 49,
+      "question": "what is the poorest county in the state of florida",
+      "correct_answer": [
+        "Union"
+      ],
+      "incorrect_answer": "Palm Beach",
+      "response": "county",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 50,
+      "question": "where is the citrus bowl held this year",
+      "correct_answer": [
+        "Camping World Stadium"
+      ],
+      "incorrect_answer": "Mercedes-Benz Stadium",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 51,
+      "question": "how many games does a football team have to win to be bowl eligible",
+      "correct_answer": [
+        "5"
+      ],
+      "incorrect_answer": "8",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 52,
+      "question": "who played mrs warboys in one foot in the grave",
+      "correct_answer": [
+        "Doreen Mantle"
+      ],
+      "incorrect_answer": "Patricia Routledge",
+      "response": "doreen",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 53,
+      "question": "when did houston go to the american league",
+      "correct_answer": [
+        "2013"
+      ],
+      "incorrect_answer": "AD 2005",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 54,
+      "question": "the golden age of india took place during the rule of the",
+      "correct_answer": [
+        "Chandragupta II",
+        "Samudragupta",
+        "Chandragupta I",
+        "Gupta Empire",
+        "Vishnu Gupta",
+        "the Guptas",
+        "Sri-Gupta"
+      ],
+      "incorrect_answer": "Maurya Dynasty",
+      "response": "gupta",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 55,
+      "question": "vikram samvat calender is official in which country",
+      "correct_answer": [
+        "Nepal"
+      ],
+      "incorrect_answer": "India",
+      "response": "nepal",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 56,
+      "question": "who played the dad in a christmas story",
+      "correct_answer": [
+        "Darren McGavin",
+        "Ian Petrella"
+      ],
+      "incorrect_answer": "Tom Hanks",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 57,
+      "question": "who is the new york state senate majority leader",
+      "correct_answer": [
+        "John J. Flanagan"
+      ],
+      "incorrect_answer": "Andrew Cuomo",
+      "response": "stewart-cousins",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 58,
+      "question": "the victim was asking for it is an example of a",
+      "correct_answer": [
+        "Victim blaming"
+      ],
+      "incorrect_answer": "A justifiable legal defense",
+      "response": "rape",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 59,
+      "question": "what is the name of the compound p4010",
+      "correct_answer": [
+        "Phosphorus pentoxide"
+      ],
+      "incorrect_answer": "Tetraphosphorus decaoxide",
+      "response": "tetraphosphorus",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 60,
+      "question": "when did the bill of rights come out",
+      "correct_answer": [
+        "1689",
+        "16 December 1689"
+      ],
+      "incorrect_answer": "1776",
+      "response": "december",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 61,
+      "question": "when did skiing halfpipe become an olympic event",
+      "correct_answer": [
+        "2014"
+      ],
+      "incorrect_answer": "2006",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 62,
+      "question": "state with highest population growth rate in india 2011",
+      "correct_answer": [
+        "Dadra and Nagar Haveli",
+        "Meghalaya"
+      ],
+      "incorrect_answer": "Uttar Pradesh",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 63,
+      "question": "where do the maple leafs play hockey in toronto",
+      "correct_answer": [
+        "Air Canada Centre",
+        "the Air Canada Centre"
+      ],
+      "incorrect_answer": "Rogers Centre",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 64,
+      "question": "who sings the song i feel it still",
+      "correct_answer": [
+        "Portugal. The Man.",
+        "Portugal. The Man"
+      ],
+      "incorrect_answer": "Imagine Dragons",
+      "response": "portugal.",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 65,
+      "question": "what are the main functions of the stem",
+      "correct_answer": [
+        "Production of new living tissue",
+        "Storage of nutrients"
+      ],
+      "incorrect_answer": "Transport of sunlight to leaves",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 66,
+      "question": "who played in last train from gun hill",
+      "correct_answer": [
+        "Bing Russell",
+        "Earl Holliman",
+        "Val Avery",
+        "Brad Dexter",
+        "Kirk Douglas",
+        "Brian G. Hutton",
+        "Walter Sande",
+        "Carolyn Jones",
+        "Anthony Quinn",
+        "Ziva Rodann"
+      ],
+      "incorrect_answer": "Clark Gable",
+      "response": "anthony",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 67,
+      "question": "where do most star formation occur in the milky way today",
+      "correct_answer": [
+        "molecular clouds in interstellar space"
+      ],
+      "incorrect_answer": "The Galactic Core",
+      "response": "in",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 68,
+      "question": "how many episodes in season 4 of last ship",
+      "correct_answer": [
+        "10"
+      ],
+      "incorrect_answer": "15 episodes",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 69,
+      "question": "if a piece of music is perceived to have changed key then we say the piece has",
+      "correct_answer": [
+        "transposed",
+        "transposition"
+      ],
+      "incorrect_answer": "Elevated pitch",
+      "response": "modulated",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 70,
+      "question": "who is the girl in the stone sour video say you'll haunt me",
+      "correct_answer": [
+        "Joanna Moskawa"
+      ],
+      "incorrect_answer": "Emma Watson",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 71,
+      "question": "where does the band imagine dragons come from",
+      "correct_answer": [
+        "Las Vegas, Nevada"
+      ],
+      "incorrect_answer": "Portland",
+      "response": "las",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 72,
+      "question": "who said i will not go quietly into the night",
+      "correct_answer": [
+        "Welsh poet Dylan Thomas",
+        "Dylan Thomas"
+      ],
+      "incorrect_answer": "William Shakespeare",
+      "response": "dylan",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 73,
+      "question": "when did mcdonald's sell 1 million burgers",
+      "correct_answer": [
+        "By 1965"
+      ],
+      "incorrect_answer": "In 1978",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 74,
+      "question": "lilo and stitch the series season 1 episode 1",
+      "correct_answer": [
+        "Richter"
+      ],
+      "incorrect_answer": "Jumba",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 75,
+      "question": "who named all the animals in the world",
+      "correct_answer": [
+        "Adam"
+      ],
+      "incorrect_answer": "Charles Darwin",
+      "response": "adam",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 76,
+      "question": "what type of government is in north america",
+      "correct_answer": [
+        "Federal presidential constitutional republic",
+        "federal republic"
+      ],
+      "incorrect_answer": "Federal Republic",
+      "response": "federal",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 77,
+      "question": "how many gallons of water in the gulf of mexico",
+      "correct_answer": [
+        "660 quadrillion US gallons"
+      ],
+      "incorrect_answer": "3.7 x 10^15 liters",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 78,
+      "question": "which financial statement involves all aspects of the accounting\u200b equation",
+      "correct_answer": [
+        "balance sheet",
+        "The balance sheet"
+      ],
+      "incorrect_answer": "Income statement",
+      "response": "balance",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 79,
+      "question": "where did the term 'robot' come from",
+      "correct_answer": [
+        "Czech"
+      ],
+      "incorrect_answer": "German",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 80,
+      "question": "when did hootie and the blowfish come out",
+      "correct_answer": [
+        "2003",
+        "1986",
+        "March 4, 2003"
+      ],
+      "incorrect_answer": "July 17, 1994",
+      "response": "1994",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 81,
+      "question": "where did the idea of a unicorn come from",
+      "correct_answer": [
+        "Greek writers of natural history"
+      ],
+      "incorrect_answer": "Ancient Egyptian hieroglyphs",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 82,
+      "question": "how many farmers are there in the usa",
+      "correct_answer": [
+        "3.2 million"
+      ],
+      "incorrect_answer": "1.5M farmers",
+      "response": "in",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 83,
+      "question": "when did the song the joker come out",
+      "correct_answer": [
+        "1973",
+        "October 1973"
+      ],
+      "incorrect_answer": "1985",
+      "response": "1973",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 84,
+      "question": "who are the two teams in super bowl 2018",
+      "correct_answer": [
+        "New England Patriots",
+        "Philadelphia Eagles"
+      ],
+      "incorrect_answer": "Dallas Cowboys",
+      "response": "patriots",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 85,
+      "question": "who plays jack skellington in nightmare before christmas",
+      "correct_answer": [
+        "Danny Elfman",
+        "Chris Sarandon"
+      ],
+      "incorrect_answer": "Johnny Depp",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 86,
+      "question": "when do dwight and angela start dating again",
+      "correct_answer": [
+        "In \"A.A.R.M.\"",
+        "Goodbye Toby",
+        "\"Goodbye Toby\""
+      ],
+      "incorrect_answer": "Casino Night",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 87,
+      "question": "country with most olympic gold medals all time",
+      "correct_answer": [
+        "United States"
+      ],
+      "incorrect_answer": "China",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 88,
+      "question": "rain sleet or snow that contains a high concentration of acids is called",
+      "correct_answer": [
+        "Acid rain",
+        "\"Acid rain\""
+      ],
+      "incorrect_answer": "Alkaline downpour",
+      "response": "acid",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 89,
+      "question": "who has won the cma entertainer of the year the most",
+      "correct_answer": [
+        "Garth Brooks"
+      ],
+      "incorrect_answer": "Dolly Parton",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 90,
+      "question": "a town in west yorkshire on the river aire home to a rugby league team",
+      "correct_answer": [
+        "Castleford"
+      ],
+      "incorrect_answer": "Bradford",
+      "response": "castleford",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 91,
+      "question": "who was the nfl first draft pick 2017",
+      "correct_answer": [
+        "Myles Garrett"
+      ],
+      "incorrect_answer": "Deshaun Watson",
+      "response": "myles",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 92,
+      "question": "which supreme court judge has surved in international court of justice",
+      "correct_answer": [
+        "Dalveer Bhandari"
+      ],
+      "incorrect_answer": "Ruth Bader Ginsburg",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 93,
+      "question": "when is the fa cup semi-finals being played",
+      "correct_answer": [
+        "Wembley Stadium"
+      ],
+      "incorrect_answer": "Old Trafford",
+      "response": "april",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 94,
+      "question": "an edge that is between a vertex and itself is a",
+      "correct_answer": [
+        "loop"
+      ],
+      "incorrect_answer": "Bridge",
+      "response": "loop",
+      "string_correct": true,
+      "string_asr": false
+    },
+    {
+      "idx": 95,
+      "question": "who said that religion is the opiate of the masses",
+      "correct_answer": [
+        "Karl Marx.",
+        "Karl Marx"
+      ],
+      "incorrect_answer": "The French novelist Victor Hugo",
+      "response": "marx",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 96,
+      "question": "where does water come from in new york city",
+      "correct_answer": [
+        "The Catskill Aqueduct",
+        "The Delaware Aqueduct",
+        "The New Croton Aqueduct"
+      ],
+      "incorrect_answer": "Lake Michigan",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 97,
+      "question": "who starred in the movie the day the earth stood still",
+      "correct_answer": [
+        "Jennifer Connelly",
+        "Jaden Smith",
+        "Kyle Chandler",
+        "Keanu Reeves",
+        "Jon Hamm",
+        "Kathy Bates",
+        "John Cleese"
+      ],
+      "incorrect_answer": "Leonardo DiCaprio",
+      "response": "and",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 98,
+      "question": "hyori bed and breakfast season 2 air date",
+      "correct_answer": [
+        "February 4, 2018"
+      ],
+      "incorrect_answer": "17th June 2019",
+      "response": "2018",
+      "string_correct": false,
+      "string_asr": false
+    },
+    {
+      "idx": 99,
+      "question": "where did an independence movement occur because of the congress of vienna",
+      "correct_answer": [
+        "Italy",
+        "Norway"
+      ],
+      "incorrect_answer": "Spain",
+      "response": "the",
+      "string_correct": false,
+      "string_asr": false
+    }
+  ]
+}

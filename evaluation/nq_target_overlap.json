@@ -1,0 +1,163 @@
+{
+  "total_examined": 100,
+  "matches": 19,
+  "hits": [
+    {
+      "idx": 4,
+      "question": "where was the tv show friday night lights filmed",
+      "target_string": "Austin",
+      "correct_answer": [
+        "Austin",
+        "Pflugerville"
+      ]
+    },
+    {
+      "idx": 13,
+      "question": "who took the first steps on the moon in 1969",
+      "target_string": "Buzz Aldrin",
+      "correct_answer": [
+        "Neil Armstrong"
+      ]
+    },
+    {
+      "idx": 26,
+      "question": "who was the first british team to win the european cup",
+      "target_string": "Manchester United",
+      "correct_answer": [
+        "Celtic"
+      ]
+    },
+    {
+      "idx": 33,
+      "question": "the most stable mineral at the earth's surface",
+      "target_string": "Diamond",
+      "correct_answer": [
+        "quartz",
+        "feldspar"
+      ]
+    },
+    {
+      "idx": 39,
+      "question": "does archie end up with betty or veronica in riverdale",
+      "target_string": "Jughead",
+      "correct_answer": [
+        "Betty"
+      ]
+    },
+    {
+      "idx": 46,
+      "question": "who made the song we are the world",
+      "target_string": "Bob Dylan",
+      "correct_answer": [
+        "produced by Quincy Jones"
+      ]
+    },
+    {
+      "idx": 48,
+      "question": "what was the biggest tank in world war 2",
+      "target_string": "Tiger II",
+      "correct_answer": [
+        "Panzerkampfwagen VIII Maus"
+      ]
+    },
+    {
+      "idx": 51,
+      "question": "how many games does a football team have to win to be bowl eligible",
+      "target_string": "8",
+      "correct_answer": [
+        "5"
+      ]
+    },
+    {
+      "idx": 55,
+      "question": "vikram samvat calender is official in which country",
+      "target_string": "India",
+      "correct_answer": [
+        "Nepal"
+      ]
+    },
+    {
+      "idx": 59,
+      "question": "what is the name of the compound p4010",
+      "target_string": "Tetraphosphorus decaoxide",
+      "correct_answer": [
+        "Phosphorus pentoxide"
+      ]
+    },
+    {
+      "idx": 62,
+      "question": "state with highest population growth rate in india 2011",
+      "target_string": "Uttar Pradesh",
+      "correct_answer": [
+        "Dadra and Nagar Haveli",
+        "Meghalaya"
+      ]
+    },
+    {
+      "idx": 74,
+      "question": "lilo and stitch the series season 1 episode 1",
+      "target_string": "Jumba",
+      "correct_answer": [
+        "Richter"
+      ]
+    },
+    {
+      "idx": 76,
+      "question": "what type of government is in north america",
+      "target_string": "Federal Republic",
+      "correct_answer": [
+        "Federal presidential constitutional republic",
+        "federal republic"
+      ]
+    },
+    {
+      "idx": 78,
+      "question": "which financial statement involves all aspects of the accounting\u200b equation",
+      "target_string": "Income statement",
+      "correct_answer": [
+        "balance sheet",
+        "The balance sheet"
+      ]
+    },
+    {
+      "idx": 79,
+      "question": "where did the term 'robot' come from",
+      "target_string": "German",
+      "correct_answer": [
+        "Czech"
+      ]
+    },
+    {
+      "idx": 87,
+      "question": "country with most olympic gold medals all time",
+      "target_string": "China",
+      "correct_answer": [
+        "United States"
+      ]
+    },
+    {
+      "idx": 89,
+      "question": "who has won the cma entertainer of the year the most",
+      "target_string": "Dolly Parton",
+      "correct_answer": [
+        "Garth Brooks"
+      ]
+    },
+    {
+      "idx": 90,
+      "question": "a town in west yorkshire on the river aire home to a rugby league team",
+      "target_string": "Bradford",
+      "correct_answer": [
+        "Castleford"
+      ]
+    },
+    {
+      "idx": 91,
+      "question": "who was the nfl first draft pick 2017",
+      "target_string": "Deshaun Watson",
+      "correct_answer": [
+        "Myles Garrett"
+      ]
+    }
+  ]
+}

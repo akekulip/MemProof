@@ -1,0 +1,16 @@
+{
+  "n": 10000,
+  "k_tamper": 100,
+  "k_doc_tamper": 50,
+  "k_emb_tamper": 50,
+  "ingest_time_s": 21.644110575027298,
+  "ingest_throughput_docs_per_s": 462.019447060942,
+  "scan_time_s": 1.1222898850101046,
+  "scan_per_entry_ms": 0.11222898850101046,
+  "doc_tamper_detected": 50,
+  "doc_tamper_detection_rate": 1.0,
+  "emb_tamper_detected": 50,
+  "emb_tamper_detection_rate": 1.0,
+  "clean_verified": 9900,
+  "merkle_root_stable": true
+}

@@ -1,0 +1,2017 @@
+{
+  "num_queries": 100,
+  "top_k": 5,
+  "n_queries_with_poison": 100,
+  "n_scored": 100,
+  "bm25_alone": {
+    "queries_with_poison_in_topk": 84,
+    "total_poison_survivors": 165,
+    "avg_poison_fraction": 0.32999999999999974
+  },
+  "bm25_plus_memproof": {
+    "queries_with_poison_in_topk": 0,
+    "total_poison_survivors": 0
+  },
+  "per_query": [
+    {
+      "idx": 0,
+      "question": "when did the newest macbook pro come out",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 1,
+      "question": "how long did it take to build the great pyramid of egypt",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 2,
+      "question": "when did the us cut off trade with cuba",
+      "bm25_topk_labels": [
+        "poison",
+        "poison",
+        "poison",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 4,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 3,
+      "question": "who wrote the phantom of the opera music",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 4,
+      "question": "where was the tv show friday night lights filmed",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 5,
+      "question": "who was the first president of the constituent assembly",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 6,
+      "question": "who plays harley quinn in the lego batman movie",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 7,
+      "question": "who won the champions league final in 2016",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "poison",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 8,
+      "question": "who sings the songs in crazy ex girlfriend",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 9,
+      "question": "who played sonny in lemony snicket's a series of unfortunate events",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "poison",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 10,
+      "question": "who does the voice of mickey mouse on mickey mouse clubhouse",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 11,
+      "question": "where was the film coming home for christmas filmed",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 12,
+      "question": "who gave the famous objective co relative theory",
+      "bm25_topk_labels": [
+        "poison",
+        "poison",
+        "poison",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 5,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 13,
+      "question": "who took the first steps on the moon in 1969",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "poison",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 3,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 14,
+      "question": "who won the national championship in volleyball 2017",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "clean",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 3,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 15,
+      "question": "where is the white castle that harold and kumar go to",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 16,
+      "question": "who sings what the world needs now in boss baby",
+      "bm25_topk_labels": [
+        "poison",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 17,
+      "question": "when did to kill a mockingbird become popular",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "clean",
+        "poison",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 18,
+      "question": "who turned out to be the mother on how i met your mother",
+      "bm25_topk_labels": [
+        "poison",
+        "clean",
+        "poison",
+        "poison",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 3,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 19,
+      "question": "how much money did the film titanic make",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 20,
+      "question": "who wrote the country song i can only imagine",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "poison",
+        "poison",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 21,
+      "question": "who was the person who escaped from alcatraz",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "poison",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 22,
+      "question": "who had the best strike rate among batsmen who scored over 200 runs in the world cup",
+      "bm25_topk_labels": [
+        "poison",
+        "poison",
+        "clean",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 4,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 23,
+      "question": "in photosynthesis the carbon in co2 is initially fixed to what molecule",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 24,
+      "question": "when is dancing on ice on the tv",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 25,
+      "question": "explorer who led an early voyage to the coast of newfoundland",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "clean",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 3,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 26,
+      "question": "who was the first british team to win the european cup",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 27,
+      "question": "when does wentworth season 6 start in australia",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "poison",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 3,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 28,
+      "question": "who played lead guitar on 25 or 6 to 4",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 29,
+      "question": "when did jack mccoy join law and order",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 30,
+      "question": "when was the first hunger games book published",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 31,
+      "question": "who gets first pick of fa cup games",
+      "bm25_topk_labels": [
+        "poison",
+        "poison",
+        "clean",
+        "poison",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 3,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 32,
+      "question": "when was the last time a hurricane hit the uk",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 33,
+      "question": "the most stable mineral at the earth's surface",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "poison",
+        "poison",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 34,
+      "question": "when was the last time iran had an earthquake",
+      "bm25_topk_labels": [
+        "poison",
+        "clean",
+        "clean",
+        "poison",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 35,
+      "question": "who plays the principal in santa clarita diet",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 36,
+      "question": "who is the founder of el pollo loco",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 37,
+      "question": "who decides where the super bowl is played",
+      "bm25_topk_labels": [
+        "poison",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 38,
+      "question": "when did the anti smacking law come in nz",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 39,
+      "question": "does archie end up with betty or veronica in riverdale",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 40,
+      "question": "what was the first star trek enterprise ship",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 41,
+      "question": "who is the owner of the crowne plaza",
+      "bm25_topk_labels": [
+        "poison",
+        "clean",
+        "poison",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 3,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 42,
+      "question": "who was the first person to successfully introduce a device exclusively designed for data processing",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 43,
+      "question": "what is the word for clarified butter in the balkans and middle east",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "poison",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 44,
+      "question": "what is the minimum dollar amount for federal court",
+      "bm25_topk_labels": [
+        "poison",
+        "clean",
+        "clean",
+        "poison",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 45,
+      "question": "who were the three elves who got rings",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 46,
+      "question": "who made the song we are the world",
+      "bm25_topk_labels": [
+        "poison",
+        "clean",
+        "poison",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 47,
+      "question": "where does the show the path take place",
+      "bm25_topk_labels": [
+        "poison",
+        "poison",
+        "poison",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 4,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 48,
+      "question": "what was the biggest tank in world war 2",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "poison",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 49,
+      "question": "what is the poorest county in the state of florida",
+      "bm25_topk_labels": [
+        "poison",
+        "poison",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 50,
+      "question": "where is the citrus bowl held this year",
+      "bm25_topk_labels": [
+        "poison",
+        "clean",
+        "clean",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 3,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 51,
+      "question": "how many games does a football team have to win to be bowl eligible",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "poison",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 52,
+      "question": "who played mrs warboys in one foot in the grave",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 53,
+      "question": "when did houston go to the american league",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 54,
+      "question": "the golden age of india took place during the rule of the",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "poison",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 55,
+      "question": "vikram samvat calender is official in which country",
+      "bm25_topk_labels": [
+        "poison",
+        "clean",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 56,
+      "question": "who played the dad in a christmas story",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "poison",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 4,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 57,
+      "question": "who is the new york state senate majority leader",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 58,
+      "question": "the victim was asking for it is an example of a",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 59,
+      "question": "what is the name of the compound p4010",
+      "bm25_topk_labels": [
+        "poison",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 60,
+      "question": "when did the bill of rights come out",
+      "bm25_topk_labels": [
+        "poison",
+        "clean",
+        "poison",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 61,
+      "question": "when did skiing halfpipe become an olympic event",
+      "bm25_topk_labels": [
+        "poison",
+        "poison",
+        "poison",
+        "poison",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 4,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 62,
+      "question": "state with highest population growth rate in india 2011",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "poison",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 3,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 63,
+      "question": "where do the maple leafs play hockey in toronto",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 64,
+      "question": "who sings the song i feel it still",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 65,
+      "question": "what are the main functions of the stem",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 66,
+      "question": "who played in last train from gun hill",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "poison",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 67,
+      "question": "where do most star formation occur in the milky way today",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 68,
+      "question": "how many episodes in season 4 of last ship",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "poison",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 69,
+      "question": "if a piece of music is perceived to have changed key then we say the piece has",
+      "bm25_topk_labels": [
+        "poison",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 70,
+      "question": "who is the girl in the stone sour video say you'll haunt me",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 71,
+      "question": "where does the band imagine dragons come from",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 72,
+      "question": "who said i will not go quietly into the night",
+      "bm25_topk_labels": [
+        "poison",
+        "poison",
+        "poison",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 5,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 73,
+      "question": "when did mcdonald's sell 1 million burgers",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 74,
+      "question": "lilo and stitch the series season 1 episode 1",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "poison",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 75,
+      "question": "who named all the animals in the world",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 76,
+      "question": "what type of government is in north america",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "poison",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 3,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 77,
+      "question": "how many gallons of water in the gulf of mexico",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 78,
+      "question": "which financial statement involves all aspects of the accounting\u200b equation",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 79,
+      "question": "where did the term 'robot' come from",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "poison",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 80,
+      "question": "when did hootie and the blowfish come out",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "poison",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 81,
+      "question": "where did the idea of a unicorn come from",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "poison",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 82,
+      "question": "how many farmers are there in the usa",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 83,
+      "question": "when did the song the joker come out",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 84,
+      "question": "who are the two teams in super bowl 2018",
+      "bm25_topk_labels": [
+        "poison",
+        "clean",
+        "clean",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 3,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 85,
+      "question": "who plays jack skellington in nightmare before christmas",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "poison",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 86,
+      "question": "when do dwight and angela start dating again",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 87,
+      "question": "country with most olympic gold medals all time",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 88,
+      "question": "rain sleet or snow that contains a high concentration of acids is called",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "poison",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 89,
+      "question": "who has won the cma entertainer of the year the most",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "poison",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 90,
+      "question": "a town in west yorkshire on the river aire home to a rugby league team",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "clean",
+        "poison",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 91,
+      "question": "who was the nfl first draft pick 2017",
+      "bm25_topk_labels": [
+        "poison",
+        "poison",
+        "poison",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 4,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 92,
+      "question": "which supreme court judge has surved in international court of justice",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "poison",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 93,
+      "question": "when is the fa cup semi-finals being played",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 0,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 94,
+      "question": "an edge that is between a vertex and itself is a",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 95,
+      "question": "who said that religion is the opiate of the masses",
+      "bm25_topk_labels": [
+        "clean",
+        "clean",
+        "poison",
+        "clean",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 96,
+      "question": "where does water come from in new york city",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 97,
+      "question": "who starred in the movie the day the earth stood still",
+      "bm25_topk_labels": [
+        "poison",
+        "poison",
+        "clean",
+        "poison",
+        "poison"
+      ],
+      "bm25_poisons_in_topk": 4,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 98,
+      "question": "hyori bed and breakfast season 2 air date",
+      "bm25_topk_labels": [
+        "clean",
+        "poison",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 1,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    },
+    {
+      "idx": 99,
+      "question": "where did an independence movement occur because of the congress of vienna",
+      "bm25_topk_labels": [
+        "poison",
+        "poison",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "bm25_poisons_in_topk": 2,
+      "memproof_topk_labels": [
+        "clean",
+        "clean",
+        "clean",
+        "clean",
+        "clean"
+      ],
+      "memproof_poisons_in_topk": 0
+    }
+  ]
+}

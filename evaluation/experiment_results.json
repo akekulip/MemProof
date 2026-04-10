@@ -1,0 +1,76 @@
+{
+  "exp1": {
+    "poisonedrag_baseline": 1.0,
+    "poisonedrag_protected": 0.0,
+    "minja_baseline": 1.0,
+    "minja_protected": 0.0
+  },
+  "exp2": {
+    "poison_counts": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      10
+    ],
+    "baseline_rates": [
+      0.8,
+      1.7,
+      2.7,
+      4.7,
+      5.0,
+      5.0
+    ],
+    "protected_rates": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "exp3": {
+    "corpus_sizes": [
+      100,
+      200,
+      500,
+      1000
+    ],
+    "baseline_latencies_ms": [
+      10.685310803819448,
+      14.09560379688628,
+      26.61617019912228,
+      67.42898580268957
+    ],
+    "protected_latencies_ms": [
+      10.728074796497822,
+      14.267309801653028,
+      28.916849405504763,
+      61.50290540535934
+    ]
+  },
+  "exp4_ablation": [
+    {
+      "name": "No Defense",
+      "asr": 1.0,
+      "proof_rate": 0.0
+    },
+    {
+      "name": "Trust Filter Only",
+      "asr": 0.0,
+      "proof_rate": 0.0
+    },
+    {
+      "name": "Trust + Commitment",
+      "asr": 0.0,
+      "proof_rate": 0.0
+    },
+    {
+      "name": "Full MemProof",
+      "asr": 0.0,
+      "proof_rate": 1.0
+    }
+  ]
+}

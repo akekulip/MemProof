@@ -1,0 +1,37 @@
+{
+  "generator": "claude-haiku-4-5",
+  "dataset": "open_nq",
+  "num_queries": 100,
+  "top_k": 5,
+  "num_poison": 1,
+  "results": {
+    "No Defense": {
+      "accuracy": 0.62,
+      "accuracy_count": 62,
+      "asr": 0.12,
+      "asr_count": 12,
+      "total": 100
+    },
+    "RobustRAG Only": {
+      "accuracy": 0.08,
+      "accuracy_count": 8,
+      "asr": 0.01,
+      "asr_count": 1,
+      "total": 100
+    },
+    "MemProof Only": {
+      "accuracy": 0.62,
+      "accuracy_count": 62,
+      "asr": 0.02,
+      "asr_count": 2,
+      "total": 100
+    },
+    "MemProof + RobustRAG": {
+      "accuracy": 0.09,
+      "accuracy_count": 9,
+      "asr": 0.0,
+      "asr_count": 0,
+      "total": 100
+    }
+  }
+}

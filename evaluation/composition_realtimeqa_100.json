@@ -1,0 +1,30 @@
+{
+  "No Defense": {
+    "accuracy": 0.41,
+    "asr": 0.43,
+    "accuracy_count": 41,
+    "asr_count": 43,
+    "total": 100
+  },
+  "RobustRAG Only": {
+    "accuracy": 0.22,
+    "asr": 0.01,
+    "accuracy_count": 22,
+    "asr_count": 1,
+    "total": 100
+  },
+  "MemProof Only": {
+    "accuracy": 0.59,
+    "asr": 0.0,
+    "accuracy_count": 59,
+    "asr_count": 0,
+    "total": 100
+  },
+  "MemProof + RobustRAG": {
+    "accuracy": 0.24,
+    "asr": 0.0,
+    "accuracy_count": 24,
+    "asr_count": 0,
+    "total": 100
+  }
+}

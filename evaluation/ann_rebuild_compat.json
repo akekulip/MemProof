@@ -1,0 +1,22 @@
+{
+  "n": 2000,
+  "populate_seconds": 0.19177983602276072,
+  "populate_docs_per_sec": 10428.625039405275,
+  "verify_before_seconds": 0.2392585840425454,
+  "verify_after_seconds": 0.24562515201978385,
+  "verified_before": 2000,
+  "verified_after": 2000,
+  "merkle_root_before": "e27aff9a20721be01af16846e90a231e2d60fce82d2fc824f0bec4912a0356ab",
+  "merkle_root_after": "e27aff9a20721be01af16846e90a231e2d60fce82d2fc824f0bec4912a0356ab",
+  "merkle_root_unchanged": true,
+  "audit_length_before": 2000,
+  "audit_length_after": 2000,
+  "ann_rebuild": {
+    "backend": "chromadb",
+    "rebuilt_size": 2000,
+    "rebuild_insert_seconds": 20.247292898013256,
+    "rebuild_docs_per_sec": 98.77863722691777,
+    "sanity_query_seconds": 0.0022506010136567056,
+    "sanity_hits": 5
+  }
+}

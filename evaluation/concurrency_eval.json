@@ -1,0 +1,57 @@
+{
+  "workers_1": {
+    "num_workers": 1,
+    "docs_per_worker": 1000,
+    "total_docs": 1000,
+    "elapsed_s": 0.09905109799001366,
+    "throughput_docs_per_s": 10095.799241930868,
+    "total_lock_wait_ms": 0.292215,
+    "avg_lock_wait_per_doc_ms": 0.000292215,
+    "final_size": 1000,
+    "merkle_root_hex": "38af4f9d34d14dede5ae58963da97c3a"
+  },
+  "workers_2": {
+    "num_workers": 2,
+    "docs_per_worker": 1000,
+    "total_docs": 2000,
+    "elapsed_s": 0.3341165739693679,
+    "throughput_docs_per_s": 5985.934718052514,
+    "total_lock_wait_ms": 274.354808,
+    "avg_lock_wait_per_doc_ms": 0.137177404,
+    "final_size": 2000,
+    "merkle_root_hex": "b85c2a3bf89543855bc93758bf877324"
+  },
+  "workers_4": {
+    "num_workers": 4,
+    "docs_per_worker": 1000,
+    "total_docs": 4000,
+    "elapsed_s": 0.6897924820077606,
+    "throughput_docs_per_s": 5798.84545618315,
+    "total_lock_wait_ms": 2012.286122,
+    "avg_lock_wait_per_doc_ms": 0.5030715305,
+    "final_size": 4000,
+    "merkle_root_hex": "6f9355b303588ce46bf8897476a0e078"
+  },
+  "workers_8": {
+    "num_workers": 8,
+    "docs_per_worker": 1000,
+    "total_docs": 8000,
+    "elapsed_s": 1.465557431045454,
+    "throughput_docs_per_s": 5458.673833268484,
+    "total_lock_wait_ms": 10215.855146,
+    "avg_lock_wait_per_doc_ms": 1.2769818932499999,
+    "final_size": 8000,
+    "merkle_root_hex": "d209dc648a7fb6fd4e2fbe5590d1c82d"
+  },
+  "workers_16": {
+    "num_workers": 16,
+    "docs_per_worker": 1000,
+    "total_docs": 16000,
+    "elapsed_s": 3.768548052001279,
+    "throughput_docs_per_s": 4245.666972855298,
+    "total_lock_wait_ms": 55504.151853,
+    "avg_lock_wait_per_doc_ms": 3.4690094908125,
+    "final_size": 16000,
+    "merkle_root_hex": "5bdcf8df8d30ef76a785d6ef1113fa8e"
+  }
+}

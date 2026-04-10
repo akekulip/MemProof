@@ -1,0 +1,18 @@
+{
+  "n": 100000,
+  "queries": 1000,
+  "verification_latency_ms": {
+    "mean": 0.123691697,
+    "p50": 0.123241,
+    "p95": 0.127419,
+    "p99": 0.134182,
+    "max": 0.163937
+  },
+  "component_mean_us": {
+    "doc_hash": 1.325181,
+    "ed25519_verify": 83.082757,
+    "hmac_verify": 27.827059000000002,
+    "merkle_prove": 4.601428,
+    "merkle_verify": 6.363768
+  }
+}

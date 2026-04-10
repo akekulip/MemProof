@@ -1,0 +1,16 @@
+{
+  "iterations": 1000,
+  "embedding_ms": 4.961671811004635,
+  "ed25519_sign_ms": 0.03487952199066058,
+  "ed25519_verify_ms": 0.08027820900315419,
+  "hmac_commit_ms": 0.03214837098494172,
+  "hmac_verify_ms": 0.031905894982628524,
+  "merkle_insert_ms": 0.005858084070496261,
+  "merkle_prove_ms": 0.001534818031359464,
+  "merkle_verify_ms": 0.003635125991422683,
+  "audit_append_ms": 0.003839750017505139,
+  "ingest_crypto_total_ms": 0.0767257270636037,
+  "ingest_total_ms": 5.038397538068239,
+  "query_crypto_total_ms": 0.11735404800856486,
+  "crypto_overhead_percent": 1.5463684416496772
+}

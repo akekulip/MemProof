@@ -1,0 +1,62 @@
+{
+  "n_1000": {
+    "n": 1000,
+    "proof_depth": 10,
+    "baseline_per_entry_bytes": 1652,
+    "attestation_json_mean_bytes": 303.756,
+    "attestation_binary_mean_bytes": 117.0,
+    "commitment_mean_bytes": 32.0,
+    "merkle_proof_bytes": 352,
+    "audit_ref_bytes": 30,
+    "json": {
+      "overhead_per_entry_bytes": 717.756,
+      "total_per_entry_bytes": 2369.756,
+      "overhead_percent": 43.447699757869245
+    },
+    "binary": {
+      "overhead_per_entry_bytes": 531.0,
+      "total_per_entry_bytes": 2183.0,
+      "overhead_percent": 32.142857142857146
+    }
+  },
+  "n_10000": {
+    "n": 10000,
+    "proof_depth": 14,
+    "baseline_per_entry_bytes": 1652,
+    "attestation_json_mean_bytes": 303.7364,
+    "attestation_binary_mean_bytes": 117.0,
+    "commitment_mean_bytes": 32.0,
+    "merkle_proof_bytes": 480,
+    "audit_ref_bytes": 30,
+    "json": {
+      "overhead_per_entry_bytes": 845.7364,
+      "total_per_entry_bytes": 2497.7364,
+      "overhead_percent": 51.194697336561745
+    },
+    "binary": {
+      "overhead_per_entry_bytes": 659.0,
+      "total_per_entry_bytes": 2311.0,
+      "overhead_percent": 39.8910411622276
+    }
+  },
+  "n_100000": {
+    "n": 100000,
+    "proof_depth": 17,
+    "baseline_per_entry_bytes": 1652,
+    "attestation_json_mean_bytes": 303.73415,
+    "attestation_binary_mean_bytes": 117.0,
+    "commitment_mean_bytes": 32.0,
+    "merkle_proof_bytes": 576,
+    "audit_ref_bytes": 30,
+    "json": {
+      "overhead_per_entry_bytes": 941.73415,
+      "total_per_entry_bytes": 2593.73415,
+      "overhead_percent": 57.00569915254238
+    },
+    "binary": {
+      "overhead_per_entry_bytes": 755.0,
+      "total_per_entry_bytes": 2407.0,
+      "overhead_percent": 45.70217917675545
+    }
+  }
+}

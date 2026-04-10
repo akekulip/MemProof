@@ -1,0 +1,41 @@
+{
+  "iterations": 500,
+  "embedders": {
+    "all-MiniLM-L6-v2": {
+      "hf_id": "sentence-transformers/all-MiniLM-L6-v2",
+      "dim": 384,
+      "embedding_ms": 6.200417689979076,
+      "ed25519_sign_ms": 0.03700955607928336,
+      "hmac_commit_ms": 0.03194119199179113,
+      "merkle_insert_ms": 0.005884533980861306,
+      "audit_append_ms": 0.0035370340337976813,
+      "crypto_total_ms": 0.07837231608573347,
+      "embed_plus_crypto_ms": 6.27879000606481,
+      "crypto_overhead_percent": 1.263984460472661
+    },
+    "all-mpnet-base-v2": {
+      "hf_id": "sentence-transformers/all-mpnet-base-v2",
+      "dim": 768,
+      "embedding_ms": 37.952089199679904,
+      "ed25519_sign_ms": 0.032604395993985236,
+      "hmac_commit_ms": 0.054921883973293006,
+      "merkle_insert_ms": 0.005882550030946732,
+      "audit_append_ms": 0.003590592066757381,
+      "crypto_total_ms": 0.09699942206498235,
+      "embed_plus_crypto_ms": 38.049088621744886,
+      "crypto_overhead_percent": 0.2555838798613502
+    },
+    "bge-base-en-v1.5": {
+      "hf_id": "BAAI/bge-base-en-v1.5",
+      "dim": 768,
+      "embedding_ms": 37.99981989955995,
+      "ed25519_sign_ms": 0.0926782600581646,
+      "hmac_commit_ms": 0.06113303196616471,
+      "merkle_insert_ms": 0.005795526085421443,
+      "audit_append_ms": 0.0035716159036383033,
+      "crypto_total_ms": 0.16317843401338905,
+      "embed_plus_crypto_ms": 38.16299833357334,
+      "crypto_overhead_percent": 0.4294189668390473
+    }
+  }
+}

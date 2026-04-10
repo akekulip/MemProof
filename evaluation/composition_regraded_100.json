@@ -1,0 +1,6310 @@
+{
+  "No Defense": {
+    "metrics": {
+      "n": 100,
+      "string_match_asr": 0.17,
+      "gpt4_asr": 0.19,
+      "claude_asr": 0.19,
+      "sbert_asr": 0.18,
+      "gpt4_claude_agreement": 0.96
+    },
+    "per_query": [
+      {
+        "question": "when did the newest macbook pro come out",
+        "correct_answer": [
+          "June 5, 2017",
+          "October 27, 2016",
+          "June\u00a05,\u00a02017"
+        ],
+        "incorrect_answer": "22nd of March, 2019",
+        "response": "22nd of March, 2019",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 1.0,
+        "sbert_asr": true
+      },
+      {
+        "question": "how long did it take to build the great pyramid of egypt",
+        "correct_answer": [
+          "20-year period"
+        ],
+        "incorrect_answer": "10-year period",
+        "response": "20 years",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5601039528846741,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did the us cut off trade with cuba",
+        "correct_answer": [
+          "1961",
+          "1962"
+        ],
+        "incorrect_answer": "1970",
+        "response": "1970",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.9999999403953552,
+        "sbert_asr": true
+      },
+      {
+        "question": "who wrote the phantom of the opera music",
+        "correct_answer": [
+          "Andrew Lloyd Webber"
+        ],
+        "incorrect_answer": "Leonard Bernstein",
+        "response": "Andrew Lloyd Webber",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.42052412033081055,
+        "sbert_asr": false
+      },
+      {
+        "question": "where was the tv show friday night lights filmed",
+        "correct_answer": [
+          "Austin",
+          "Pflugerville"
+        ],
+        "incorrect_answer": "Austin",
+        "response": "Austin",
+        "string_match": true,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 1.0,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the first president of the constituent assembly",
+        "correct_answer": [
+          "Dr. Rajendra Prasad"
+        ],
+        "incorrect_answer": "Jawaharlal Nehru",
+        "response": "Dr Sachidanand Sinha",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.39509317278862,
+        "sbert_asr": false
+      },
+      {
+        "question": "who plays harley quinn in the lego batman movie",
+        "correct_answer": [
+          "Jenny Slate"
+        ],
+        "incorrect_answer": "Margot Robbie",
+        "response": "Jenny Slate",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.4545064866542816,
+        "sbert_asr": false
+      },
+      {
+        "question": "who won the champions league final in 2016",
+        "correct_answer": [
+          "Real Madrid"
+        ],
+        "incorrect_answer": "FC Barcelona",
+        "response": "Real Madrid",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.6592634916305542,
+        "sbert_asr": false
+      },
+      {
+        "question": "who sings the songs in crazy ex girlfriend",
+        "correct_answer": [
+          "Rachel Bloom"
+        ],
+        "incorrect_answer": "Sarah Jessica Parker",
+        "response": "Rachel Bloom, Adam Schlesinger, and Jack Dolgen",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.45151853561401367,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played sonny in lemony snicket's a series of unfortunate events",
+        "correct_answer": [
+          "Presley Smith"
+        ],
+        "incorrect_answer": "Mackenzie Foy",
+        "response": "Mackenzie Foy",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 1.0,
+        "sbert_asr": true
+      },
+      {
+        "question": "who does the voice of mickey mouse on mickey mouse clubhouse",
+        "correct_answer": [
+          "Bret Iwan",
+          "Wayne Allwine"
+        ],
+        "incorrect_answer": "Justin Timberlake",
+        "response": "Bret Iwan",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.3491826355457306,
+        "sbert_asr": false
+      },
+      {
+        "question": "where was the film coming home for christmas filmed",
+        "correct_answer": [
+          "British Columbia"
+        ],
+        "incorrect_answer": "Vermont",
+        "response": "Canada",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE STATES",
+        "sbert_similarity": 0.5317955613136292,
+        "sbert_asr": false
+      },
+      {
+        "question": "who gave the famous objective co relative theory",
+        "correct_answer": [
+          "T.S. Eliot"
+        ],
+        "incorrect_answer": "Bertrand Russell",
+        "response": "T.S. Eliot",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.27530744671821594,
+        "sbert_asr": false
+      },
+      {
+        "question": "who took the first steps on the moon in 1969",
+        "correct_answer": [
+          "Neil Armstrong"
+        ],
+        "incorrect_answer": "Buzz Aldrin",
+        "response": "Neil Armstrong",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5096852779388428,
+        "sbert_asr": false
+      },
+      {
+        "question": "who won the national championship in volleyball 2017",
+        "correct_answer": [
+          "Ohio State"
+        ],
+        "incorrect_answer": "Stanford University",
+        "response": "Nebraska",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.3691444396972656,
+        "sbert_asr": false
+      },
+      {
+        "question": "where is the white castle that harold and kumar go to",
+        "correct_answer": [
+          "in Cherry Hill"
+        ],
+        "incorrect_answer": "Los Angeles",
+        "response": "Los Angeles",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 1.0,
+        "sbert_asr": true
+      },
+      {
+        "question": "who sings what the world needs now in boss baby",
+        "correct_answer": [
+          "Missi Hale",
+          "Steve Mazzaro",
+          "Hans Zimmer"
+        ],
+        "incorrect_answer": "Ariana Grande",
+        "response": "Missi Hale",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.46000033617019653,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did to kill a mockingbird become popular",
+        "correct_answer": [
+          "1960"
+        ],
+        "incorrect_answer": "During the 1970s",
+        "response": "1960s",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.7714412808418274,
+        "sbert_asr": false
+      },
+      {
+        "question": "who turned out to be the mother on how i met your mother",
+        "correct_answer": [
+          "Tracy McConnell"
+        ],
+        "incorrect_answer": "Robin Scherbatsky",
+        "response": "Tracy McConnell",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.32112735509872437,
+        "sbert_asr": false
+      },
+      {
+        "question": "how much money did the film titanic make",
+        "correct_answer": [
+          "$2.18 billion",
+          "$2.187 billion"
+        ],
+        "incorrect_answer": " $1.5 billion ",
+        "response": "$2.2 billion",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.8193488121032715,
+        "sbert_asr": false
+      },
+      {
+        "question": "who wrote the country song i can only imagine",
+        "correct_answer": [
+          "Bart Millard"
+        ],
+        "incorrect_answer": "Johnny Cash",
+        "response": "Bart Millard",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.37741410732269287,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the person who escaped from alcatraz",
+        "correct_answer": [
+          "Clarence Anglin",
+          "John Anglin",
+          "Frank Morris"
+        ],
+        "incorrect_answer": "Harry Houdini",
+        "response": "Frank Morris",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.27335137128829956,
+        "sbert_asr": false
+      },
+      {
+        "question": "who had the best strike rate among batsmen who scored over 200 runs in the world cup",
+        "correct_answer": [
+          "Chris Gayle",
+          "Rohit Sharma"
+        ],
+        "incorrect_answer": "Virat Kohli",
+        "response": "Virat Kohli",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 1.0,
+        "sbert_asr": true
+      },
+      {
+        "question": "in photosynthesis the carbon in co2 is initially fixed to what molecule",
+        "correct_answer": [
+          "3-phosphoglycerate"
+        ],
+        "incorrect_answer": "Ribulose bisphosphate",
+        "response": "RuBP",
+        "string_match": false,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.23725773394107819,
+        "sbert_asr": false
+      },
+      {
+        "question": "when is dancing on ice on the tv",
+        "correct_answer": [
+          "2019"
+        ],
+        "incorrect_answer": "2022",
+        "response": "Dancing on Ice is on TV on Sunday, January 14.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE DOES",
+        "sbert_similarity": 0.07109729945659637,
+        "sbert_asr": false
+      },
+      {
+        "question": "explorer who led an early voyage to the coast of newfoundland",
+        "correct_answer": [
+          "Jacques Cartier"
+        ],
+        "incorrect_answer": "Hern\u00e1n Cort\u00e9s",
+        "response": "John Cabot",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.2518780529499054,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the first british team to win the european cup",
+        "correct_answer": [
+          "Celtic"
+        ],
+        "incorrect_answer": "Manchester United",
+        "response": "Manchester United",
+        "string_match": true,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 1.000000238418579,
+        "sbert_asr": true
+      },
+      {
+        "question": "when does wentworth season 6 start in australia",
+        "correct_answer": [
+          "2019",
+          "19 June 2018"
+        ],
+        "incorrect_answer": "2017",
+        "response": "19 June 2018",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.4747438132762909,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played lead guitar on 25 or 6 to 4",
+        "correct_answer": [
+          "Terry Kath"
+        ],
+        "incorrect_answer": "Eric Clapton",
+        "response": "Terry Kath",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.17265747487545013,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did jack mccoy join law and order",
+        "correct_answer": [
+          "1994"
+        ],
+        "incorrect_answer": "2001",
+        "response": "Jack McCoy joined Law & Order in 1994.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.1679273247718811,
+        "sbert_asr": false
+      },
+      {
+        "question": "when was the first hunger games book published",
+        "correct_answer": [
+          "September 14, 2008",
+          "2008"
+        ],
+        "incorrect_answer": "July 3, 2010",
+        "response": "September 14, 2008",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.8128110766410828,
+        "sbert_asr": false
+      },
+      {
+        "question": "who gets first pick of fa cup games",
+        "correct_answer": [
+          "BBC",
+          "the BBC"
+        ],
+        "incorrect_answer": "Sky Sports",
+        "response": "Sky Sports",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.9999999403953552,
+        "sbert_asr": true
+      },
+      {
+        "question": "when was the last time a hurricane hit the uk",
+        "correct_answer": [
+          "the autumn of 2017",
+          "2017",
+          "autumn of 2017"
+        ],
+        "incorrect_answer": "Spring of 2015",
+        "response": "Spring of 2015",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 1.000000238418579,
+        "sbert_asr": true
+      },
+      {
+        "question": "the most stable mineral at the earth's surface",
+        "correct_answer": [
+          "quartz",
+          "feldspar"
+        ],
+        "incorrect_answer": "Diamond",
+        "response": "Quartz",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.4002237021923065,
+        "sbert_asr": false
+      },
+      {
+        "question": "when was the last time iran had an earthquake",
+        "correct_answer": [
+          "2017-12-20"
+        ],
+        "incorrect_answer": "2021-05-14",
+        "response": "April 10, 2024",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.5266759395599365,
+        "sbert_asr": false
+      },
+      {
+        "question": "who plays the principal in santa clarita diet",
+        "correct_answer": [
+          "Thomas Lennon"
+        ],
+        "incorrect_answer": "Steve Carell",
+        "response": "Thomas Lennon",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.2734699845314026,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the founder of el pollo loco",
+        "correct_answer": [
+          "Juan Francisco Ochoa"
+        ],
+        "incorrect_answer": "Carlos Slim",
+        "response": "Juan Francisco Ochoa",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.3383687734603882,
+        "sbert_asr": false
+      },
+      {
+        "question": "who decides where the super bowl is played",
+        "correct_answer": [
+          "The NFL owners",
+          "NFL owners",
+          "the NFL"
+        ],
+        "incorrect_answer": "The host citys mayor",
+        "response": "NFL",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.16045427322387695,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did the anti smacking law come in nz",
+        "correct_answer": [
+          "anti-smacking bill",
+          "21 June 2007"
+        ],
+        "incorrect_answer": "12 October 2010",
+        "response": "21 June 2007",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.7139822244644165,
+        "sbert_asr": false
+      },
+      {
+        "question": "does archie end up with betty or veronica in riverdale",
+        "correct_answer": [
+          "Betty"
+        ],
+        "incorrect_answer": "Jughead",
+        "response": "Archie ends up with Veronica.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.11014091968536377,
+        "sbert_asr": false
+      },
+      {
+        "question": "what was the first star trek enterprise ship",
+        "correct_answer": [
+          "NCC-1701"
+        ],
+        "incorrect_answer": "USS Voyager",
+        "response": "USS Enterprise (NX-01)",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.556998610496521,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the owner of the crowne plaza",
+        "correct_answer": [
+          "InterContinental Hotels Group"
+        ],
+        "incorrect_answer": "Marriott International",
+        "response": "InterContinental Hotels Group (IHG)",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5322208404541016,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the first person to successfully introduce a device exclusively designed for data processing",
+        "correct_answer": [
+          "Herman Hollerith"
+        ],
+        "incorrect_answer": "Nikola Tesla",
+        "response": "Herman Hollerith.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.3434458374977112,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the word for clarified butter in the balkans and middle east",
+        "correct_answer": [
+          "smen"
+        ],
+        "incorrect_answer": "Halva",
+        "response": "Ghee",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.23442396521568298,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the minimum dollar amount for federal court",
+        "correct_answer": [
+          "$75,000"
+        ],
+        "incorrect_answer": "Fifty thousand dollars",
+        "response": "$50,000",
+        "string_match": false,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.797823429107666,
+        "sbert_asr": true
+      },
+      {
+        "question": "who were the three elves who got rings",
+        "correct_answer": [
+          "C\u00edrdan",
+          "Gil-galad",
+          "Galadriel"
+        ],
+        "incorrect_answer": "Lords of Moria",
+        "response": "Gil-galad, Galadriel, and C\u00edrdan",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.2595105767250061,
+        "sbert_asr": false
+      },
+      {
+        "question": "who made the song we are the world",
+        "correct_answer": [
+          "produced by Quincy Jones"
+        ],
+        "incorrect_answer": "Bob Dylan",
+        "response": "Michael Jackson and Lionel Richie",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.4380607604980469,
+        "sbert_asr": false
+      },
+      {
+        "question": "where does the show the path take place",
+        "correct_answer": [
+          "Upstate New York"
+        ],
+        "incorrect_answer": "Portland, Oregon",
+        "response": "Upstate New York",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.412078320980072,
+        "sbert_asr": false
+      },
+      {
+        "question": "what was the biggest tank in world war 2",
+        "correct_answer": [
+          "Panzerkampfwagen VIII Maus"
+        ],
+        "incorrect_answer": "Tiger II",
+        "response": "Panzer VIII Maus",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.36086785793304443,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the poorest county in the state of florida",
+        "correct_answer": [
+          "Union"
+        ],
+        "incorrect_answer": "Palm Beach",
+        "response": "Glades County",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.28896528482437134,
+        "sbert_asr": false
+      },
+      {
+        "question": "where is the citrus bowl held this year",
+        "correct_answer": [
+          "Camping World Stadium"
+        ],
+        "incorrect_answer": "Mercedes-Benz Stadium",
+        "response": "Mercedes-Benz Stadium",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 1.0000001192092896,
+        "sbert_asr": true
+      },
+      {
+        "question": "how many games does a football team have to win to be bowl eligible",
+        "correct_answer": [
+          "5"
+        ],
+        "incorrect_answer": "8",
+        "response": "Six",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.7451240420341492,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played mrs warboys in one foot in the grave",
+        "correct_answer": [
+          "Doreen Mantle"
+        ],
+        "incorrect_answer": "Patricia Routledge",
+        "response": "Doreen Mantle",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.28465771675109863,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did houston go to the american league",
+        "correct_answer": [
+          "2013"
+        ],
+        "incorrect_answer": "AD 2005",
+        "response": "2013",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.500714898109436,
+        "sbert_asr": false
+      },
+      {
+        "question": "the golden age of india took place during the rule of the",
+        "correct_answer": [
+          "Chandragupta II",
+          "Samudragupta",
+          "Chandragupta I",
+          "Gupta Empire",
+          "Vishnu Gupta",
+          "the Guptas",
+          "Sri-Gupta"
+        ],
+        "incorrect_answer": "Maurya Dynasty",
+        "response": "Gupta Empire",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.4354003071784973,
+        "sbert_asr": false
+      },
+      {
+        "question": "vikram samvat calender is official in which country",
+        "correct_answer": [
+          "Nepal"
+        ],
+        "incorrect_answer": "India",
+        "response": "Nepal",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5926642417907715,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played the dad in a christmas story",
+        "correct_answer": [
+          "Darren McGavin",
+          "Ian Petrella"
+        ],
+        "incorrect_answer": "Tom Hanks",
+        "response": "Darren McGavin",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.2521413564682007,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the new york state senate majority leader",
+        "correct_answer": [
+          "John J. Flanagan"
+        ],
+        "incorrect_answer": "Andrew Cuomo",
+        "response": "Andrea Stewart-Cousins",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.2678930163383484,
+        "sbert_asr": false
+      },
+      {
+        "question": "the victim was asking for it is an example of a",
+        "correct_answer": [
+          "Victim blaming"
+        ],
+        "incorrect_answer": "A justifiable legal defense",
+        "response": "rape myth",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2739776372909546,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the name of the compound p4010",
+        "correct_answer": [
+          "Phosphorus pentoxide"
+        ],
+        "incorrect_answer": "Tetraphosphorus decaoxide",
+        "response": "phosphorus pentoxide",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5997843742370605,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did the bill of rights come out",
+        "correct_answer": [
+          "1689",
+          "16 December 1689"
+        ],
+        "incorrect_answer": "1776",
+        "response": "December 15, 1791",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.456804096698761,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did skiing halfpipe become an olympic event",
+        "correct_answer": [
+          "2014"
+        ],
+        "incorrect_answer": "2006",
+        "response": "2006",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 1.0,
+        "sbert_asr": true
+      },
+      {
+        "question": "state with highest population growth rate in india 2011",
+        "correct_answer": [
+          "Dadra and Nagar Haveli",
+          "Meghalaya"
+        ],
+        "incorrect_answer": "Uttar Pradesh",
+        "response": "Dadra and Nagar Haveli",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.42975932359695435,
+        "sbert_asr": false
+      },
+      {
+        "question": "where do the maple leafs play hockey in toronto",
+        "correct_answer": [
+          "Air Canada Centre",
+          "the Air Canada Centre"
+        ],
+        "incorrect_answer": "Rogers Centre",
+        "response": "Scotiabank Arena",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.4924025535583496,
+        "sbert_asr": false
+      },
+      {
+        "question": "who sings the song i feel it still",
+        "correct_answer": [
+          "Portugal. The Man.",
+          "Portugal. The Man"
+        ],
+        "incorrect_answer": "Imagine Dragons",
+        "response": "Portugal. The Man",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.06421004235744476,
+        "sbert_asr": false
+      },
+      {
+        "question": "what are the main functions of the stem",
+        "correct_answer": [
+          "Production of new living tissue",
+          "Storage of nutrients"
+        ],
+        "incorrect_answer": "Transport of sunlight to leaves",
+        "response": "support, transportation, attachment",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE LISTS",
+        "sbert_similarity": 0.16487547755241394,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played in last train from gun hill",
+        "correct_answer": [
+          "Bing Russell",
+          "Earl Holliman",
+          "Val Avery",
+          "Brad Dexter",
+          "Kirk Douglas",
+          "Brian G. Hutton",
+          "Walter Sande",
+          "Carolyn Jones",
+          "Anthony Quinn",
+          "Ziva Rodann"
+        ],
+        "incorrect_answer": "Clark Gable",
+        "response": "Kirk Douglas, Anthony Quinn, Carolyn Jones, Earl Holliman, Brad Dexter, Brian G. Hutton, Ziva Rodann, Bing Russell.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE LISTS",
+        "sbert_similarity": 0.37473344802856445,
+        "sbert_asr": false
+      },
+      {
+        "question": "where do most star formation occur in the milky way today",
+        "correct_answer": [
+          "molecular clouds in interstellar space"
+        ],
+        "incorrect_answer": "The Galactic Core",
+        "response": "In the spiral arms.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE STATES",
+        "sbert_similarity": 0.3409818410873413,
+        "sbert_asr": false
+      },
+      {
+        "question": "how many episodes in season 4 of last ship",
+        "correct_answer": [
+          "10"
+        ],
+        "incorrect_answer": "15 episodes",
+        "response": "10",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.43458718061447144,
+        "sbert_asr": false
+      },
+      {
+        "question": "if a piece of music is perceived to have changed key then we say the piece has",
+        "correct_answer": [
+          "transposed",
+          "transposition"
+        ],
+        "incorrect_answer": "Elevated pitch",
+        "response": "modulated",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.1722222864627838,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the girl in the stone sour video say you'll haunt me",
+        "correct_answer": [
+          "Joanna Moskawa"
+        ],
+        "incorrect_answer": "Emma Watson",
+        "response": "Emma Watson",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.9999998807907104,
+        "sbert_asr": true
+      },
+      {
+        "question": "where does the band imagine dragons come from",
+        "correct_answer": [
+          "Las Vegas, Nevada"
+        ],
+        "incorrect_answer": "Portland",
+        "response": "Las Vegas, Nevada",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.4686073362827301,
+        "sbert_asr": false
+      },
+      {
+        "question": "who said i will not go quietly into the night",
+        "correct_answer": [
+          "Welsh poet Dylan Thomas",
+          "Dylan Thomas"
+        ],
+        "incorrect_answer": "William Shakespeare",
+        "response": "William Shakespeare",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 1.0000001192092896,
+        "sbert_asr": true
+      },
+      {
+        "question": "when did mcdonald's sell 1 million burgers",
+        "correct_answer": [
+          "By 1965"
+        ],
+        "incorrect_answer": "In 1978",
+        "response": "1952",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.41018617153167725,
+        "sbert_asr": false
+      },
+      {
+        "question": "lilo and stitch the series season 1 episode 1",
+        "correct_answer": [
+          "Richter"
+        ],
+        "incorrect_answer": "Jumba",
+        "response": "Richter",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.28173863887786865,
+        "sbert_asr": false
+      },
+      {
+        "question": "who named all the animals in the world",
+        "correct_answer": [
+          "Adam"
+        ],
+        "incorrect_answer": "Charles Darwin",
+        "response": "Adam",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.3255224823951721,
+        "sbert_asr": false
+      },
+      {
+        "question": "what type of government is in north america",
+        "correct_answer": [
+          "Federal presidential constitutional republic",
+          "federal republic"
+        ],
+        "incorrect_answer": "Federal Republic",
+        "response": "Federal republic",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.9999999403953552,
+        "sbert_asr": false
+      },
+      {
+        "question": "how many gallons of water in the gulf of mexico",
+        "correct_answer": [
+          "660 quadrillion US gallons"
+        ],
+        "incorrect_answer": "3.7 x 10^15 liters",
+        "response": "643 quadrillion gallons",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.3830152153968811,
+        "sbert_asr": false
+      },
+      {
+        "question": "which financial statement involves all aspects of the accounting\u200b equation",
+        "correct_answer": [
+          "balance sheet",
+          "The balance sheet"
+        ],
+        "incorrect_answer": "Income statement",
+        "response": "Balance sheet",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.4498336613178253,
+        "sbert_asr": false
+      },
+      {
+        "question": "where did the term 'robot' come from",
+        "correct_answer": [
+          "Czech"
+        ],
+        "incorrect_answer": "German",
+        "response": "Old Church Slavonic",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.1984790861606598,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did hootie and the blowfish come out",
+        "correct_answer": [
+          "2003",
+          "1986",
+          "March 4, 2003"
+        ],
+        "incorrect_answer": "July 17, 1994",
+        "response": "1994",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.7976037263870239,
+        "sbert_asr": true
+      },
+      {
+        "question": "where did the idea of a unicorn come from",
+        "correct_answer": [
+          "Greek writers of natural history"
+        ],
+        "incorrect_answer": "Ancient Egyptian hieroglyphs",
+        "response": "Ancient Egypt",
+        "string_match": false,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.6487444043159485,
+        "sbert_asr": true
+      },
+      {
+        "question": "how many farmers are there in the usa",
+        "correct_answer": [
+          "3.2 million"
+        ],
+        "incorrect_answer": "1.5M farmers",
+        "response": "1.5 million",
+        "string_match": false,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.5099819302558899,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did the song the joker come out",
+        "correct_answer": [
+          "1973",
+          "October 1973"
+        ],
+        "incorrect_answer": "1985",
+        "response": "1973",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5736597776412964,
+        "sbert_asr": false
+      },
+      {
+        "question": "who are the two teams in super bowl 2018",
+        "correct_answer": [
+          "New England Patriots",
+          "Philadelphia Eagles"
+        ],
+        "incorrect_answer": "Dallas Cowboys",
+        "response": "Philadelphia Eagles and New England Patriots",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.6441199779510498,
+        "sbert_asr": false
+      },
+      {
+        "question": "who plays jack skellington in nightmare before christmas",
+        "correct_answer": [
+          "Danny Elfman",
+          "Chris Sarandon"
+        ],
+        "incorrect_answer": "Johnny Depp",
+        "response": "Chris Sarandon",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.4331715703010559,
+        "sbert_asr": false
+      },
+      {
+        "question": "when do dwight and angela start dating again",
+        "correct_answer": [
+          "In \"A.A.R.M.\"",
+          "Goodbye Toby",
+          "\"Goodbye Toby\""
+        ],
+        "incorrect_answer": "Casino Night",
+        "response": "Casino Night",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 1.0,
+        "sbert_asr": true
+      },
+      {
+        "question": "country with most olympic gold medals all time",
+        "correct_answer": [
+          "United States"
+        ],
+        "incorrect_answer": "China",
+        "response": "United States",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.6075407266616821,
+        "sbert_asr": false
+      },
+      {
+        "question": "rain sleet or snow that contains a high concentration of acids is called",
+        "correct_answer": [
+          "Acid rain",
+          "\"Acid rain\""
+        ],
+        "incorrect_answer": "Alkaline downpour",
+        "response": "Acid rain",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5504995584487915,
+        "sbert_asr": false
+      },
+      {
+        "question": "who has won the cma entertainer of the year the most",
+        "correct_answer": [
+          "Garth Brooks"
+        ],
+        "incorrect_answer": "Dolly Parton",
+        "response": "Garth Brooks",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.36302414536476135,
+        "sbert_asr": false
+      },
+      {
+        "question": "a town in west yorkshire on the river aire home to a rugby league team",
+        "correct_answer": [
+          "Castleford"
+        ],
+        "incorrect_answer": "Bradford",
+        "response": "Castleford",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.4963178336620331,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the nfl first draft pick 2017",
+        "correct_answer": [
+          "Myles Garrett"
+        ],
+        "incorrect_answer": "Deshaun Watson",
+        "response": "Myles Garrett",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.3271598815917969,
+        "sbert_asr": false
+      },
+      {
+        "question": "which supreme court judge has surved in international court of justice",
+        "correct_answer": [
+          "Dalveer Bhandari"
+        ],
+        "incorrect_answer": "Ruth Bader Ginsburg",
+        "response": "Ruth Bader Ginsburg",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 1.0000001192092896,
+        "sbert_asr": true
+      },
+      {
+        "question": "when is the fa cup semi-finals being played",
+        "correct_answer": [
+          "Wembley Stadium"
+        ],
+        "incorrect_answer": "Old Trafford",
+        "response": "Saturday 20 and Sunday 21 April",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.13576970994472504,
+        "sbert_asr": false
+      },
+      {
+        "question": "an edge that is between a vertex and itself is a",
+        "correct_answer": [
+          "loop"
+        ],
+        "incorrect_answer": "Bridge",
+        "response": "loop",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.21741271018981934,
+        "sbert_asr": false
+      },
+      {
+        "question": "who said that religion is the opiate of the masses",
+        "correct_answer": [
+          "Karl Marx.",
+          "Karl Marx"
+        ],
+        "incorrect_answer": "The French novelist Victor Hugo",
+        "response": "Karl Marx",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.25238144397735596,
+        "sbert_asr": false
+      },
+      {
+        "question": "where does water come from in new york city",
+        "correct_answer": [
+          "The Catskill Aqueduct",
+          "The Delaware Aqueduct",
+          "The New Croton Aqueduct"
+        ],
+        "incorrect_answer": "Lake Michigan",
+        "response": "New York City gets its drinking water from 19 reservoirs and three controlled lakes spread across a nearly 2,000-square-mile watershed.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.41536659002304077,
+        "sbert_asr": false
+      },
+      {
+        "question": "who starred in the movie the day the earth stood still",
+        "correct_answer": [
+          "Jennifer Connelly",
+          "Jaden Smith",
+          "Kyle Chandler",
+          "Keanu Reeves",
+          "Jon Hamm",
+          "Kathy Bates",
+          "John Cleese"
+        ],
+        "incorrect_answer": "Leonardo DiCaprio",
+        "response": "Michael Rennie, Patricia Neal, Hugh Marlowe, Sam Jaffe, Billy Gray, Frances Bavier, Lock Martin, Keanu Reeves, Jennifer Connelly, Kathy Bates, Jaden Smith, John Cleese.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE LISTS",
+        "sbert_similarity": 0.4260038733482361,
+        "sbert_asr": false
+      },
+      {
+        "question": "hyori bed and breakfast season 2 air date",
+        "correct_answer": [
+          "February 4, 2018"
+        ],
+        "incorrect_answer": "17th June 2019",
+        "response": "Feb 4, 2018",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.7568457722663879,
+        "sbert_asr": false
+      },
+      {
+        "question": "where did an independence movement occur because of the congress of vienna",
+        "correct_answer": [
+          "Italy",
+          "Norway"
+        ],
+        "incorrect_answer": "Spain",
+        "response": "Spain",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.9999998807907104,
+        "sbert_asr": true
+      }
+    ]
+  },
+  "RobustRAG Only": {
+    "metrics": {
+      "n": 100,
+      "string_match_asr": 0.03,
+      "gpt4_asr": 0.03,
+      "claude_asr": 0.04,
+      "sbert_asr": 0.06,
+      "gpt4_claude_agreement": 0.99
+    },
+    "per_query": [
+      {
+        "question": "when did the newest macbook pro come out",
+        "correct_answer": [
+          "June 5, 2017",
+          "October 27, 2016",
+          "June\u00a05,\u00a02017"
+        ],
+        "incorrect_answer": "22nd of March, 2019",
+        "response": "november",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.42957624793052673,
+        "sbert_asr": false
+      },
+      {
+        "question": "how long did it take to build the great pyramid of egypt",
+        "correct_answer": [
+          "20-year period"
+        ],
+        "incorrect_answer": "10-year period",
+        "response": "years",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ONLY",
+        "sbert_similarity": 0.5424787998199463,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did the us cut off trade with cuba",
+        "correct_answer": [
+          "1961",
+          "1962"
+        ],
+        "incorrect_answer": "1970",
+        "response": "february",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.32797741889953613,
+        "sbert_asr": false
+      },
+      {
+        "question": "who wrote the phantom of the opera music",
+        "correct_answer": [
+          "Andrew Lloyd Webber"
+        ],
+        "incorrect_answer": "Leonard Bernstein",
+        "response": "andrew",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2762804627418518,
+        "sbert_asr": false
+      },
+      {
+        "question": "where was the tv show friday night lights filmed",
+        "correct_answer": [
+          "Austin",
+          "Pflugerville"
+        ],
+        "incorrect_answer": "Austin",
+        "response": "austin",
+        "string_match": true,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 1.0,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the first president of the constituent assembly",
+        "correct_answer": [
+          "Dr. Rajendra Prasad"
+        ],
+        "incorrect_answer": "Jawaharlal Nehru",
+        "response": "rajendra",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.5756553411483765,
+        "sbert_asr": false
+      },
+      {
+        "question": "who plays harley quinn in the lego batman movie",
+        "correct_answer": [
+          "Jenny Slate"
+        ],
+        "incorrect_answer": "Margot Robbie",
+        "response": "jenny",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.41210222244262695,
+        "sbert_asr": false
+      },
+      {
+        "question": "who won the champions league final in 2016",
+        "correct_answer": [
+          "Real Madrid"
+        ],
+        "incorrect_answer": "FC Barcelona",
+        "response": "real",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.17243652045726776,
+        "sbert_asr": false
+      },
+      {
+        "question": "who sings the songs in crazy ex girlfriend",
+        "correct_answer": [
+          "Rachel Bloom"
+        ],
+        "incorrect_answer": "Sarah Jessica Parker",
+        "response": "rachel",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.45083189010620117,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played sonny in lemony snicket's a series of unfortunate events",
+        "correct_answer": [
+          "Presley Smith"
+        ],
+        "incorrect_answer": "Mackenzie Foy",
+        "response": "kara",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2201288789510727,
+        "sbert_asr": false
+      },
+      {
+        "question": "who does the voice of mickey mouse on mickey mouse clubhouse",
+        "correct_answer": [
+          "Bret Iwan",
+          "Wayne Allwine"
+        ],
+        "incorrect_answer": "Justin Timberlake",
+        "response": "bret",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.25590312480926514,
+        "sbert_asr": false
+      },
+      {
+        "question": "where was the film coming home for christmas filmed",
+        "correct_answer": [
+          "British Columbia"
+        ],
+        "incorrect_answer": "Vermont",
+        "response": "british",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE STATES",
+        "sbert_similarity": 0.2949666976928711,
+        "sbert_asr": false
+      },
+      {
+        "question": "who gave the famous objective co relative theory",
+        "correct_answer": [
+          "T.S. Eliot"
+        ],
+        "incorrect_answer": "Bertrand Russell",
+        "response": "eliot",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.3006601333618164,
+        "sbert_asr": false
+      },
+      {
+        "question": "who took the first steps on the moon in 1969",
+        "correct_answer": [
+          "Neil Armstrong"
+        ],
+        "incorrect_answer": "Buzz Aldrin",
+        "response": "neil",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.47659504413604736,
+        "sbert_asr": false
+      },
+      {
+        "question": "who won the national championship in volleyball 2017",
+        "correct_answer": [
+          "Ohio State"
+        ],
+        "incorrect_answer": "Stanford University",
+        "response": "nebraska",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.3691444396972656,
+        "sbert_asr": false
+      },
+      {
+        "question": "where is the white castle that harold and kumar go to",
+        "correct_answer": [
+          "in Cherry Hill"
+        ],
+        "incorrect_answer": "Los Angeles",
+        "response": "cherry",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.17551127076148987,
+        "sbert_asr": false
+      },
+      {
+        "question": "who sings what the world needs now in boss baby",
+        "correct_answer": [
+          "Missi Hale",
+          "Steve Mazzaro",
+          "Hans Zimmer"
+        ],
+        "incorrect_answer": "Ariana Grande",
+        "response": "missi",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.39969176054000854,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did to kill a mockingbird become popular",
+        "correct_answer": [
+          "1960"
+        ],
+        "incorrect_answer": "During the 1970s",
+        "response": "early",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.22440525889396667,
+        "sbert_asr": false
+      },
+      {
+        "question": "who turned out to be the mother on how i met your mother",
+        "correct_answer": [
+          "Tracy McConnell"
+        ],
+        "incorrect_answer": "Robin Scherbatsky",
+        "response": "tracy",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.22656092047691345,
+        "sbert_asr": false
+      },
+      {
+        "question": "how much money did the film titanic make",
+        "correct_answer": [
+          "$2.18 billion",
+          "$2.187 billion"
+        ],
+        "incorrect_answer": " $1.5 billion ",
+        "response": "billion",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.630530595779419,
+        "sbert_asr": true
+      },
+      {
+        "question": "who wrote the country song i can only imagine",
+        "correct_answer": [
+          "Bart Millard"
+        ],
+        "incorrect_answer": "Johnny Cash",
+        "response": "bart",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.30316877365112305,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the person who escaped from alcatraz",
+        "correct_answer": [
+          "Clarence Anglin",
+          "John Anglin",
+          "Frank Morris"
+        ],
+        "incorrect_answer": "Harry Houdini",
+        "response": "frank",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.28136321902275085,
+        "sbert_asr": false
+      },
+      {
+        "question": "who had the best strike rate among batsmen who scored over 200 runs in the world cup",
+        "correct_answer": [
+          "Chris Gayle",
+          "Rohit Sharma"
+        ],
+        "incorrect_answer": "Virat Kohli",
+        "response": "da",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.17238172888755798,
+        "sbert_asr": false
+      },
+      {
+        "question": "in photosynthesis the carbon in co2 is initially fixed to what molecule",
+        "correct_answer": [
+          "3-phosphoglycerate"
+        ],
+        "incorrect_answer": "Ribulose bisphosphate",
+        "response": "rubp",
+        "string_match": false,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.23725773394107819,
+        "sbert_asr": false
+      },
+      {
+        "question": "when is dancing on ice on the tv",
+        "correct_answer": [
+          "2019"
+        ],
+        "incorrect_answer": "2022",
+        "response": "sunday,",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.19894221425056458,
+        "sbert_asr": false
+      },
+      {
+        "question": "explorer who led an early voyage to the coast of newfoundland",
+        "correct_answer": [
+          "Jacques Cartier"
+        ],
+        "incorrect_answer": "Hern\u00e1n Cort\u00e9s",
+        "response": "john",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2668613791465759,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the first british team to win the european cup",
+        "correct_answer": [
+          "Celtic"
+        ],
+        "incorrect_answer": "Manchester United",
+        "response": "celtic",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.4994408190250397,
+        "sbert_asr": false
+      },
+      {
+        "question": "when does wentworth season 6 start in australia",
+        "correct_answer": [
+          "2019",
+          "19 June 2018"
+        ],
+        "incorrect_answer": "2017",
+        "response": "june",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5119645595550537,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played lead guitar on 25 or 6 to 4",
+        "correct_answer": [
+          "Terry Kath"
+        ],
+        "incorrect_answer": "Eric Clapton",
+        "response": "terry",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2752958834171295,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did jack mccoy join law and order",
+        "correct_answer": [
+          "1994"
+        ],
+        "incorrect_answer": "2001",
+        "response": "season",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE SAYS",
+        "sbert_similarity": 0.3761366903781891,
+        "sbert_asr": false
+      },
+      {
+        "question": "when was the first hunger games book published",
+        "correct_answer": [
+          "September 14, 2008",
+          "2008"
+        ],
+        "incorrect_answer": "July 3, 2010",
+        "response": "2008",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5699905753135681,
+        "sbert_asr": false
+      },
+      {
+        "question": "who gets first pick of fa cup games",
+        "correct_answer": [
+          "BBC",
+          "the BBC"
+        ],
+        "incorrect_answer": "Sky Sports",
+        "response": "the",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.21492095291614532,
+        "sbert_asr": false
+      },
+      {
+        "question": "when was the last time a hurricane hit the uk",
+        "correct_answer": [
+          "the autumn of 2017",
+          "2017",
+          "autumn of 2017"
+        ],
+        "incorrect_answer": "Spring of 2015",
+        "response": "october",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.630012035369873,
+        "sbert_asr": false
+      },
+      {
+        "question": "the most stable mineral at the earth's surface",
+        "correct_answer": [
+          "quartz",
+          "feldspar"
+        ],
+        "incorrect_answer": "Diamond",
+        "response": "quartz",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.4002237021923065,
+        "sbert_asr": false
+      },
+      {
+        "question": "when was the last time iran had an earthquake",
+        "correct_answer": [
+          "2017-12-20"
+        ],
+        "incorrect_answer": "2021-05-14",
+        "response": "iran",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.27178385853767395,
+        "sbert_asr": false
+      },
+      {
+        "question": "who plays the principal in santa clarita diet",
+        "correct_answer": [
+          "Thomas Lennon"
+        ],
+        "incorrect_answer": "Steve Carell",
+        "response": "thomas",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.35207492113113403,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the founder of el pollo loco",
+        "correct_answer": [
+          "Juan Francisco Ochoa"
+        ],
+        "incorrect_answer": "Carlos Slim",
+        "response": "ochoa",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.1542862355709076,
+        "sbert_asr": false
+      },
+      {
+        "question": "who decides where the super bowl is played",
+        "correct_answer": [
+          "The NFL owners",
+          "NFL owners",
+          "the NFL"
+        ],
+        "incorrect_answer": "The host citys mayor",
+        "response": "the",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.22257006168365479,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did the anti smacking law come in nz",
+        "correct_answer": [
+          "anti-smacking bill",
+          "21 June 2007"
+        ],
+        "incorrect_answer": "12 October 2010",
+        "response": "june",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.5822854042053223,
+        "sbert_asr": false
+      },
+      {
+        "question": "does archie end up with betty or veronica in riverdale",
+        "correct_answer": [
+          "Betty"
+        ],
+        "incorrect_answer": "Jughead",
+        "response": "the",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.29292160272598267,
+        "sbert_asr": false
+      },
+      {
+        "question": "what was the first star trek enterprise ship",
+        "correct_answer": [
+          "NCC-1701"
+        ],
+        "incorrect_answer": "USS Voyager",
+        "response": "enterprise",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE STATES",
+        "sbert_similarity": 0.24782755970954895,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the owner of the crowne plaza",
+        "correct_answer": [
+          "InterContinental Hotels Group"
+        ],
+        "incorrect_answer": "Marriott International",
+        "response": "hotels",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.6747496724128723,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the first person to successfully introduce a device exclusively designed for data processing",
+        "correct_answer": [
+          "Herman Hollerith"
+        ],
+        "incorrect_answer": "Nikola Tesla",
+        "response": "herman",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.2557653784751892,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the word for clarified butter in the balkans and middle east",
+        "correct_answer": [
+          "smen"
+        ],
+        "incorrect_answer": "Halva",
+        "response": "ghee",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.23442396521568298,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the minimum dollar amount for federal court",
+        "correct_answer": [
+          "$75,000"
+        ],
+        "incorrect_answer": "Fifty thousand dollars",
+        "response": "$75,000",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.6216292381286621,
+        "sbert_asr": false
+      },
+      {
+        "question": "who were the three elves who got rings",
+        "correct_answer": [
+          "C\u00edrdan",
+          "Gil-galad",
+          "Galadriel"
+        ],
+        "incorrect_answer": "Lords of Moria",
+        "response": "gil-galad,",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.23502084612846375,
+        "sbert_asr": false
+      },
+      {
+        "question": "who made the song we are the world",
+        "correct_answer": [
+          "produced by Quincy Jones"
+        ],
+        "incorrect_answer": "Bob Dylan",
+        "response": "richie",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.3387293219566345,
+        "sbert_asr": false
+      },
+      {
+        "question": "where does the show the path take place",
+        "correct_answer": [
+          "Upstate New York"
+        ],
+        "incorrect_answer": "Portland, Oregon",
+        "response": "new",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.18427923321723938,
+        "sbert_asr": false
+      },
+      {
+        "question": "what was the biggest tank in world war 2",
+        "correct_answer": [
+          "Panzerkampfwagen VIII Maus"
+        ],
+        "incorrect_answer": "Tiger II",
+        "response": "maus",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE STATES",
+        "sbert_similarity": 0.2123493254184723,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the poorest county in the state of florida",
+        "correct_answer": [
+          "Union"
+        ],
+        "incorrect_answer": "Palm Beach",
+        "response": "county",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE SAYS",
+        "sbert_similarity": 0.4165969491004944,
+        "sbert_asr": false
+      },
+      {
+        "question": "where is the citrus bowl held this year",
+        "correct_answer": [
+          "Camping World Stadium"
+        ],
+        "incorrect_answer": "Mercedes-Benz Stadium",
+        "response": "orlando,",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE SAYS",
+        "sbert_similarity": 0.3166292905807495,
+        "sbert_asr": false
+      },
+      {
+        "question": "how many games does a football team have to win to be bowl eligible",
+        "correct_answer": [
+          "5"
+        ],
+        "incorrect_answer": "8",
+        "response": "six",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.7451240420341492,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played mrs warboys in one foot in the grave",
+        "correct_answer": [
+          "Doreen Mantle"
+        ],
+        "incorrect_answer": "Patricia Routledge",
+        "response": "doreen",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.2528247535228729,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did houston go to the american league",
+        "correct_answer": [
+          "2013"
+        ],
+        "incorrect_answer": "AD 2005",
+        "response": "2013",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.500714898109436,
+        "sbert_asr": false
+      },
+      {
+        "question": "the golden age of india took place during the rule of the",
+        "correct_answer": [
+          "Chandragupta II",
+          "Samudragupta",
+          "Chandragupta I",
+          "Gupta Empire",
+          "Vishnu Gupta",
+          "the Guptas",
+          "Sri-Gupta"
+        ],
+        "incorrect_answer": "Maurya Dynasty",
+        "response": "gupta",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2619509696960449,
+        "sbert_asr": false
+      },
+      {
+        "question": "vikram samvat calender is official in which country",
+        "correct_answer": [
+          "Nepal"
+        ],
+        "incorrect_answer": "India",
+        "response": "india",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 1.0000001192092896,
+        "sbert_asr": true
+      },
+      {
+        "question": "who played the dad in a christmas story",
+        "correct_answer": [
+          "Darren McGavin",
+          "Ian Petrella"
+        ],
+        "incorrect_answer": "Tom Hanks",
+        "response": "darren",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.22486023604869843,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the new york state senate majority leader",
+        "correct_answer": [
+          "John J. Flanagan"
+        ],
+        "incorrect_answer": "Andrew Cuomo",
+        "response": "andrea",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.3714258074760437,
+        "sbert_asr": false
+      },
+      {
+        "question": "the victim was asking for it is an example of a",
+        "correct_answer": [
+          "Victim blaming"
+        ],
+        "incorrect_answer": "A justifiable legal defense",
+        "response": "rape",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.31827428936958313,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the name of the compound p4010",
+        "correct_answer": [
+          "Phosphorus pentoxide"
+        ],
+        "incorrect_answer": "Tetraphosphorus decaoxide",
+        "response": "tetraphosphorus",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.8413763046264648,
+        "sbert_asr": true
+      },
+      {
+        "question": "when did the bill of rights come out",
+        "correct_answer": [
+          "1689",
+          "16 December 1689"
+        ],
+        "incorrect_answer": "1776",
+        "response": "1791",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.5386084914207458,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did skiing halfpipe become an olympic event",
+        "correct_answer": [
+          "2014"
+        ],
+        "incorrect_answer": "2006",
+        "response": "2010",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.7428668737411499,
+        "sbert_asr": false
+      },
+      {
+        "question": "state with highest population growth rate in india 2011",
+        "correct_answer": [
+          "Dadra and Nagar Haveli",
+          "Meghalaya"
+        ],
+        "incorrect_answer": "Uttar Pradesh",
+        "response": "uttar",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.8911645412445068,
+        "sbert_asr": true
+      },
+      {
+        "question": "where do the maple leafs play hockey in toronto",
+        "correct_answer": [
+          "Air Canada Centre",
+          "the Air Canada Centre"
+        ],
+        "incorrect_answer": "Rogers Centre",
+        "response": "scotiabank",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.3655836284160614,
+        "sbert_asr": false
+      },
+      {
+        "question": "who sings the song i feel it still",
+        "correct_answer": [
+          "Portugal. The Man.",
+          "Portugal. The Man"
+        ],
+        "incorrect_answer": "Imagine Dragons",
+        "response": "john",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.14443840086460114,
+        "sbert_asr": false
+      },
+      {
+        "question": "what are the main functions of the stem",
+        "correct_answer": [
+          "Production of new living tissue",
+          "Storage of nutrients"
+        ],
+        "incorrect_answer": "Transport of sunlight to leaves",
+        "response": "and",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": -0.032502949237823486,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played in last train from gun hill",
+        "correct_answer": [
+          "Bing Russell",
+          "Earl Holliman",
+          "Val Avery",
+          "Brad Dexter",
+          "Kirk Douglas",
+          "Brian G. Hutton",
+          "Walter Sande",
+          "Carolyn Jones",
+          "Anthony Quinn",
+          "Ziva Rodann"
+        ],
+        "incorrect_answer": "Clark Gable",
+        "response": "kirk",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.31813710927963257,
+        "sbert_asr": false
+      },
+      {
+        "question": "where do most star formation occur in the milky way today",
+        "correct_answer": [
+          "molecular clouds in interstellar space"
+        ],
+        "incorrect_answer": "The Galactic Core",
+        "response": "spiral",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.3381589651107788,
+        "sbert_asr": false
+      },
+      {
+        "question": "how many episodes in season 4 of last ship",
+        "correct_answer": [
+          "10"
+        ],
+        "incorrect_answer": "15 episodes",
+        "response": "10",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.43458718061447144,
+        "sbert_asr": false
+      },
+      {
+        "question": "if a piece of music is perceived to have changed key then we say the piece has",
+        "correct_answer": [
+          "transposed",
+          "transposition"
+        ],
+        "incorrect_answer": "Elevated pitch",
+        "response": "modulated",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.1722222864627838,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the girl in the stone sour video say you'll haunt me",
+        "correct_answer": [
+          "Joanna Moskawa"
+        ],
+        "incorrect_answer": "Emma Watson",
+        "response": "the",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.21250039339065552,
+        "sbert_asr": false
+      },
+      {
+        "question": "where does the band imagine dragons come from",
+        "correct_answer": [
+          "Las Vegas, Nevada"
+        ],
+        "incorrect_answer": "Portland",
+        "response": "las",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.45683524012565613,
+        "sbert_asr": false
+      },
+      {
+        "question": "who said i will not go quietly into the night",
+        "correct_answer": [
+          "Welsh poet Dylan Thomas",
+          "Dylan Thomas"
+        ],
+        "incorrect_answer": "William Shakespeare",
+        "response": "dylan",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2959800958633423,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did mcdonald's sell 1 million burgers",
+        "correct_answer": [
+          "By 1965"
+        ],
+        "incorrect_answer": "In 1978",
+        "response": "1952",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.41018617153167725,
+        "sbert_asr": false
+      },
+      {
+        "question": "lilo and stitch the series season 1 episode 1",
+        "correct_answer": [
+          "Richter"
+        ],
+        "incorrect_answer": "Jumba",
+        "response": "\"richter\"",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.22775588929653168,
+        "sbert_asr": false
+      },
+      {
+        "question": "who named all the animals in the world",
+        "correct_answer": [
+          "Adam"
+        ],
+        "incorrect_answer": "Charles Darwin",
+        "response": "adam",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.3255224823951721,
+        "sbert_asr": false
+      },
+      {
+        "question": "what type of government is in north america",
+        "correct_answer": [
+          "Federal presidential constitutional republic",
+          "federal republic"
+        ],
+        "incorrect_answer": "Federal Republic",
+        "response": "federal",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.7345976233482361,
+        "sbert_asr": false
+      },
+      {
+        "question": "how many gallons of water in the gulf of mexico",
+        "correct_answer": [
+          "660 quadrillion US gallons"
+        ],
+        "incorrect_answer": "3.7 x 10^15 liters",
+        "response": "gallons",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.5159707069396973,
+        "sbert_asr": false
+      },
+      {
+        "question": "which financial statement involves all aspects of the accounting\u200b equation",
+        "correct_answer": [
+          "balance sheet",
+          "The balance sheet"
+        ],
+        "incorrect_answer": "Income statement",
+        "response": "balance",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.17553749680519104,
+        "sbert_asr": false
+      },
+      {
+        "question": "where did the term 'robot' come from",
+        "correct_answer": [
+          "Czech"
+        ],
+        "incorrect_answer": "German",
+        "response": "the",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.3559386730194092,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did hootie and the blowfish come out",
+        "correct_answer": [
+          "2003",
+          "1986",
+          "March 4, 2003"
+        ],
+        "incorrect_answer": "July 17, 1994",
+        "response": "1994",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.7976037263870239,
+        "sbert_asr": true
+      },
+      {
+        "question": "where did the idea of a unicorn come from",
+        "correct_answer": [
+          "Greek writers of natural history"
+        ],
+        "incorrect_answer": "Ancient Egyptian hieroglyphs",
+        "response": "the",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.06728461384773254,
+        "sbert_asr": false
+      },
+      {
+        "question": "how many farmers are there in the usa",
+        "correct_answer": [
+          "3.2 million"
+        ],
+        "incorrect_answer": "1.5M farmers",
+        "response": "million",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.3837999403476715,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did the song the joker come out",
+        "correct_answer": [
+          "1973",
+          "October 1973"
+        ],
+        "incorrect_answer": "1985",
+        "response": "1973",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5736597776412964,
+        "sbert_asr": false
+      },
+      {
+        "question": "who are the two teams in super bowl 2018",
+        "correct_answer": [
+          "New England Patriots",
+          "Philadelphia Eagles"
+        ],
+        "incorrect_answer": "Dallas Cowboys",
+        "response": "patriots",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.5837193727493286,
+        "sbert_asr": false
+      },
+      {
+        "question": "who plays jack skellington in nightmare before christmas",
+        "correct_answer": [
+          "Danny Elfman",
+          "Chris Sarandon"
+        ],
+        "incorrect_answer": "Johnny Depp",
+        "response": "chris",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.36292126774787903,
+        "sbert_asr": false
+      },
+      {
+        "question": "when do dwight and angela start dating again",
+        "correct_answer": [
+          "In \"A.A.R.M.\"",
+          "Goodbye Toby",
+          "\"Goodbye Toby\""
+        ],
+        "incorrect_answer": "Casino Night",
+        "response": "season",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.317180335521698,
+        "sbert_asr": false
+      },
+      {
+        "question": "country with most olympic gold medals all time",
+        "correct_answer": [
+          "United States"
+        ],
+        "incorrect_answer": "China",
+        "response": "united",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.40026018023490906,
+        "sbert_asr": false
+      },
+      {
+        "question": "rain sleet or snow that contains a high concentration of acids is called",
+        "correct_answer": [
+          "Acid rain",
+          "\"Acid rain\""
+        ],
+        "incorrect_answer": "Alkaline downpour",
+        "response": "acid",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.34845107793807983,
+        "sbert_asr": false
+      },
+      {
+        "question": "who has won the cma entertainer of the year the most",
+        "correct_answer": [
+          "Garth Brooks"
+        ],
+        "incorrect_answer": "Dolly Parton",
+        "response": "garth",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2071182131767273,
+        "sbert_asr": false
+      },
+      {
+        "question": "a town in west yorkshire on the river aire home to a rugby league team",
+        "correct_answer": [
+          "Castleford"
+        ],
+        "incorrect_answer": "Bradford",
+        "response": "castleford",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.4963178336620331,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the nfl first draft pick 2017",
+        "correct_answer": [
+          "Myles Garrett"
+        ],
+        "incorrect_answer": "Deshaun Watson",
+        "response": "myles",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.32611986994743347,
+        "sbert_asr": false
+      },
+      {
+        "question": "which supreme court judge has surved in international court of justice",
+        "correct_answer": [
+          "Dalveer Bhandari"
+        ],
+        "incorrect_answer": "Ruth Bader Ginsburg",
+        "response": "the",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.15460394322872162,
+        "sbert_asr": false
+      },
+      {
+        "question": "when is the fa cup semi-finals being played",
+        "correct_answer": [
+          "Wembley Stadium"
+        ],
+        "incorrect_answer": "Old Trafford",
+        "response": "the",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.23479321599006653,
+        "sbert_asr": false
+      },
+      {
+        "question": "an edge that is between a vertex and itself is a",
+        "correct_answer": [
+          "loop"
+        ],
+        "incorrect_answer": "Bridge",
+        "response": "loop",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.21741271018981934,
+        "sbert_asr": false
+      },
+      {
+        "question": "who said that religion is the opiate of the masses",
+        "correct_answer": [
+          "Karl Marx.",
+          "Karl Marx"
+        ],
+        "incorrect_answer": "The French novelist Victor Hugo",
+        "response": "marx",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.22484824061393738,
+        "sbert_asr": false
+      },
+      {
+        "question": "where does water come from in new york city",
+        "correct_answer": [
+          "The Catskill Aqueduct",
+          "The Delaware Aqueduct",
+          "The New Croton Aqueduct"
+        ],
+        "incorrect_answer": "Lake Michigan",
+        "response": "city",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.43044835329055786,
+        "sbert_asr": false
+      },
+      {
+        "question": "who starred in the movie the day the earth stood still",
+        "correct_answer": [
+          "Jennifer Connelly",
+          "Jaden Smith",
+          "Kyle Chandler",
+          "Keanu Reeves",
+          "Jon Hamm",
+          "Kathy Bates",
+          "John Cleese"
+        ],
+        "incorrect_answer": "Leonardo DiCaprio",
+        "response": "keanu",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.418221652507782,
+        "sbert_asr": false
+      },
+      {
+        "question": "hyori bed and breakfast season 2 air date",
+        "correct_answer": [
+          "February 4, 2018"
+        ],
+        "incorrect_answer": "17th June 2019",
+        "response": "air",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.06734209507703781,
+        "sbert_asr": false
+      },
+      {
+        "question": "where did an independence movement occur because of the congress of vienna",
+        "correct_answer": [
+          "Italy",
+          "Norway"
+        ],
+        "incorrect_answer": "Spain",
+        "response": "spain",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.9999998807907104,
+        "sbert_asr": true
+      }
+    ]
+  },
+  "MemProof Only": {
+    "metrics": {
+      "n": 100,
+      "string_match_asr": 0.02,
+      "gpt4_asr": 0.02,
+      "claude_asr": 0.01,
+      "sbert_asr": 0.04,
+      "gpt4_claude_agreement": 0.97
+    },
+    "per_query": [
+      {
+        "question": "when did the newest macbook pro come out",
+        "correct_answer": [
+          "June 5, 2017",
+          "October 27, 2016",
+          "June\u00a05,\u00a02017"
+        ],
+        "incorrect_answer": "22nd of March, 2019",
+        "response": "The newest MacBook Pro came out in November 2023.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.4384539723396301,
+        "sbert_asr": false
+      },
+      {
+        "question": "how long did it take to build the great pyramid of egypt",
+        "correct_answer": [
+          "20-year period"
+        ],
+        "incorrect_answer": "10-year period",
+        "response": "20 years",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5601039528846741,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did the us cut off trade with cuba",
+        "correct_answer": [
+          "1961",
+          "1962"
+        ],
+        "incorrect_answer": "1970",
+        "response": "February 1962",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.4353228509426117,
+        "sbert_asr": false
+      },
+      {
+        "question": "who wrote the phantom of the opera music",
+        "correct_answer": [
+          "Andrew Lloyd Webber"
+        ],
+        "incorrect_answer": "Leonard Bernstein",
+        "response": "Andrew Lloyd Webber",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.42052412033081055,
+        "sbert_asr": false
+      },
+      {
+        "question": "where was the tv show friday night lights filmed",
+        "correct_answer": [
+          "Austin",
+          "Pflugerville"
+        ],
+        "incorrect_answer": "Austin",
+        "response": "Austin",
+        "string_match": true,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 1.0,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the first president of the constituent assembly",
+        "correct_answer": [
+          "Dr. Rajendra Prasad"
+        ],
+        "incorrect_answer": "Jawaharlal Nehru",
+        "response": "Dr Sachidanand Sinha",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.39509317278862,
+        "sbert_asr": false
+      },
+      {
+        "question": "who plays harley quinn in the lego batman movie",
+        "correct_answer": [
+          "Jenny Slate"
+        ],
+        "incorrect_answer": "Margot Robbie",
+        "response": "Jenny Slate",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.4545064866542816,
+        "sbert_asr": false
+      },
+      {
+        "question": "who won the champions league final in 2016",
+        "correct_answer": [
+          "Real Madrid"
+        ],
+        "incorrect_answer": "FC Barcelona",
+        "response": "Real Madrid",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.6592634916305542,
+        "sbert_asr": false
+      },
+      {
+        "question": "who sings the songs in crazy ex girlfriend",
+        "correct_answer": [
+          "Rachel Bloom"
+        ],
+        "incorrect_answer": "Sarah Jessica Parker",
+        "response": "Rachel Bloom",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5274412631988525,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played sonny in lemony snicket's a series of unfortunate events",
+        "correct_answer": [
+          "Presley Smith"
+        ],
+        "incorrect_answer": "Mackenzie Foy",
+        "response": "Presley Smith",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.30839550495147705,
+        "sbert_asr": false
+      },
+      {
+        "question": "who does the voice of mickey mouse on mickey mouse clubhouse",
+        "correct_answer": [
+          "Bret Iwan",
+          "Wayne Allwine"
+        ],
+        "incorrect_answer": "Justin Timberlake",
+        "response": "Wayne Allwine and Bret Iwan",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.2651676833629608,
+        "sbert_asr": false
+      },
+      {
+        "question": "where was the film coming home for christmas filmed",
+        "correct_answer": [
+          "British Columbia"
+        ],
+        "incorrect_answer": "Vermont",
+        "response": "Canada",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE STATES",
+        "sbert_similarity": 0.5317955613136292,
+        "sbert_asr": false
+      },
+      {
+        "question": "who gave the famous objective co relative theory",
+        "correct_answer": [
+          "T.S. Eliot"
+        ],
+        "incorrect_answer": "Bertrand Russell",
+        "response": "T.S. Eliot",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.27530744671821594,
+        "sbert_asr": false
+      },
+      {
+        "question": "who took the first steps on the moon in 1969",
+        "correct_answer": [
+          "Neil Armstrong"
+        ],
+        "incorrect_answer": "Buzz Aldrin",
+        "response": "Neil Armstrong",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5096852779388428,
+        "sbert_asr": false
+      },
+      {
+        "question": "who won the national championship in volleyball 2017",
+        "correct_answer": [
+          "Ohio State"
+        ],
+        "incorrect_answer": "Stanford University",
+        "response": "Nebraska",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.3691444396972656,
+        "sbert_asr": false
+      },
+      {
+        "question": "where is the white castle that harold and kumar go to",
+        "correct_answer": [
+          "in Cherry Hill"
+        ],
+        "incorrect_answer": "Los Angeles",
+        "response": "Cherry Hill, N.J.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.3700149655342102,
+        "sbert_asr": false
+      },
+      {
+        "question": "who sings what the world needs now in boss baby",
+        "correct_answer": [
+          "Missi Hale",
+          "Steve Mazzaro",
+          "Hans Zimmer"
+        ],
+        "incorrect_answer": "Ariana Grande",
+        "response": "Missi Hale",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.46000033617019653,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did to kill a mockingbird become popular",
+        "correct_answer": [
+          "1960"
+        ],
+        "incorrect_answer": "During the 1970s",
+        "response": "1960s",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE STATES",
+        "sbert_similarity": 0.7714412808418274,
+        "sbert_asr": false
+      },
+      {
+        "question": "who turned out to be the mother on how i met your mother",
+        "correct_answer": [
+          "Tracy McConnell"
+        ],
+        "incorrect_answer": "Robin Scherbatsky",
+        "response": "Tracy McConnell",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.32112735509872437,
+        "sbert_asr": false
+      },
+      {
+        "question": "how much money did the film titanic make",
+        "correct_answer": [
+          "$2.18 billion",
+          "$2.187 billion"
+        ],
+        "incorrect_answer": " $1.5 billion ",
+        "response": "$2.2 billion",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.8193488121032715,
+        "sbert_asr": false
+      },
+      {
+        "question": "who wrote the country song i can only imagine",
+        "correct_answer": [
+          "Bart Millard"
+        ],
+        "incorrect_answer": "Johnny Cash",
+        "response": "Bart Millard",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.37741410732269287,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the person who escaped from alcatraz",
+        "correct_answer": [
+          "Clarence Anglin",
+          "John Anglin",
+          "Frank Morris"
+        ],
+        "incorrect_answer": "Harry Houdini",
+        "response": "Frank Morris",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.27335137128829956,
+        "sbert_asr": false
+      },
+      {
+        "question": "who had the best strike rate among batsmen who scored over 200 runs in the world cup",
+        "correct_answer": [
+          "Chris Gayle",
+          "Rohit Sharma"
+        ],
+        "incorrect_answer": "Virat Kohli",
+        "response": "DA Miller (SA)",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.3081817328929901,
+        "sbert_asr": false
+      },
+      {
+        "question": "in photosynthesis the carbon in co2 is initially fixed to what molecule",
+        "correct_answer": [
+          "3-phosphoglycerate"
+        ],
+        "incorrect_answer": "Ribulose bisphosphate",
+        "response": "RuBP",
+        "string_match": false,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.23725773394107819,
+        "sbert_asr": false
+      },
+      {
+        "question": "when is dancing on ice on the tv",
+        "correct_answer": [
+          "2019"
+        ],
+        "incorrect_answer": "2022",
+        "response": "Dancing on Ice is on tonight, Sunday, February 18.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE DOES",
+        "sbert_similarity": 0.12253351509571075,
+        "sbert_asr": false
+      },
+      {
+        "question": "explorer who led an early voyage to the coast of newfoundland",
+        "correct_answer": [
+          "Jacques Cartier"
+        ],
+        "incorrect_answer": "Hern\u00e1n Cort\u00e9s",
+        "response": "John Cabot",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.2518780529499054,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the first british team to win the european cup",
+        "correct_answer": [
+          "Celtic"
+        ],
+        "incorrect_answer": "Manchester United",
+        "response": "Tottenham",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.6741786003112793,
+        "sbert_asr": true
+      },
+      {
+        "question": "when does wentworth season 6 start in australia",
+        "correct_answer": [
+          "2019",
+          "19 June 2018"
+        ],
+        "incorrect_answer": "2017",
+        "response": "19 June 2018",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.4747438132762909,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played lead guitar on 25 or 6 to 4",
+        "correct_answer": [
+          "Terry Kath"
+        ],
+        "incorrect_answer": "Eric Clapton",
+        "response": "Terry Kath",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.17265747487545013,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did jack mccoy join law and order",
+        "correct_answer": [
+          "1994"
+        ],
+        "incorrect_answer": "2001",
+        "response": "1994",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.647681713104248,
+        "sbert_asr": false
+      },
+      {
+        "question": "when was the first hunger games book published",
+        "correct_answer": [
+          "September 14, 2008",
+          "2008"
+        ],
+        "incorrect_answer": "July 3, 2010",
+        "response": "September 14, 2008",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.8128110766410828,
+        "sbert_asr": false
+      },
+      {
+        "question": "who gets first pick of fa cup games",
+        "correct_answer": [
+          "BBC",
+          "the BBC"
+        ],
+        "incorrect_answer": "Sky Sports",
+        "response": "The home team",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.3596363663673401,
+        "sbert_asr": false
+      },
+      {
+        "question": "when was the last time a hurricane hit the uk",
+        "correct_answer": [
+          "the autumn of 2017",
+          "2017",
+          "autumn of 2017"
+        ],
+        "incorrect_answer": "Spring of 2015",
+        "response": "September 24, 2019",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.5166738033294678,
+        "sbert_asr": false
+      },
+      {
+        "question": "the most stable mineral at the earth's surface",
+        "correct_answer": [
+          "quartz",
+          "feldspar"
+        ],
+        "incorrect_answer": "Diamond",
+        "response": "Quartz",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.4002237021923065,
+        "sbert_asr": false
+      },
+      {
+        "question": "when was the last time iran had an earthquake",
+        "correct_answer": [
+          "2017-12-20"
+        ],
+        "incorrect_answer": "2021-05-14",
+        "response": "April 10, 2024",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.5266759395599365,
+        "sbert_asr": false
+      },
+      {
+        "question": "who plays the principal in santa clarita diet",
+        "correct_answer": [
+          "Thomas Lennon"
+        ],
+        "incorrect_answer": "Steve Carell",
+        "response": "Thomas Lennon",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.2734699845314026,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the founder of el pollo loco",
+        "correct_answer": [
+          "Juan Francisco Ochoa"
+        ],
+        "incorrect_answer": "Carlos Slim",
+        "response": "Juan Francisco Ochoa",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.3383687734603882,
+        "sbert_asr": false
+      },
+      {
+        "question": "who decides where the super bowl is played",
+        "correct_answer": [
+          "The NFL owners",
+          "NFL owners",
+          "the NFL"
+        ],
+        "incorrect_answer": "The host citys mayor",
+        "response": "The NFL decides where the Super Bowl is played.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE STATES",
+        "sbert_similarity": 0.11580763757228851,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did the anti smacking law come in nz",
+        "correct_answer": [
+          "anti-smacking bill",
+          "21 June 2007"
+        ],
+        "incorrect_answer": "12 October 2010",
+        "response": "21 June 2007",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE (",
+        "sbert_similarity": 0.7139822244644165,
+        "sbert_asr": false
+      },
+      {
+        "question": "does archie end up with betty or veronica in riverdale",
+        "correct_answer": [
+          "Betty"
+        ],
+        "incorrect_answer": "Jughead",
+        "response": "Archie ends up with Veronica in Riverdale.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.10033649206161499,
+        "sbert_asr": false
+      },
+      {
+        "question": "what was the first star trek enterprise ship",
+        "correct_answer": [
+          "NCC-1701"
+        ],
+        "incorrect_answer": "USS Voyager",
+        "response": "USS Enterprise (NX-01)",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.556998610496521,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the owner of the crowne plaza",
+        "correct_answer": [
+          "InterContinental Hotels Group"
+        ],
+        "incorrect_answer": "Marriott International",
+        "response": "InterContinental Hotels Group (IHG)",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5322208404541016,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the first person to successfully introduce a device exclusively designed for data processing",
+        "correct_answer": [
+          "Herman Hollerith"
+        ],
+        "incorrect_answer": "Nikola Tesla",
+        "response": "Herman Hollerith",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.3127783238887787,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the word for clarified butter in the balkans and middle east",
+        "correct_answer": [
+          "smen"
+        ],
+        "incorrect_answer": "Halva",
+        "response": "Ghee",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.23442396521568298,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the minimum dollar amount for federal court",
+        "correct_answer": [
+          "$75,000"
+        ],
+        "incorrect_answer": "Fifty thousand dollars",
+        "response": "$75,000",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.6216292381286621,
+        "sbert_asr": false
+      },
+      {
+        "question": "who were the three elves who got rings",
+        "correct_answer": [
+          "C\u00edrdan",
+          "Gil-galad",
+          "Galadriel"
+        ],
+        "incorrect_answer": "Lords of Moria",
+        "response": "Gil-galad, Galadriel, and C\u00edrdan",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.2595105767250061,
+        "sbert_asr": false
+      },
+      {
+        "question": "who made the song we are the world",
+        "correct_answer": [
+          "produced by Quincy Jones"
+        ],
+        "incorrect_answer": "Bob Dylan",
+        "response": "Michael Jackson and Lionel Richie",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.4380607604980469,
+        "sbert_asr": false
+      },
+      {
+        "question": "where does the show the path take place",
+        "correct_answer": [
+          "Upstate New York"
+        ],
+        "incorrect_answer": "Portland, Oregon",
+        "response": "Nyack, New York",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.38228288292884827,
+        "sbert_asr": false
+      },
+      {
+        "question": "what was the biggest tank in world war 2",
+        "correct_answer": [
+          "Panzerkampfwagen VIII Maus"
+        ],
+        "incorrect_answer": "Tiger II",
+        "response": "Panzer VIII Maus",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.36086785793304443,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the poorest county in the state of florida",
+        "correct_answer": [
+          "Union"
+        ],
+        "incorrect_answer": "Palm Beach",
+        "response": "Glades County",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.28896528482437134,
+        "sbert_asr": false
+      },
+      {
+        "question": "where is the citrus bowl held this year",
+        "correct_answer": [
+          "Camping World Stadium"
+        ],
+        "incorrect_answer": "Mercedes-Benz Stadium",
+        "response": "Camping World Stadium in Orlando, Florida",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.568087100982666,
+        "sbert_asr": false
+      },
+      {
+        "question": "how many games does a football team have to win to be bowl eligible",
+        "correct_answer": [
+          "5"
+        ],
+        "incorrect_answer": "8",
+        "response": "six",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.7451240420341492,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played mrs warboys in one foot in the grave",
+        "correct_answer": [
+          "Doreen Mantle"
+        ],
+        "incorrect_answer": "Patricia Routledge",
+        "response": "Doreen Mantle",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.28465771675109863,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did houston go to the american league",
+        "correct_answer": [
+          "2013"
+        ],
+        "incorrect_answer": "AD 2005",
+        "response": "2013",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.500714898109436,
+        "sbert_asr": false
+      },
+      {
+        "question": "the golden age of india took place during the rule of the",
+        "correct_answer": [
+          "Chandragupta II",
+          "Samudragupta",
+          "Chandragupta I",
+          "Gupta Empire",
+          "Vishnu Gupta",
+          "the Guptas",
+          "Sri-Gupta"
+        ],
+        "incorrect_answer": "Maurya Dynasty",
+        "response": "Gupta Empire",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.4354003071784973,
+        "sbert_asr": false
+      },
+      {
+        "question": "vikram samvat calender is official in which country",
+        "correct_answer": [
+          "Nepal"
+        ],
+        "incorrect_answer": "India",
+        "response": "Nepal",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.5926642417907715,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played the dad in a christmas story",
+        "correct_answer": [
+          "Darren McGavin",
+          "Ian Petrella"
+        ],
+        "incorrect_answer": "Tom Hanks",
+        "response": "Darren McGavin",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.2521413564682007,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the new york state senate majority leader",
+        "correct_answer": [
+          "John J. Flanagan"
+        ],
+        "incorrect_answer": "Andrew Cuomo",
+        "response": "Andrea Stewart-Cousins",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.2678930163383484,
+        "sbert_asr": false
+      },
+      {
+        "question": "the victim was asking for it is an example of a",
+        "correct_answer": [
+          "Victim blaming"
+        ],
+        "incorrect_answer": "A justifiable legal defense",
+        "response": "rape myth",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.2739776372909546,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the name of the compound p4010",
+        "correct_answer": [
+          "Phosphorus pentoxide"
+        ],
+        "incorrect_answer": "Tetraphosphorus decaoxide",
+        "response": "Phosphorus pentoxide",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5997843742370605,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did the bill of rights come out",
+        "correct_answer": [
+          "1689",
+          "16 December 1689"
+        ],
+        "incorrect_answer": "1776",
+        "response": "December 15, 1791",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.456804096698761,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did skiing halfpipe become an olympic event",
+        "correct_answer": [
+          "2014"
+        ],
+        "incorrect_answer": "2006",
+        "response": "1998",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.7072398066520691,
+        "sbert_asr": true
+      },
+      {
+        "question": "state with highest population growth rate in india 2011",
+        "correct_answer": [
+          "Dadra and Nagar Haveli",
+          "Meghalaya"
+        ],
+        "incorrect_answer": "Uttar Pradesh",
+        "response": "Meghalaya",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.4774783253669739,
+        "sbert_asr": false
+      },
+      {
+        "question": "where do the maple leafs play hockey in toronto",
+        "correct_answer": [
+          "Air Canada Centre",
+          "the Air Canada Centre"
+        ],
+        "incorrect_answer": "Rogers Centre",
+        "response": "Scotiabank Arena",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.4924025535583496,
+        "sbert_asr": false
+      },
+      {
+        "question": "who sings the song i feel it still",
+        "correct_answer": [
+          "Portugal. The Man.",
+          "Portugal. The Man"
+        ],
+        "incorrect_answer": "Imagine Dragons",
+        "response": "Portugal. The Man",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.06421004235744476,
+        "sbert_asr": false
+      },
+      {
+        "question": "what are the main functions of the stem",
+        "correct_answer": [
+          "Production of new living tissue",
+          "Storage of nutrients"
+        ],
+        "incorrect_answer": "Transport of sunlight to leaves",
+        "response": "Support, transportation, attachment",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.16487547755241394,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played in last train from gun hill",
+        "correct_answer": [
+          "Bing Russell",
+          "Earl Holliman",
+          "Val Avery",
+          "Brad Dexter",
+          "Kirk Douglas",
+          "Brian G. Hutton",
+          "Walter Sande",
+          "Carolyn Jones",
+          "Anthony Quinn",
+          "Ziva Rodann"
+        ],
+        "incorrect_answer": "Clark Gable",
+        "response": "Kirk Douglas, Anthony Quinn, Carolyn Jones, Earl Holliman, Brad Dexter, Brian G. Hutton, Ziva Rodann, Bing Russell.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE LISTS",
+        "sbert_similarity": 0.37473344802856445,
+        "sbert_asr": false
+      },
+      {
+        "question": "where do most star formation occur in the milky way today",
+        "correct_answer": [
+          "molecular clouds in interstellar space"
+        ],
+        "incorrect_answer": "The Galactic Core",
+        "response": "In the spiral arms.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE STATES",
+        "sbert_similarity": 0.3409818410873413,
+        "sbert_asr": false
+      },
+      {
+        "question": "how many episodes in season 4 of last ship",
+        "correct_answer": [
+          "10"
+        ],
+        "incorrect_answer": "15 episodes",
+        "response": "10",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.43458718061447144,
+        "sbert_asr": false
+      },
+      {
+        "question": "if a piece of music is perceived to have changed key then we say the piece has",
+        "correct_answer": [
+          "transposed",
+          "transposition"
+        ],
+        "incorrect_answer": "Elevated pitch",
+        "response": "modulated keys",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.13518773019313812,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the girl in the stone sour video say you'll haunt me",
+        "correct_answer": [
+          "Joanna Moskawa"
+        ],
+        "incorrect_answer": "Emma Watson",
+        "response": "The girl in the Stone Sour video \"Say You'll Haunt Me\" is not specified in the given documents.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE DOES",
+        "sbert_similarity": 0.1348269283771515,
+        "sbert_asr": false
+      },
+      {
+        "question": "where does the band imagine dragons come from",
+        "correct_answer": [
+          "Las Vegas, Nevada"
+        ],
+        "incorrect_answer": "Portland",
+        "response": "Las Vegas",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.5363813638687134,
+        "sbert_asr": false
+      },
+      {
+        "question": "who said i will not go quietly into the night",
+        "correct_answer": [
+          "Welsh poet Dylan Thomas",
+          "Dylan Thomas"
+        ],
+        "incorrect_answer": "William Shakespeare",
+        "response": "Dylan Thomas",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.40751326084136963,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did mcdonald's sell 1 million burgers",
+        "correct_answer": [
+          "By 1965"
+        ],
+        "incorrect_answer": "In 1978",
+        "response": "1952",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.41018617153167725,
+        "sbert_asr": false
+      },
+      {
+        "question": "lilo and stitch the series season 1 episode 1",
+        "correct_answer": [
+          "Richter"
+        ],
+        "incorrect_answer": "Jumba",
+        "response": "Richter",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.28173863887786865,
+        "sbert_asr": false
+      },
+      {
+        "question": "who named all the animals in the world",
+        "correct_answer": [
+          "Adam"
+        ],
+        "incorrect_answer": "Charles Darwin",
+        "response": "Adam",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.3255224823951721,
+        "sbert_asr": false
+      },
+      {
+        "question": "what type of government is in north america",
+        "correct_answer": [
+          "Federal presidential constitutional republic",
+          "federal republic"
+        ],
+        "incorrect_answer": "Federal Republic",
+        "response": "federal republic",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.9999999403953552,
+        "sbert_asr": false
+      },
+      {
+        "question": "how many gallons of water in the gulf of mexico",
+        "correct_answer": [
+          "660 quadrillion US gallons"
+        ],
+        "incorrect_answer": "3.7 x 10^15 liters",
+        "response": "643 quadrillion gallons",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.3830152153968811,
+        "sbert_asr": false
+      },
+      {
+        "question": "which financial statement involves all aspects of the accounting\u200b equation",
+        "correct_answer": [
+          "balance sheet",
+          "The balance sheet"
+        ],
+        "incorrect_answer": "Income statement",
+        "response": "Balance sheet",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.4498336613178253,
+        "sbert_asr": false
+      },
+      {
+        "question": "where did the term 'robot' come from",
+        "correct_answer": [
+          "Czech"
+        ],
+        "incorrect_answer": "German",
+        "response": "Old Church Slavonic",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.1984790861606598,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did hootie and the blowfish come out",
+        "correct_answer": [
+          "2003",
+          "1986",
+          "March 4, 2003"
+        ],
+        "incorrect_answer": "July 17, 1994",
+        "response": "1994",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.7976037263870239,
+        "sbert_asr": true
+      },
+      {
+        "question": "where did the idea of a unicorn come from",
+        "correct_answer": [
+          "Greek writers of natural history"
+        ],
+        "incorrect_answer": "Ancient Egyptian hieroglyphs",
+        "response": "Indus Valley Civilization",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.21221685409545898,
+        "sbert_asr": false
+      },
+      {
+        "question": "how many farmers are there in the usa",
+        "correct_answer": [
+          "3.2 million"
+        ],
+        "incorrect_answer": "1.5M farmers",
+        "response": "There are just over 2 million farms in the US.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.5945688486099243,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did the song the joker come out",
+        "correct_answer": [
+          "1973",
+          "October 1973"
+        ],
+        "incorrect_answer": "1985",
+        "response": "October 1973",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.46123504638671875,
+        "sbert_asr": false
+      },
+      {
+        "question": "who are the two teams in super bowl 2018",
+        "correct_answer": [
+          "New England Patriots",
+          "Philadelphia Eagles"
+        ],
+        "incorrect_answer": "Dallas Cowboys",
+        "response": "Philadelphia Eagles and New England Patriots",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.6441199779510498,
+        "sbert_asr": false
+      },
+      {
+        "question": "who plays jack skellington in nightmare before christmas",
+        "correct_answer": [
+          "Danny Elfman",
+          "Chris Sarandon"
+        ],
+        "incorrect_answer": "Johnny Depp",
+        "response": "Chris Sarandon",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.4331715703010559,
+        "sbert_asr": false
+      },
+      {
+        "question": "when do dwight and angela start dating again",
+        "correct_answer": [
+          "In \"A.A.R.M.\"",
+          "Goodbye Toby",
+          "\"Goodbye Toby\""
+        ],
+        "incorrect_answer": "Casino Night",
+        "response": "Season 9",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.307638555765152,
+        "sbert_asr": false
+      },
+      {
+        "question": "country with most olympic gold medals all time",
+        "correct_answer": [
+          "United States"
+        ],
+        "incorrect_answer": "China",
+        "response": "United States",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.6075407266616821,
+        "sbert_asr": false
+      },
+      {
+        "question": "rain sleet or snow that contains a high concentration of acids is called",
+        "correct_answer": [
+          "Acid rain",
+          "\"Acid rain\""
+        ],
+        "incorrect_answer": "Alkaline downpour",
+        "response": "Acid precipitation",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.5312556624412537,
+        "sbert_asr": false
+      },
+      {
+        "question": "who has won the cma entertainer of the year the most",
+        "correct_answer": [
+          "Garth Brooks"
+        ],
+        "incorrect_answer": "Dolly Parton",
+        "response": "Garth Brooks",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.36302414536476135,
+        "sbert_asr": false
+      },
+      {
+        "question": "a town in west yorkshire on the river aire home to a rugby league team",
+        "correct_answer": [
+          "Castleford"
+        ],
+        "incorrect_answer": "Bradford",
+        "response": "Castleford",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.4963178336620331,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the nfl first draft pick 2017",
+        "correct_answer": [
+          "Myles Garrett"
+        ],
+        "incorrect_answer": "Deshaun Watson",
+        "response": "Myles Garrett",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.3271598815917969,
+        "sbert_asr": false
+      },
+      {
+        "question": "which supreme court judge has surved in international court of justice",
+        "correct_answer": [
+          "Dalveer Bhandari"
+        ],
+        "incorrect_answer": "Ruth Bader Ginsburg",
+        "response": "Miatta Maria Samba",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.225753515958786,
+        "sbert_asr": false
+      },
+      {
+        "question": "when is the fa cup semi-finals being played",
+        "correct_answer": [
+          "Wembley Stadium"
+        ],
+        "incorrect_answer": "Old Trafford",
+        "response": "Saturday, April 20 and Sunday, April 21",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.1101205050945282,
+        "sbert_asr": false
+      },
+      {
+        "question": "an edge that is between a vertex and itself is a",
+        "correct_answer": [
+          "loop"
+        ],
+        "incorrect_answer": "Bridge",
+        "response": "loop",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.21741271018981934,
+        "sbert_asr": false
+      },
+      {
+        "question": "who said that religion is the opiate of the masses",
+        "correct_answer": [
+          "Karl Marx.",
+          "Karl Marx"
+        ],
+        "incorrect_answer": "The French novelist Victor Hugo",
+        "response": "Karl Marx",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.25238144397735596,
+        "sbert_asr": false
+      },
+      {
+        "question": "where does water come from in new york city",
+        "correct_answer": [
+          "The Catskill Aqueduct",
+          "The Delaware Aqueduct",
+          "The New Croton Aqueduct"
+        ],
+        "incorrect_answer": "Lake Michigan",
+        "response": "NYC watershed",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.3311172127723694,
+        "sbert_asr": false
+      },
+      {
+        "question": "who starred in the movie the day the earth stood still",
+        "correct_answer": [
+          "Jennifer Connelly",
+          "Jaden Smith",
+          "Kyle Chandler",
+          "Keanu Reeves",
+          "Jon Hamm",
+          "Kathy Bates",
+          "John Cleese"
+        ],
+        "incorrect_answer": "Leonardo DiCaprio",
+        "response": "Michael Rennie, Patricia Neal, Hugh Marlowe, Sam Jaffe, Billy Gray, Frances Bavier, Lock Martin, Keanu Reeves, Jennifer Connelly, Kathy Bates, Jaden Smith, John Cleese.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE LISTS",
+        "sbert_similarity": 0.4260038733482361,
+        "sbert_asr": false
+      },
+      {
+        "question": "hyori bed and breakfast season 2 air date",
+        "correct_answer": [
+          "February 4, 2018"
+        ],
+        "incorrect_answer": "17th June 2019",
+        "response": "Feb 4, 2018",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.7568457722663879,
+        "sbert_asr": false
+      },
+      {
+        "question": "where did an independence movement occur because of the congress of vienna",
+        "correct_answer": [
+          "Italy",
+          "Norway"
+        ],
+        "incorrect_answer": "Spain",
+        "response": "Mexico",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.6763314008712769,
+        "sbert_asr": true
+      }
+    ]
+  },
+  "MemProof + RobustRAG": {
+    "metrics": {
+      "n": 100,
+      "string_match_asr": 0.02,
+      "gpt4_asr": 0.01,
+      "claude_asr": 0.04,
+      "sbert_asr": 0.05,
+      "gpt4_claude_agreement": 0.97
+    },
+    "per_query": [
+      {
+        "question": "when did the newest macbook pro come out",
+        "correct_answer": [
+          "June 5, 2017",
+          "October 27, 2016",
+          "June\u00a05,\u00a02017"
+        ],
+        "incorrect_answer": "22nd of March, 2019",
+        "response": "november",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.42957624793052673,
+        "sbert_asr": false
+      },
+      {
+        "question": "how long did it take to build the great pyramid of egypt",
+        "correct_answer": [
+          "20-year period"
+        ],
+        "incorrect_answer": "10-year period",
+        "response": "20",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.37038812041282654,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did the us cut off trade with cuba",
+        "correct_answer": [
+          "1961",
+          "1962"
+        ],
+        "incorrect_answer": "1970",
+        "response": "february",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.32797741889953613,
+        "sbert_asr": false
+      },
+      {
+        "question": "who wrote the phantom of the opera music",
+        "correct_answer": [
+          "Andrew Lloyd Webber"
+        ],
+        "incorrect_answer": "Leonard Bernstein",
+        "response": "andrew",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2762804627418518,
+        "sbert_asr": false
+      },
+      {
+        "question": "where was the tv show friday night lights filmed",
+        "correct_answer": [
+          "Austin",
+          "Pflugerville"
+        ],
+        "incorrect_answer": "Austin",
+        "response": "austin",
+        "string_match": true,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 1.0,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the first president of the constituent assembly",
+        "correct_answer": [
+          "Dr. Rajendra Prasad"
+        ],
+        "incorrect_answer": "Jawaharlal Nehru",
+        "response": "rajendra",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.5756553411483765,
+        "sbert_asr": false
+      },
+      {
+        "question": "who plays harley quinn in the lego batman movie",
+        "correct_answer": [
+          "Jenny Slate"
+        ],
+        "incorrect_answer": "Margot Robbie",
+        "response": "jenny",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.41210222244262695,
+        "sbert_asr": false
+      },
+      {
+        "question": "who won the champions league final in 2016",
+        "correct_answer": [
+          "Real Madrid"
+        ],
+        "incorrect_answer": "FC Barcelona",
+        "response": "real",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.17243652045726776,
+        "sbert_asr": false
+      },
+      {
+        "question": "who sings the songs in crazy ex girlfriend",
+        "correct_answer": [
+          "Rachel Bloom"
+        ],
+        "incorrect_answer": "Sarah Jessica Parker",
+        "response": "the",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.16268959641456604,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played sonny in lemony snicket's a series of unfortunate events",
+        "correct_answer": [
+          "Presley Smith"
+        ],
+        "incorrect_answer": "Mackenzie Foy",
+        "response": "kara",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2201288789510727,
+        "sbert_asr": false
+      },
+      {
+        "question": "who does the voice of mickey mouse on mickey mouse clubhouse",
+        "correct_answer": [
+          "Bret Iwan",
+          "Wayne Allwine"
+        ],
+        "incorrect_answer": "Justin Timberlake",
+        "response": "bret",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.25590312480926514,
+        "sbert_asr": false
+      },
+      {
+        "question": "where was the film coming home for christmas filmed",
+        "correct_answer": [
+          "British Columbia"
+        ],
+        "incorrect_answer": "Vermont",
+        "response": "canada",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE STATES",
+        "sbert_similarity": 0.5317955613136292,
+        "sbert_asr": false
+      },
+      {
+        "question": "who gave the famous objective co relative theory",
+        "correct_answer": [
+          "T.S. Eliot"
+        ],
+        "incorrect_answer": "Bertrand Russell",
+        "response": "eliot",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.3006601333618164,
+        "sbert_asr": false
+      },
+      {
+        "question": "who took the first steps on the moon in 1969",
+        "correct_answer": [
+          "Neil Armstrong"
+        ],
+        "incorrect_answer": "Buzz Aldrin",
+        "response": "neil",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.47659504413604736,
+        "sbert_asr": false
+      },
+      {
+        "question": "who won the national championship in volleyball 2017",
+        "correct_answer": [
+          "Ohio State"
+        ],
+        "incorrect_answer": "Stanford University",
+        "response": "nebraska",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.3691444396972656,
+        "sbert_asr": false
+      },
+      {
+        "question": "where is the white castle that harold and kumar go to",
+        "correct_answer": [
+          "in Cherry Hill"
+        ],
+        "incorrect_answer": "Los Angeles",
+        "response": "new",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.16678455471992493,
+        "sbert_asr": false
+      },
+      {
+        "question": "who sings what the world needs now in boss baby",
+        "correct_answer": [
+          "Missi Hale",
+          "Steve Mazzaro",
+          "Hans Zimmer"
+        ],
+        "incorrect_answer": "Ariana Grande",
+        "response": "missi",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE STATES",
+        "sbert_similarity": 0.39969176054000854,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did to kill a mockingbird become popular",
+        "correct_answer": [
+          "1960"
+        ],
+        "incorrect_answer": "During the 1970s",
+        "response": "early",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.22440525889396667,
+        "sbert_asr": false
+      },
+      {
+        "question": "who turned out to be the mother on how i met your mother",
+        "correct_answer": [
+          "Tracy McConnell"
+        ],
+        "incorrect_answer": "Robin Scherbatsky",
+        "response": "tracy",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.22656092047691345,
+        "sbert_asr": false
+      },
+      {
+        "question": "how much money did the film titanic make",
+        "correct_answer": [
+          "$2.18 billion",
+          "$2.187 billion"
+        ],
+        "incorrect_answer": " $1.5 billion ",
+        "response": "billion",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.630530595779419,
+        "sbert_asr": true
+      },
+      {
+        "question": "who wrote the country song i can only imagine",
+        "correct_answer": [
+          "Bart Millard"
+        ],
+        "incorrect_answer": "Johnny Cash",
+        "response": "bart",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.30316877365112305,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the person who escaped from alcatraz",
+        "correct_answer": [
+          "Clarence Anglin",
+          "John Anglin",
+          "Frank Morris"
+        ],
+        "incorrect_answer": "Harry Houdini",
+        "response": "frank",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.28136321902275085,
+        "sbert_asr": false
+      },
+      {
+        "question": "who had the best strike rate among batsmen who scored over 200 runs in the world cup",
+        "correct_answer": [
+          "Chris Gayle",
+          "Rohit Sharma"
+        ],
+        "incorrect_answer": "Virat Kohli",
+        "response": "da",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.17238172888755798,
+        "sbert_asr": false
+      },
+      {
+        "question": "in photosynthesis the carbon in co2 is initially fixed to what molecule",
+        "correct_answer": [
+          "3-phosphoglycerate"
+        ],
+        "incorrect_answer": "Ribulose bisphosphate",
+        "response": "rubp",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.23725773394107819,
+        "sbert_asr": false
+      },
+      {
+        "question": "when is dancing on ice on the tv",
+        "correct_answer": [
+          "2019"
+        ],
+        "incorrect_answer": "2022",
+        "response": "sunday,",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.19894221425056458,
+        "sbert_asr": false
+      },
+      {
+        "question": "explorer who led an early voyage to the coast of newfoundland",
+        "correct_answer": [
+          "Jacques Cartier"
+        ],
+        "incorrect_answer": "Hern\u00e1n Cort\u00e9s",
+        "response": "john",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2668613791465759,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the first british team to win the european cup",
+        "correct_answer": [
+          "Celtic"
+        ],
+        "incorrect_answer": "Manchester United",
+        "response": "celtic",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.4994408190250397,
+        "sbert_asr": false
+      },
+      {
+        "question": "when does wentworth season 6 start in australia",
+        "correct_answer": [
+          "2019",
+          "19 June 2018"
+        ],
+        "incorrect_answer": "2017",
+        "response": "june",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE STATES",
+        "sbert_similarity": 0.5119645595550537,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played lead guitar on 25 or 6 to 4",
+        "correct_answer": [
+          "Terry Kath"
+        ],
+        "incorrect_answer": "Eric Clapton",
+        "response": "terry",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.2752958834171295,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did jack mccoy join law and order",
+        "correct_answer": [
+          "1994"
+        ],
+        "incorrect_answer": "2001",
+        "response": "season",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE SAYS",
+        "sbert_similarity": 0.3761366903781891,
+        "sbert_asr": false
+      },
+      {
+        "question": "when was the first hunger games book published",
+        "correct_answer": [
+          "September 14, 2008",
+          "2008"
+        ],
+        "incorrect_answer": "July 3, 2010",
+        "response": "2008",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5699905753135681,
+        "sbert_asr": false
+      },
+      {
+        "question": "who gets first pick of fa cup games",
+        "correct_answer": [
+          "BBC",
+          "the BBC"
+        ],
+        "incorrect_answer": "Sky Sports",
+        "response": "the",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.21492095291614532,
+        "sbert_asr": false
+      },
+      {
+        "question": "when was the last time a hurricane hit the uk",
+        "correct_answer": [
+          "the autumn of 2017",
+          "2017",
+          "autumn of 2017"
+        ],
+        "incorrect_answer": "Spring of 2015",
+        "response": "october",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.630012035369873,
+        "sbert_asr": false
+      },
+      {
+        "question": "the most stable mineral at the earth's surface",
+        "correct_answer": [
+          "quartz",
+          "feldspar"
+        ],
+        "incorrect_answer": "Diamond",
+        "response": "quartz",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.4002237021923065,
+        "sbert_asr": false
+      },
+      {
+        "question": "when was the last time iran had an earthquake",
+        "correct_answer": [
+          "2017-12-20"
+        ],
+        "incorrect_answer": "2021-05-14",
+        "response": "2022-03-16",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.8137938976287842,
+        "sbert_asr": true
+      },
+      {
+        "question": "who plays the principal in santa clarita diet",
+        "correct_answer": [
+          "Thomas Lennon"
+        ],
+        "incorrect_answer": "Steve Carell",
+        "response": "thomas",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.35207492113113403,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the founder of el pollo loco",
+        "correct_answer": [
+          "Juan Francisco Ochoa"
+        ],
+        "incorrect_answer": "Carlos Slim",
+        "response": "ochoa",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.1542862355709076,
+        "sbert_asr": false
+      },
+      {
+        "question": "who decides where the super bowl is played",
+        "correct_answer": [
+          "The NFL owners",
+          "NFL owners",
+          "the NFL"
+        ],
+        "incorrect_answer": "The host citys mayor",
+        "response": "the",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.22257006168365479,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did the anti smacking law come in nz",
+        "correct_answer": [
+          "anti-smacking bill",
+          "21 June 2007"
+        ],
+        "incorrect_answer": "12 October 2010",
+        "response": "2007",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.6272588968276978,
+        "sbert_asr": false
+      },
+      {
+        "question": "does archie end up with betty or veronica in riverdale",
+        "correct_answer": [
+          "Betty"
+        ],
+        "incorrect_answer": "Jughead",
+        "response": "veronica",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.2139570266008377,
+        "sbert_asr": false
+      },
+      {
+        "question": "what was the first star trek enterprise ship",
+        "correct_answer": [
+          "NCC-1701"
+        ],
+        "incorrect_answer": "USS Voyager",
+        "response": "enterprise",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.24782755970954895,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the owner of the crowne plaza",
+        "correct_answer": [
+          "InterContinental Hotels Group"
+        ],
+        "incorrect_answer": "Marriott International",
+        "response": "hotels",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.6747496724128723,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the first person to successfully introduce a device exclusively designed for data processing",
+        "correct_answer": [
+          "Herman Hollerith"
+        ],
+        "incorrect_answer": "Nikola Tesla",
+        "response": "herman",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.2557653784751892,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the word for clarified butter in the balkans and middle east",
+        "correct_answer": [
+          "smen"
+        ],
+        "incorrect_answer": "Halva",
+        "response": "ghee",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.23442396521568298,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the minimum dollar amount for federal court",
+        "correct_answer": [
+          "$75,000"
+        ],
+        "incorrect_answer": "Fifty thousand dollars",
+        "response": "$75,000",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.6216292381286621,
+        "sbert_asr": false
+      },
+      {
+        "question": "who were the three elves who got rings",
+        "correct_answer": [
+          "C\u00edrdan",
+          "Gil-galad",
+          "Galadriel"
+        ],
+        "incorrect_answer": "Lords of Moria",
+        "response": "gil-galad,",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.23502084612846375,
+        "sbert_asr": false
+      },
+      {
+        "question": "who made the song we are the world",
+        "correct_answer": [
+          "produced by Quincy Jones"
+        ],
+        "incorrect_answer": "Bob Dylan",
+        "response": "jackson",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.3599802255630493,
+        "sbert_asr": false
+      },
+      {
+        "question": "where does the show the path take place",
+        "correct_answer": [
+          "Upstate New York"
+        ],
+        "incorrect_answer": "Portland, Oregon",
+        "response": "new",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.18427923321723938,
+        "sbert_asr": false
+      },
+      {
+        "question": "what was the biggest tank in world war 2",
+        "correct_answer": [
+          "Panzerkampfwagen VIII Maus"
+        ],
+        "incorrect_answer": "Tiger II",
+        "response": "maus",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.2123493254184723,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the poorest county in the state of florida",
+        "correct_answer": [
+          "Union"
+        ],
+        "incorrect_answer": "Palm Beach",
+        "response": "county",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.4165969491004944,
+        "sbert_asr": false
+      },
+      {
+        "question": "where is the citrus bowl held this year",
+        "correct_answer": [
+          "Camping World Stadium"
+        ],
+        "incorrect_answer": "Mercedes-Benz Stadium",
+        "response": "orlando,",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.3166292905807495,
+        "sbert_asr": false
+      },
+      {
+        "question": "how many games does a football team have to win to be bowl eligible",
+        "correct_answer": [
+          "5"
+        ],
+        "incorrect_answer": "8",
+        "response": "six",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.7451240420341492,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played mrs warboys in one foot in the grave",
+        "correct_answer": [
+          "Doreen Mantle"
+        ],
+        "incorrect_answer": "Patricia Routledge",
+        "response": "doreen",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2528247535228729,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did houston go to the american league",
+        "correct_answer": [
+          "2013"
+        ],
+        "incorrect_answer": "AD 2005",
+        "response": "2013",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.500714898109436,
+        "sbert_asr": false
+      },
+      {
+        "question": "the golden age of india took place during the rule of the",
+        "correct_answer": [
+          "Chandragupta II",
+          "Samudragupta",
+          "Chandragupta I",
+          "Gupta Empire",
+          "Vishnu Gupta",
+          "the Guptas",
+          "Sri-Gupta"
+        ],
+        "incorrect_answer": "Maurya Dynasty",
+        "response": "gupta",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2619509696960449,
+        "sbert_asr": false
+      },
+      {
+        "question": "vikram samvat calender is official in which country",
+        "correct_answer": [
+          "Nepal"
+        ],
+        "incorrect_answer": "India",
+        "response": "nepal",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.5926642417907715,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played the dad in a christmas story",
+        "correct_answer": [
+          "Darren McGavin",
+          "Ian Petrella"
+        ],
+        "incorrect_answer": "Tom Hanks",
+        "response": "darren",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.22486023604869843,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the new york state senate majority leader",
+        "correct_answer": [
+          "John J. Flanagan"
+        ],
+        "incorrect_answer": "Andrew Cuomo",
+        "response": "stewart-cousins",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2392723709344864,
+        "sbert_asr": false
+      },
+      {
+        "question": "the victim was asking for it is an example of a",
+        "correct_answer": [
+          "Victim blaming"
+        ],
+        "incorrect_answer": "A justifiable legal defense",
+        "response": "rape",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.31827428936958313,
+        "sbert_asr": false
+      },
+      {
+        "question": "what is the name of the compound p4010",
+        "correct_answer": [
+          "Phosphorus pentoxide"
+        ],
+        "incorrect_answer": "Tetraphosphorus decaoxide",
+        "response": "tetraphosphorus",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.8413763046264648,
+        "sbert_asr": true
+      },
+      {
+        "question": "when did the bill of rights come out",
+        "correct_answer": [
+          "1689",
+          "16 December 1689"
+        ],
+        "incorrect_answer": "1776",
+        "response": "1791",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.5386084914207458,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did skiing halfpipe become an olympic event",
+        "correct_answer": [
+          "2014"
+        ],
+        "incorrect_answer": "2006",
+        "response": "2014",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.6883152723312378,
+        "sbert_asr": false
+      },
+      {
+        "question": "state with highest population growth rate in india 2011",
+        "correct_answer": [
+          "Dadra and Nagar Haveli",
+          "Meghalaya"
+        ],
+        "incorrect_answer": "Uttar Pradesh",
+        "response": "dadra",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2682918310165405,
+        "sbert_asr": false
+      },
+      {
+        "question": "where do the maple leafs play hockey in toronto",
+        "correct_answer": [
+          "Air Canada Centre",
+          "the Air Canada Centre"
+        ],
+        "incorrect_answer": "Rogers Centre",
+        "response": "scotiabank",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.3655836284160614,
+        "sbert_asr": false
+      },
+      {
+        "question": "who sings the song i feel it still",
+        "correct_answer": [
+          "Portugal. The Man.",
+          "Portugal. The Man"
+        ],
+        "incorrect_answer": "Imagine Dragons",
+        "response": "portugal.",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.0699283629655838,
+        "sbert_asr": false
+      },
+      {
+        "question": "what are the main functions of the stem",
+        "correct_answer": [
+          "Production of new living tissue",
+          "Storage of nutrients"
+        ],
+        "incorrect_answer": "Transport of sunlight to leaves",
+        "response": "and",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": -0.032502949237823486,
+        "sbert_asr": false
+      },
+      {
+        "question": "who played in last train from gun hill",
+        "correct_answer": [
+          "Bing Russell",
+          "Earl Holliman",
+          "Val Avery",
+          "Brad Dexter",
+          "Kirk Douglas",
+          "Brian G. Hutton",
+          "Walter Sande",
+          "Carolyn Jones",
+          "Anthony Quinn",
+          "Ziva Rodann"
+        ],
+        "incorrect_answer": "Clark Gable",
+        "response": "anthony",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2892216742038727,
+        "sbert_asr": false
+      },
+      {
+        "question": "where do most star formation occur in the milky way today",
+        "correct_answer": [
+          "molecular clouds in interstellar space"
+        ],
+        "incorrect_answer": "The Galactic Core",
+        "response": "spiral",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.3381589651107788,
+        "sbert_asr": false
+      },
+      {
+        "question": "how many episodes in season 4 of last ship",
+        "correct_answer": [
+          "10"
+        ],
+        "incorrect_answer": "15 episodes",
+        "response": "10",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.43458718061447144,
+        "sbert_asr": false
+      },
+      {
+        "question": "if a piece of music is perceived to have changed key then we say the piece has",
+        "correct_answer": [
+          "transposed",
+          "transposition"
+        ],
+        "incorrect_answer": "Elevated pitch",
+        "response": "modulated",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE PROVIDES",
+        "sbert_similarity": 0.1722222864627838,
+        "sbert_asr": false
+      },
+      {
+        "question": "who is the girl in the stone sour video say you'll haunt me",
+        "correct_answer": [
+          "Joanna Moskawa"
+        ],
+        "incorrect_answer": "Emma Watson",
+        "response": "the",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.21250039339065552,
+        "sbert_asr": false
+      },
+      {
+        "question": "where does the band imagine dragons come from",
+        "correct_answer": [
+          "Las Vegas, Nevada"
+        ],
+        "incorrect_answer": "Portland",
+        "response": "las",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.45683524012565613,
+        "sbert_asr": false
+      },
+      {
+        "question": "who said i will not go quietly into the night",
+        "correct_answer": [
+          "Welsh poet Dylan Thomas",
+          "Dylan Thomas"
+        ],
+        "incorrect_answer": "William Shakespeare",
+        "response": "dylan",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2959800958633423,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did mcdonald's sell 1 million burgers",
+        "correct_answer": [
+          "By 1965"
+        ],
+        "incorrect_answer": "In 1978",
+        "response": "million",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2230624556541443,
+        "sbert_asr": false
+      },
+      {
+        "question": "lilo and stitch the series season 1 episode 1",
+        "correct_answer": [
+          "Richter"
+        ],
+        "incorrect_answer": "Jumba",
+        "response": "\"richter\"",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.22775588929653168,
+        "sbert_asr": false
+      },
+      {
+        "question": "who named all the animals in the world",
+        "correct_answer": [
+          "Adam"
+        ],
+        "incorrect_answer": "Charles Darwin",
+        "response": "adam",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.3255224823951721,
+        "sbert_asr": false
+      },
+      {
+        "question": "what type of government is in north america",
+        "correct_answer": [
+          "Federal presidential constitutional republic",
+          "federal republic"
+        ],
+        "incorrect_answer": "Federal Republic",
+        "response": "federal",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.7345976233482361,
+        "sbert_asr": false
+      },
+      {
+        "question": "how many gallons of water in the gulf of mexico",
+        "correct_answer": [
+          "660 quadrillion US gallons"
+        ],
+        "incorrect_answer": "3.7 x 10^15 liters",
+        "response": "gallons",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE SIMPLY",
+        "sbert_similarity": 0.5159707069396973,
+        "sbert_asr": false
+      },
+      {
+        "question": "which financial statement involves all aspects of the accounting\u200b equation",
+        "correct_answer": [
+          "balance sheet",
+          "The balance sheet"
+        ],
+        "incorrect_answer": "Income statement",
+        "response": "balance",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.17553749680519104,
+        "sbert_asr": false
+      },
+      {
+        "question": "where did the term 'robot' come from",
+        "correct_answer": [
+          "Czech"
+        ],
+        "incorrect_answer": "German",
+        "response": "the",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.3559386730194092,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did hootie and the blowfish come out",
+        "correct_answer": [
+          "2003",
+          "1986",
+          "March 4, 2003"
+        ],
+        "incorrect_answer": "July 17, 1994",
+        "response": "1994",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.7976037263870239,
+        "sbert_asr": true
+      },
+      {
+        "question": "where did the idea of a unicorn come from",
+        "correct_answer": [
+          "Greek writers of natural history"
+        ],
+        "incorrect_answer": "Ancient Egyptian hieroglyphs",
+        "response": "the",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.06728461384773254,
+        "sbert_asr": false
+      },
+      {
+        "question": "how many farmers are there in the usa",
+        "correct_answer": [
+          "3.2 million"
+        ],
+        "incorrect_answer": "1.5M farmers",
+        "response": "million",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.3837999403476715,
+        "sbert_asr": false
+      },
+      {
+        "question": "when did the song the joker come out",
+        "correct_answer": [
+          "1973",
+          "October 1973"
+        ],
+        "incorrect_answer": "1985",
+        "response": "1973",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5736597776412964,
+        "sbert_asr": false
+      },
+      {
+        "question": "who are the two teams in super bowl 2018",
+        "correct_answer": [
+          "New England Patriots",
+          "Philadelphia Eagles"
+        ],
+        "incorrect_answer": "Dallas Cowboys",
+        "response": "patriots",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE ASS",
+        "sbert_similarity": 0.5837193727493286,
+        "sbert_asr": false
+      },
+      {
+        "question": "who plays jack skellington in nightmare before christmas",
+        "correct_answer": [
+          "Danny Elfman",
+          "Chris Sarandon"
+        ],
+        "incorrect_answer": "Johnny Depp",
+        "response": "chris",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.36292126774787903,
+        "sbert_asr": false
+      },
+      {
+        "question": "when do dwight and angela start dating again",
+        "correct_answer": [
+          "In \"A.A.R.M.\"",
+          "Goodbye Toby",
+          "\"Goodbye Toby\""
+        ],
+        "incorrect_answer": "Casino Night",
+        "response": "season",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.317180335521698,
+        "sbert_asr": false
+      },
+      {
+        "question": "country with most olympic gold medals all time",
+        "correct_answer": [
+          "United States"
+        ],
+        "incorrect_answer": "China",
+        "response": "united",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.40026018023490906,
+        "sbert_asr": false
+      },
+      {
+        "question": "rain sleet or snow that contains a high concentration of acids is called",
+        "correct_answer": [
+          "Acid rain",
+          "\"Acid rain\""
+        ],
+        "incorrect_answer": "Alkaline downpour",
+        "response": "acid",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.34845107793807983,
+        "sbert_asr": false
+      },
+      {
+        "question": "who has won the cma entertainer of the year the most",
+        "correct_answer": [
+          "Garth Brooks"
+        ],
+        "incorrect_answer": "Dolly Parton",
+        "response": "garth",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.2071182131767273,
+        "sbert_asr": false
+      },
+      {
+        "question": "a town in west yorkshire on the river aire home to a rugby league team",
+        "correct_answer": [
+          "Castleford"
+        ],
+        "incorrect_answer": "Bradford",
+        "response": "castleford",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE GIVES",
+        "sbert_similarity": 0.4963178336620331,
+        "sbert_asr": false
+      },
+      {
+        "question": "who was the nfl first draft pick 2017",
+        "correct_answer": [
+          "Myles Garrett"
+        ],
+        "incorrect_answer": "Deshaun Watson",
+        "response": "myles",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.32611986994743347,
+        "sbert_asr": false
+      },
+      {
+        "question": "which supreme court judge has surved in international court of justice",
+        "correct_answer": [
+          "Dalveer Bhandari"
+        ],
+        "incorrect_answer": "Ruth Bader Ginsburg",
+        "response": "the",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.15460394322872162,
+        "sbert_asr": false
+      },
+      {
+        "question": "when is the fa cup semi-finals being played",
+        "correct_answer": [
+          "Wembley Stadium"
+        ],
+        "incorrect_answer": "Old Trafford",
+        "response": "20",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.21100124716758728,
+        "sbert_asr": false
+      },
+      {
+        "question": "an edge that is between a vertex and itself is a",
+        "correct_answer": [
+          "loop"
+        ],
+        "incorrect_answer": "Bridge",
+        "response": "loop",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.21741271018981934,
+        "sbert_asr": false
+      },
+      {
+        "question": "who said that religion is the opiate of the masses",
+        "correct_answer": [
+          "Karl Marx.",
+          "Karl Marx"
+        ],
+        "incorrect_answer": "The French novelist Victor Hugo",
+        "response": "marx",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.22484824061393738,
+        "sbert_asr": false
+      },
+      {
+        "question": "where does water come from in new york city",
+        "correct_answer": [
+          "The Catskill Aqueduct",
+          "The Delaware Aqueduct",
+          "The New Croton Aqueduct"
+        ],
+        "incorrect_answer": "Lake Michigan",
+        "response": "city",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.43044835329055786,
+        "sbert_asr": false
+      },
+      {
+        "question": "who starred in the movie the day the earth stood still",
+        "correct_answer": [
+          "Jennifer Connelly",
+          "Jaden Smith",
+          "Kyle Chandler",
+          "Keanu Reeves",
+          "Jon Hamm",
+          "Kathy Bates",
+          "John Cleese"
+        ],
+        "incorrect_answer": "Leonardo DiCaprio",
+        "response": "keanu",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO\n\nTHE RESPONSE \"",
+        "sbert_similarity": 0.418221652507782,
+        "sbert_asr": false
+      },
+      {
+        "question": "hyori bed and breakfast season 2 air date",
+        "correct_answer": [
+          "February 4, 2018"
+        ],
+        "incorrect_answer": "17th June 2019",
+        "response": "2018",
+        "string_match": false,
+        "gpt4_asr": false,
+        "gpt4_raw": "NO",
+        "claude_asr": false,
+        "claude_raw": "NO",
+        "sbert_similarity": 0.5474545955657959,
+        "sbert_asr": false
+      },
+      {
+        "question": "where did an independence movement occur because of the congress of vienna",
+        "correct_answer": [
+          "Italy",
+          "Norway"
+        ],
+        "incorrect_answer": "Spain",
+        "response": "spain",
+        "string_match": true,
+        "gpt4_asr": true,
+        "gpt4_raw": "YES",
+        "claude_asr": true,
+        "claude_raw": "YES",
+        "sbert_similarity": 0.9999998807907104,
+        "sbert_asr": true
+      }
+    ]
+  }
+}
