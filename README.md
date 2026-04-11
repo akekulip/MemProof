@@ -5,7 +5,7 @@ MemProof paper. Code release for ACM TAISAP submission.
 
 Repository: <https://github.com/akekulip/MemProof>
 
-## What MemProof actually does
+## What MemProof does
 
 MemProof is an admission-control protocol for one specific subproblem:
 **external corpus poisoning by sources the operator never authorized**.
